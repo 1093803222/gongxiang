@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="608dd468-ebb7-4b6b-a6fb-0da64dd303bc" name="parkapi" url="http://sw.free-youth.com/">
+        <fileTransfer host="114.67.143.112" port="22" rootFolder="/project/parkapi" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

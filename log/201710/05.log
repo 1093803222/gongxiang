@@ -1,0 +1,7 @@
+---------------------------------------------------------------
+[ 2017-10-05T16:31:51+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ info ] park.cn/api/v1/token/user [运行时间：0.559909s][吞吐率：1.79req/s] [内存消耗：2,252.86kb] [文件加载：47]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000917s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_user` [ RunTime:0.019214s ]
+[ sql ] [ SQL ] SELECT * FROM `m_user` WHERE  `openid` = 'o5dTt0MCMooemqJhjE1SP4QKwsRM' LIMIT 1 [ RunTime:0.000894s ]
+[ sql ] [ SQL ] INSERT INTO `m_user` (`openid`) VALUES ('o5dTt0MCMooemqJhjE1SP4QKwsRM') [ RunTime:0.000557s ]

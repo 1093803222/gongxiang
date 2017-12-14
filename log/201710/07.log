@@ -1,0 +1,1140 @@
+---------------------------------------------------------------
+[ 2017-10-07T10:44:25+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ info ] park.cn/api/v1/token/user [运行时间：0.751803s][吞吐率：1.33req/s] [内存消耗：2,254.70kb] [文件加载：47]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001667s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_user` [ RunTime:0.019667s ]
+[ sql ] [ SQL ] SELECT * FROM `m_user` WHERE  `openid` = 'o5dTt0MCMooemqJhjE1SP4QKwsRM' LIMIT 1 [ RunTime:0.000505s ]
+---------------------------------------------------------------
+[ 2017-10-07T10:47:48+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ info ] park.cn/api/v1/token/user [运行时间：0.666267s][吞吐率：1.50req/s] [内存消耗：2,254.68kb] [文件加载：47]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000834s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_user` [ RunTime:0.018976s ]
+[ sql ] [ SQL ] SELECT * FROM `m_user` WHERE  `openid` = 'o5dTt0MCMooemqJhjE1SP4QKwsRM' LIMIT 1 [ RunTime:0.000498s ]
+---------------------------------------------------------------
+[ 2017-10-07T11:40:28+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ info ] park.cn/api/v1/token/user [运行时间：0.959815s][吞吐率：1.04req/s] [内存消耗：2,254.68kb] [文件加载：47]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002091s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_user` [ RunTime:0.018242s ]
+[ sql ] [ SQL ] SELECT * FROM `m_user` WHERE  `openid` = 'o5dTt0MCMooemqJhjE1SP4QKwsRM' LIMIT 1 [ RunTime:0.000498s ]
+---------------------------------------------------------------
+[ 2017-10-07T11:40:57+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ info ] park.cn/api/v1/token/user [运行时间：0.704369s][吞吐率：1.42req/s] [内存消耗：2,254.71kb] [文件加载：47]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001007s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_user` [ RunTime:0.023670s ]
+[ sql ] [ SQL ] SELECT * FROM `m_user` WHERE  `openid` = 'o5dTt0MCMooemqJhjE1SP4QKwsRM' LIMIT 1 [ RunTime:0.000754s ]
+---------------------------------------------------------------
+[ 2017-10-07T12:12:53+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ info ] park.cn/api/v1/token/user [运行时间：0.766941s][吞吐率：1.30req/s] [内存消耗：2,254.68kb] [文件加载：47]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000884s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_user` [ RunTime:0.018247s ]
+[ sql ] [ SQL ] SELECT * FROM `m_user` WHERE  `openid` = 'o5dTt0MCMooemqJhjE1SP4QKwsRM' LIMIT 1 [ RunTime:0.000492s ]
+---------------------------------------------------------------
+[ 2017-10-07T12:13:22+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ info ] park.cn/api/v1/token/user [运行时间：0.443949s][吞吐率：2.25req/s] [内存消耗：2,254.71kb] [文件加载：47]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001090s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_user` [ RunTime:0.031057s ]
+[ sql ] [ SQL ] SELECT * FROM `m_user` WHERE  `openid` = 'o5dTt0MCMooemqJhjE1SP4QKwsRM' LIMIT 1 [ RunTime:0.000802s ]
+---------------------------------------------------------------
+[ 2017-10-07T12:13:58+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ info ] park.cn/api/v1/token/user [运行时间：0.441096s][吞吐率：2.27req/s] [内存消耗：2,254.71kb] [文件加载：47]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000834s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_user` [ RunTime:0.042063s ]
+[ sql ] [ SQL ] SELECT * FROM `m_user` WHERE  `openid` = 'o5dTt0MCMooemqJhjE1SP4QKwsRM' LIMIT 1 [ RunTime:0.001023s ]
+---------------------------------------------------------------
+[ 2017-10-07T12:14:58+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ info ] park.cn/api/v1/token/user [运行时间：0.453731s][吞吐率：2.20req/s] [内存消耗：2,254.71kb] [文件加载：47]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000792s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_user` [ RunTime:0.018202s ]
+[ sql ] [ SQL ] SELECT * FROM `m_user` WHERE  `openid` = 'o5dTt0MCMooemqJhjE1SP4QKwsRM' LIMIT 1 [ RunTime:0.000490s ]
+---------------------------------------------------------------
+[ 2017-10-07T12:16:43+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ info ] park.cn/api/v1/token/user [运行时间：0.425912s][吞吐率：2.35req/s] [内存消耗：2,254.71kb] [文件加载：47]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002208s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_user` [ RunTime:0.043145s ]
+[ sql ] [ SQL ] SELECT * FROM `m_user` WHERE  `openid` = 'o5dTt0MCMooemqJhjE1SP4QKwsRM' LIMIT 1 [ RunTime:0.000798s ]
+---------------------------------------------------------------
+[ 2017-10-07T12:23:49+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ info ] park.cn/api/v1/token/user [运行时间：0.763147s][吞吐率：1.31req/s] [内存消耗：2,254.68kb] [文件加载：47]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001754s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_user` [ RunTime:0.024852s ]
+[ sql ] [ SQL ] SELECT * FROM `m_user` WHERE  `openid` = 'o5dTt0MCMooemqJhjE1SP4QKwsRM' LIMIT 1 [ RunTime:0.000563s ]
+---------------------------------------------------------------
+[ 2017-10-07T14:03:02+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ info ] park.cn/api/v1/token/user [运行时间：0.741872s][吞吐率：1.35req/s] [内存消耗：2,254.68kb] [文件加载：47]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003218s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_user` [ RunTime:0.026698s ]
+[ sql ] [ SQL ] SELECT * FROM `m_user` WHERE  `openid` = 'o5dTt0MCMooemqJhjE1SP4QKwsRM' LIMIT 1 [ RunTime:0.000811s ]
+---------------------------------------------------------------
+[ 2017-10-07T15:13:08+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ info ] park.cn/api/v1/token/user [运行时间：0.738065s][吞吐率：1.35req/s] [内存消耗：2,254.68kb] [文件加载：47]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012358s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_user` [ RunTime:0.042805s ]
+[ sql ] [ SQL ] SELECT * FROM `m_user` WHERE  `openid` = 'o5dTt0MCMooemqJhjE1SP4QKwsRM' LIMIT 1 [ RunTime:0.001133s ]
+---------------------------------------------------------------
+[ 2017-10-07T15:13:16+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ info ] park.cn/api/v1/token/user [运行时间：0.404690s][吞吐率：2.47req/s] [内存消耗：2,254.71kb] [文件加载：47]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001415s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_user` [ RunTime:0.034492s ]
+[ sql ] [ SQL ] SELECT * FROM `m_user` WHERE  `openid` = 'o5dTt0MCMooemqJhjE1SP4QKwsRM' LIMIT 1 [ RunTime:0.001146s ]
+---------------------------------------------------------------
+[ 2017-10-07T15:13:25+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ info ] park.cn/api/v1/token/user [运行时间：0.418588s][吞吐率：2.39req/s] [内存消耗：2,254.71kb] [文件加载：47]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000806s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_user` [ RunTime:0.017920s ]
+[ sql ] [ SQL ] SELECT * FROM `m_user` WHERE  `openid` = 'o5dTt0MCMooemqJhjE1SP4QKwsRM' LIMIT 1 [ RunTime:0.000493s ]
+---------------------------------------------------------------
+[ 2017-10-07T15:13:43+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ info ] park.cn/api/v1/token/user [运行时间：0.361001s][吞吐率：2.77req/s] [内存消耗：2,254.71kb] [文件加载：47]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001665s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_user` [ RunTime:0.024390s ]
+[ sql ] [ SQL ] SELECT * FROM `m_user` WHERE  `openid` = 'o5dTt0MCMooemqJhjE1SP4QKwsRM' LIMIT 1 [ RunTime:0.000866s ]
+---------------------------------------------------------------
+[ 2017-10-07T15:13:48+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ info ] park.cn/api/v1/token/user [运行时间：0.354903s][吞吐率：2.82req/s] [内存消耗：2,254.71kb] [文件加载：47]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000709s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_user` [ RunTime:0.019618s ]
+[ sql ] [ SQL ] SELECT * FROM `m_user` WHERE  `openid` = 'o5dTt0MCMooemqJhjE1SP4QKwsRM' LIMIT 1 [ RunTime:0.000503s ]
+---------------------------------------------------------------
+[ 2017-10-07T15:17:33+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ info ] park.cn/api/v1/token/user [运行时间：0.424356s][吞吐率：2.36req/s] [内存消耗：2,254.71kb] [文件加载：47]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010244s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_user` [ RunTime:0.018581s ]
+[ sql ] [ SQL ] SELECT * FROM `m_user` WHERE  `openid` = 'o5dTt0MCMooemqJhjE1SP4QKwsRM' LIMIT 1 [ RunTime:0.000478s ]
+---------------------------------------------------------------
+[ 2017-10-07T15:17:35+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ info ] park.cn/api/v1/token/user [运行时间：0.610393s][吞吐率：1.64req/s] [内存消耗：2,254.71kb] [文件加载：47]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000729s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_user` [ RunTime:0.021236s ]
+[ sql ] [ SQL ] SELECT * FROM `m_user` WHERE  `openid` = 'o5dTt0MCMooemqJhjE1SP4QKwsRM' LIMIT 1 [ RunTime:0.000457s ]
+---------------------------------------------------------------
+[ 2017-10-07T15:19:27+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ info ] park.cn/api/v1/token/user [运行时间：0.324219s][吞吐率：3.08req/s] [内存消耗：2,254.71kb] [文件加载：47]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000804s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_user` [ RunTime:0.017492s ]
+[ sql ] [ SQL ] SELECT * FROM `m_user` WHERE  `openid` = 'o5dTt0MCMooemqJhjE1SP4QKwsRM' LIMIT 1 [ RunTime:0.000476s ]
+---------------------------------------------------------------
+[ 2017-10-07T15:19:46+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ info ] park.cn/api/v1/token/user [运行时间：0.438404s][吞吐率：2.28req/s] [内存消耗：2,254.71kb] [文件加载：47]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000657s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_user` [ RunTime:0.019149s ]
+[ sql ] [ SQL ] SELECT * FROM `m_user` WHERE  `openid` = 'o5dTt0MCMooemqJhjE1SP4QKwsRM' LIMIT 1 [ RunTime:0.000527s ]
+---------------------------------------------------------------
+[ 2017-10-07T15:23:24+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ info ] park.cn/api/v1/token/user [运行时间：0.660868s][吞吐率：1.51req/s] [内存消耗：2,254.68kb] [文件加载：47]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001330s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_user` [ RunTime:0.021764s ]
+[ sql ] [ SQL ] SELECT * FROM `m_user` WHERE  `openid` = 'o5dTt0MCMooemqJhjE1SP4QKwsRM' LIMIT 1 [ RunTime:0.000486s ]
+---------------------------------------------------------------
+[ 2017-10-07T15:23:36+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ info ] park.cn/api/v1/token/user [运行时间：0.537680s][吞吐率：1.86req/s] [内存消耗：2,254.71kb] [文件加载：47]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001347s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_user` [ RunTime:0.030155s ]
+[ sql ] [ SQL ] SELECT * FROM `m_user` WHERE  `openid` = 'o5dTt0MCMooemqJhjE1SP4QKwsRM' LIMIT 1 [ RunTime:0.000976s ]
+---------------------------------------------------------------
+[ 2017-10-07T15:24:13+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ info ] park.cn/api/v1/token/user [运行时间：0.341733s][吞吐率：2.93req/s] [内存消耗：2,254.71kb] [文件加载：47]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001313s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_user` [ RunTime:0.018101s ]
+[ sql ] [ SQL ] SELECT * FROM `m_user` WHERE  `openid` = 'o5dTt0MCMooemqJhjE1SP4QKwsRM' LIMIT 1 [ RunTime:0.000507s ]
+---------------------------------------------------------------
+[ 2017-10-07T15:24:55+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ info ] park.cn/api/v1/token/user [运行时间：0.413723s][吞吐率：2.42req/s] [内存消耗：2,254.71kb] [文件加载：47]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001469s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_user` [ RunTime:0.017878s ]
+[ sql ] [ SQL ] SELECT * FROM `m_user` WHERE  `openid` = 'o5dTt0MCMooemqJhjE1SP4QKwsRM' LIMIT 1 [ RunTime:0.000463s ]
+---------------------------------------------------------------
+[ 2017-10-07T15:24:57+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ info ] park.cn/api/v1/token/user [运行时间：0.418387s][吞吐率：2.39req/s] [内存消耗：2,254.71kb] [文件加载：47]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001029s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_user` [ RunTime:0.026680s ]
+[ sql ] [ SQL ] SELECT * FROM `m_user` WHERE  `openid` = 'o5dTt0MCMooemqJhjE1SP4QKwsRM' LIMIT 1 [ RunTime:0.000522s ]
+---------------------------------------------------------------
+[ 2017-10-07T15:25:02+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ info ] park.cn/api/v1/token/user [运行时间：0.421499s][吞吐率：2.37req/s] [内存消耗：2,254.71kb] [文件加载：47]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000936s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_user` [ RunTime:0.050788s ]
+[ sql ] [ SQL ] SELECT * FROM `m_user` WHERE  `openid` = 'o5dTt0MCMooemqJhjE1SP4QKwsRM' LIMIT 1 [ RunTime:0.001196s ]
+---------------------------------------------------------------
+[ 2017-10-07T15:26:36+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ info ] park.cn/api/v1/token/user [运行时间：0.335660s][吞吐率：2.98req/s] [内存消耗：2,254.71kb] [文件加载：47]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000741s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_user` [ RunTime:0.017226s ]
+[ sql ] [ SQL ] SELECT * FROM `m_user` WHERE  `openid` = 'o5dTt0MCMooemqJhjE1SP4QKwsRM' LIMIT 1 [ RunTime:0.000498s ]
+---------------------------------------------------------------
+[ 2017-10-07T15:26:40+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ info ] park.cn/api/v1/token/user [运行时间：0.429219s][吞吐率：2.33req/s] [内存消耗：2,254.71kb] [文件加载：47]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000946s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_user` [ RunTime:0.025540s ]
+[ sql ] [ SQL ] SELECT * FROM `m_user` WHERE  `openid` = 'o5dTt0MCMooemqJhjE1SP4QKwsRM' LIMIT 1 [ RunTime:0.000833s ]
+---------------------------------------------------------------
+[ 2017-10-07T15:27:04+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ info ] park.cn/api/v1/token/user [运行时间：0.376652s][吞吐率：2.65req/s] [内存消耗：2,254.71kb] [文件加载：47]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000954s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_user` [ RunTime:0.025847s ]
+[ sql ] [ SQL ] SELECT * FROM `m_user` WHERE  `openid` = 'o5dTt0MCMooemqJhjE1SP4QKwsRM' LIMIT 1 [ RunTime:0.000749s ]
+---------------------------------------------------------------
+[ 2017-10-07T15:27:31+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ info ] park.cn/api/v1/token/user [运行时间：0.375820s][吞吐率：2.66req/s] [内存消耗：2,254.71kb] [文件加载：47]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000740s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_user` [ RunTime:0.017729s ]
+[ sql ] [ SQL ] SELECT * FROM `m_user` WHERE  `openid` = 'o5dTt0MCMooemqJhjE1SP4QKwsRM' LIMIT 1 [ RunTime:0.000499s ]
+---------------------------------------------------------------
+[ 2017-10-07T15:27:34+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ info ] park.cn/api/v1/token/user [运行时间：0.415289s][吞吐率：2.41req/s] [内存消耗：2,254.71kb] [文件加载：47]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001016s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_user` [ RunTime:0.025334s ]
+[ sql ] [ SQL ] SELECT * FROM `m_user` WHERE  `openid` = 'o5dTt0MCMooemqJhjE1SP4QKwsRM' LIMIT 1 [ RunTime:0.000821s ]
+---------------------------------------------------------------
+[ 2017-10-07T15:29:00+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ info ] park.cn/api/v1/token/user [运行时间：0.485801s][吞吐率：2.06req/s] [内存消耗：2,254.71kb] [文件加载：47]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001082s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_user` [ RunTime:0.020619s ]
+[ sql ] [ SQL ] SELECT * FROM `m_user` WHERE  `openid` = 'o5dTt0MCMooemqJhjE1SP4QKwsRM' LIMIT 1 [ RunTime:0.000494s ]
+---------------------------------------------------------------
+[ 2017-10-07T15:32:21+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ info ] park.cn/api/v1/token/user [运行时间：0.692749s][吞吐率：1.44req/s] [内存消耗：2,254.68kb] [文件加载：47]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001071s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_user` [ RunTime:0.023690s ]
+[ sql ] [ SQL ] SELECT * FROM `m_user` WHERE  `openid` = 'o5dTt0MCMooemqJhjE1SP4QKwsRM' LIMIT 1 [ RunTime:0.000527s ]
+---------------------------------------------------------------
+[ 2017-10-07T15:32:42+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ info ] park.cn/api/v1/token/user [运行时间：0.597325s][吞吐率：1.67req/s] [内存消耗：2,254.71kb] [文件加载：47]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000671s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_user` [ RunTime:0.017663s ]
+[ sql ] [ SQL ] SELECT * FROM `m_user` WHERE  `openid` = 'o5dTt0MCMooemqJhjE1SP4QKwsRM' LIMIT 1 [ RunTime:0.000471s ]
+---------------------------------------------------------------
+[ 2017-10-07T15:35:56+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ info ] park.cn/api/v1/token/user [运行时间：0.421314s][吞吐率：2.37req/s] [内存消耗：2,254.71kb] [文件加载：47]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001375s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_user` [ RunTime:0.033017s ]
+[ sql ] [ SQL ] SELECT * FROM `m_user` WHERE  `openid` = 'o5dTt0MCMooemqJhjE1SP4QKwsRM' LIMIT 1 [ RunTime:0.000825s ]
+---------------------------------------------------------------
+[ 2017-10-07T15:41:36+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ info ] park.cn/api/v1/token/user [运行时间：0.735035s][吞吐率：1.36req/s] [内存消耗：2,254.68kb] [文件加载：47]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001839s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_user` [ RunTime:0.019596s ]
+[ sql ] [ SQL ] SELECT * FROM `m_user` WHERE  `openid` = 'o5dTt0MCMooemqJhjE1SP4QKwsRM' LIMIT 1 [ RunTime:0.000510s ]
+---------------------------------------------------------------
+[ 2017-10-07T15:43:23+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ info ] park.cn/api/v1/token/user [运行时间：0.375843s][吞吐率：2.66req/s] [内存消耗：2,254.71kb] [文件加载：47]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001336s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_user` [ RunTime:0.029684s ]
+[ sql ] [ SQL ] SELECT * FROM `m_user` WHERE  `openid` = 'o5dTt0MCMooemqJhjE1SP4QKwsRM' LIMIT 1 [ RunTime:0.000662s ]
+---------------------------------------------------------------
+[ 2017-10-07T15:43:49+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ info ] park.cn/api/v1/token/user [运行时间：0.395955s][吞吐率：2.53req/s] [内存消耗：2,254.71kb] [文件加载：47]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000808s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_user` [ RunTime:0.021354s ]
+[ sql ] [ SQL ] SELECT * FROM `m_user` WHERE  `openid` = 'o5dTt0MCMooemqJhjE1SP4QKwsRM' LIMIT 1 [ RunTime:0.000596s ]
+---------------------------------------------------------------
+[ 2017-10-07T15:45:39+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ info ] park.cn/api/v1/token/user [运行时间：0.383630s][吞吐率：2.61req/s] [内存消耗：2,254.71kb] [文件加载：47]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000746s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_user` [ RunTime:0.017715s ]
+[ sql ] [ SQL ] SELECT * FROM `m_user` WHERE  `openid` = 'o5dTt0MCMooemqJhjE1SP4QKwsRM' LIMIT 1 [ RunTime:0.000518s ]
+---------------------------------------------------------------
+[ 2017-10-07T15:46:10+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ info ] park.cn/api/v1/token/user [运行时间：0.412632s][吞吐率：2.42req/s] [内存消耗：2,254.71kb] [文件加载：47]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000701s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_user` [ RunTime:0.018518s ]
+[ sql ] [ SQL ] SELECT * FROM `m_user` WHERE  `openid` = 'o5dTt0MCMooemqJhjE1SP4QKwsRM' LIMIT 1 [ RunTime:0.000443s ]
+---------------------------------------------------------------
+[ 2017-10-07T15:47:20+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ info ] park.cn/api/v1/token/user [运行时间：0.374889s][吞吐率：2.67req/s] [内存消耗：2,254.71kb] [文件加载：47]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000709s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_user` [ RunTime:0.018820s ]
+[ sql ] [ SQL ] SELECT * FROM `m_user` WHERE  `openid` = 'o5dTt0MCMooemqJhjE1SP4QKwsRM' LIMIT 1 [ RunTime:0.000515s ]
+---------------------------------------------------------------
+[ 2017-10-07T15:49:17+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ info ] park.cn/api/v1/token/user [运行时间：0.777094s][吞吐率：1.29req/s] [内存消耗：2,254.68kb] [文件加载：47]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001140s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_user` [ RunTime:0.028450s ]
+[ sql ] [ SQL ] SELECT * FROM `m_user` WHERE  `openid` = 'o5dTt0MCMooemqJhjE1SP4QKwsRM' LIMIT 1 [ RunTime:0.000776s ]
+---------------------------------------------------------------
+[ 2017-10-07T15:52:24+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ info ] park.cn/api/v1/token/user [运行时间：0.477295s][吞吐率：2.10req/s] [内存消耗：2,254.71kb] [文件加载：47]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000915s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_user` [ RunTime:0.020259s ]
+[ sql ] [ SQL ] SELECT * FROM `m_user` WHERE  `openid` = 'o5dTt0MCMooemqJhjE1SP4QKwsRM' LIMIT 1 [ RunTime:0.000597s ]
+---------------------------------------------------------------
+[ 2017-10-07T16:02:18+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ info ] park.cn/api/v1/token/user [运行时间：0.695494s][吞吐率：1.44req/s] [内存消耗：2,254.68kb] [文件加载：47]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000857s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_user` [ RunTime:0.018936s ]
+[ sql ] [ SQL ] SELECT * FROM `m_user` WHERE  `openid` = 'o5dTt0MCMooemqJhjE1SP4QKwsRM' LIMIT 1 [ RunTime:0.000498s ]
+---------------------------------------------------------------
+[ 2017-10-07T16:02:19+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ info ] park.cn/api/v1/token/user [运行时间：0.433860s][吞吐率：2.30req/s] [内存消耗：2,254.71kb] [文件加载：47]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000899s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_user` [ RunTime:0.025828s ]
+[ sql ] [ SQL ] SELECT * FROM `m_user` WHERE  `openid` = 'o5dTt0MCMooemqJhjE1SP4QKwsRM' LIMIT 1 [ RunTime:0.000491s ]
+---------------------------------------------------------------
+[ 2017-10-07T16:03:16+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ info ] park.cn/api/v1/token/user [运行时间：0.462304s][吞吐率：2.16req/s] [内存消耗：2,254.71kb] [文件加载：47]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001269s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_user` [ RunTime:0.024108s ]
+[ sql ] [ SQL ] SELECT * FROM `m_user` WHERE  `openid` = 'o5dTt0MCMooemqJhjE1SP4QKwsRM' LIMIT 1 [ RunTime:0.000618s ]
+---------------------------------------------------------------
+[ 2017-10-07T16:04:05+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ info ] park.cn/api/v1/token/user [运行时间：0.658761s][吞吐率：1.52req/s] [内存消耗：2,254.71kb] [文件加载：47]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002428s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_user` [ RunTime:0.026093s ]
+[ sql ] [ SQL ] SELECT * FROM `m_user` WHERE  `openid` = 'o5dTt0MCMooemqJhjE1SP4QKwsRM' LIMIT 1 [ RunTime:0.000764s ]
+---------------------------------------------------------------
+[ 2017-10-07T16:05:30+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ info ] park.cn/api/v1/token/user [运行时间：0.471012s][吞吐率：2.12req/s] [内存消耗：2,254.71kb] [文件加载：47]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001161s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_user` [ RunTime:0.027893s ]
+[ sql ] [ SQL ] SELECT * FROM `m_user` WHERE  `openid` = 'o5dTt0MCMooemqJhjE1SP4QKwsRM' LIMIT 1 [ RunTime:0.000804s ]
+---------------------------------------------------------------
+[ 2017-10-07T16:05:43+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ info ] park.cn/api/v1/token/user [运行时间：0.386249s][吞吐率：2.59req/s] [内存消耗：2,254.71kb] [文件加载：47]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001215s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_user` [ RunTime:0.028944s ]
+[ sql ] [ SQL ] SELECT * FROM `m_user` WHERE  `openid` = 'o5dTt0MCMooemqJhjE1SP4QKwsRM' LIMIT 1 [ RunTime:0.000930s ]
+---------------------------------------------------------------
+[ 2017-10-07T16:05:46+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ info ] park.cn/api/v1/token/user [运行时间：0.444670s][吞吐率：2.25req/s] [内存消耗：2,254.71kb] [文件加载：47]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002137s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_user` [ RunTime:0.043109s ]
+[ sql ] [ SQL ] SELECT * FROM `m_user` WHERE  `openid` = 'o5dTt0MCMooemqJhjE1SP4QKwsRM' LIMIT 1 [ RunTime:0.000703s ]
+---------------------------------------------------------------
+[ 2017-10-07T16:32:41+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ info ] park.cn/api/v1/token/user [运行时间：0.724000s][吞吐率：1.38req/s] [内存消耗：2,256.25kb] [文件加载：47]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001083s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_user` [ RunTime:0.045107s ]
+[ sql ] [ SQL ] SELECT * FROM `m_user` WHERE  `openid` = 'o5dTt0MCMooemqJhjE1SP4QKwsRM' LIMIT 1 [ RunTime:0.001136s ]
+---------------------------------------------------------------
+[ 2017-10-07T16:39:53+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ info ] park.cn/api/v1/token/user [运行时间：0.802314s][吞吐率：1.25req/s] [内存消耗：2,256.34kb] [文件加载：47]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001604s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_user` [ RunTime:0.028901s ]
+[ sql ] [ SQL ] SELECT * FROM `m_user` WHERE  `openid` = 'o5dTt0MCMooemqJhjE1SP4QKwsRM' LIMIT 1 [ RunTime:0.000720s ]
+---------------------------------------------------------------
+[ 2017-10-07T16:41:28+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ info ] park.cn/api/v1/token/user [运行时间：0.393953s][吞吐率：2.54req/s] [内存消耗：2,256.34kb] [文件加载：47]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.009811s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_user` [ RunTime:0.023956s ]
+[ sql ] [ SQL ] SELECT * FROM `m_user` WHERE  `openid` = 'o5dTt0MCMooemqJhjE1SP4QKwsRM' LIMIT 1 [ RunTime:0.000701s ]
+---------------------------------------------------------------
+[ 2017-10-07T16:41:51+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ info ] park.cn/api/v1/token/user [运行时间：0.449817s][吞吐率：2.22req/s] [内存消耗：2,256.34kb] [文件加载：47]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011381s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_user` [ RunTime:0.024588s ]
+[ sql ] [ SQL ] SELECT * FROM `m_user` WHERE  `openid` = 'o5dTt0MCMooemqJhjE1SP4QKwsRM' LIMIT 1 [ RunTime:0.000820s ]
+---------------------------------------------------------------
+[ 2017-10-07T16:41:52+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ info ] park.cn/api/v1/token/user [运行时间：0.466299s][吞吐率：2.14req/s] [内存消耗：2,256.34kb] [文件加载：47]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000950s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_user` [ RunTime:0.024208s ]
+[ sql ] [ SQL ] SELECT * FROM `m_user` WHERE  `openid` = 'o5dTt0MCMooemqJhjE1SP4QKwsRM' LIMIT 1 [ RunTime:0.000761s ]
+---------------------------------------------------------------
+[ 2017-10-07T16:56:02+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ info ] park.cn/api/v1/token/user [运行时间：0.752928s][吞吐率：1.33req/s] [内存消耗：2,256.25kb] [文件加载：47]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002018s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_user` [ RunTime:0.042257s ]
+[ sql ] [ SQL ] SELECT * FROM `m_user` WHERE  `openid` = 'o5dTt0MCMooemqJhjE1SP4QKwsRM' LIMIT 1 [ RunTime:0.000944s ]
+---------------------------------------------------------------
+[ 2017-10-07T16:56:04+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ info ] park.cn/api/v1/token/user [运行时间：0.358883s][吞吐率：2.79req/s] [内存消耗：2,256.34kb] [文件加载：47]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010477s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_user` [ RunTime:0.018086s ]
+[ sql ] [ SQL ] SELECT * FROM `m_user` WHERE  `openid` = 'o5dTt0MCMooemqJhjE1SP4QKwsRM' LIMIT 1 [ RunTime:0.000531s ]
+---------------------------------------------------------------
+[ 2017-10-07T16:56:05+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ info ] park.cn/api/v1/token/user [运行时间：0.363487s][吞吐率：2.75req/s] [内存消耗：2,256.34kb] [文件加载：47]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001020s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_user` [ RunTime:0.017276s ]
+[ sql ] [ SQL ] SELECT * FROM `m_user` WHERE  `openid` = 'o5dTt0MCMooemqJhjE1SP4QKwsRM' LIMIT 1 [ RunTime:0.000479s ]
+---------------------------------------------------------------
+[ 2017-10-07T16:56:08+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ info ] park.cn/api/v1/token/user [运行时间：0.453327s][吞吐率：2.21req/s] [内存消耗：2,256.34kb] [文件加载：47]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010871s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_user` [ RunTime:0.023104s ]
+[ sql ] [ SQL ] SELECT * FROM `m_user` WHERE  `openid` = 'o5dTt0MCMooemqJhjE1SP4QKwsRM' LIMIT 1 [ RunTime:0.000758s ]
+---------------------------------------------------------------
+[ 2017-10-07T16:56:26+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ info ] park.cn/api/v1/token/user [运行时间：0.376688s][吞吐率：2.65req/s] [内存消耗：2,256.34kb] [文件加载：47]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001025s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_user` [ RunTime:0.017822s ]
+[ sql ] [ SQL ] SELECT * FROM `m_user` WHERE  `openid` = 'o5dTt0MCMooemqJhjE1SP4QKwsRM' LIMIT 1 [ RunTime:0.000482s ]
+---------------------------------------------------------------
+[ 2017-10-07T16:56:27+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ info ] park.cn/api/v1/token/user [运行时间：0.369849s][吞吐率：2.70req/s] [内存消耗：2,256.34kb] [文件加载：47]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000777s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_user` [ RunTime:0.019898s ]
+[ sql ] [ SQL ] SELECT * FROM `m_user` WHERE  `openid` = 'o5dTt0MCMooemqJhjE1SP4QKwsRM' LIMIT 1 [ RunTime:0.000629s ]
+---------------------------------------------------------------
+[ 2017-10-07T16:56:29+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ info ] park.cn/api/v1/token/user [运行时间：0.446682s][吞吐率：2.24req/s] [内存消耗：2,256.34kb] [文件加载：47]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010537s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_user` [ RunTime:0.033328s ]
+[ sql ] [ SQL ] SELECT * FROM `m_user` WHERE  `openid` = 'o5dTt0MCMooemqJhjE1SP4QKwsRM' LIMIT 1 [ RunTime:0.001764s ]
+---------------------------------------------------------------
+[ 2017-10-07T16:56:30+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ info ] park.cn/api/v1/token/user [运行时间：0.385850s][吞吐率：2.59req/s] [内存消耗：2,256.34kb] [文件加载：47]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010459s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_user` [ RunTime:0.020508s ]
+[ sql ] [ SQL ] SELECT * FROM `m_user` WHERE  `openid` = 'o5dTt0MCMooemqJhjE1SP4QKwsRM' LIMIT 1 [ RunTime:0.000611s ]
+---------------------------------------------------------------
+[ 2017-10-07T16:56:35+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ info ] park.cn/api/v1/token/user [运行时间：0.401127s][吞吐率：2.49req/s] [内存消耗：2,256.34kb] [文件加载：47]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001952s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_user` [ RunTime:0.026941s ]
+[ sql ] [ SQL ] SELECT * FROM `m_user` WHERE  `openid` = 'o5dTt0MCMooemqJhjE1SP4QKwsRM' LIMIT 1 [ RunTime:0.000804s ]
+---------------------------------------------------------------
+[ 2017-10-07T16:56:37+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ info ] park.cn/api/v1/token/user [运行时间：0.402169s][吞吐率：2.49req/s] [内存消耗：2,256.34kb] [文件加载：47]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000792s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_user` [ RunTime:0.019303s ]
+[ sql ] [ SQL ] SELECT * FROM `m_user` WHERE  `openid` = 'o5dTt0MCMooemqJhjE1SP4QKwsRM' LIMIT 1 [ RunTime:0.000603s ]
+---------------------------------------------------------------
+[ 2017-10-07T16:56:54+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ info ] park.cn/api/v1/token/user [运行时间：0.412435s][吞吐率：2.42req/s] [内存消耗：2,256.34kb] [文件加载：47]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001857s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_user` [ RunTime:0.022667s ]
+[ sql ] [ SQL ] SELECT * FROM `m_user` WHERE  `openid` = 'o5dTt0MCMooemqJhjE1SP4QKwsRM' LIMIT 1 [ RunTime:0.000685s ]
+---------------------------------------------------------------
+[ 2017-10-07T16:56:56+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ info ] park.cn/api/v1/token/user [运行时间：0.393952s][吞吐率：2.54req/s] [内存消耗：2,256.34kb] [文件加载：47]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001147s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_user` [ RunTime:0.030475s ]
+[ sql ] [ SQL ] SELECT * FROM `m_user` WHERE  `openid` = 'o5dTt0MCMooemqJhjE1SP4QKwsRM' LIMIT 1 [ RunTime:0.000953s ]
+---------------------------------------------------------------
+[ 2017-10-07T16:57:05+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ info ] park.cn/api/v1/token/user [运行时间：0.423634s][吞吐率：2.36req/s] [内存消耗：2,256.34kb] [文件加载：47]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001019s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_user` [ RunTime:0.026122s ]
+[ sql ] [ SQL ] SELECT * FROM `m_user` WHERE  `openid` = 'o5dTt0MCMooemqJhjE1SP4QKwsRM' LIMIT 1 [ RunTime:0.000779s ]
+---------------------------------------------------------------
+[ 2017-10-07T16:57:06+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ info ] park.cn/api/v1/token/user [运行时间：0.414766s][吞吐率：2.41req/s] [内存消耗：2,256.34kb] [文件加载：47]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001499s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_user` [ RunTime:0.024473s ]
+[ sql ] [ SQL ] SELECT * FROM `m_user` WHERE  `openid` = 'o5dTt0MCMooemqJhjE1SP4QKwsRM' LIMIT 1 [ RunTime:0.000772s ]
+---------------------------------------------------------------
+[ 2017-10-07T16:57:11+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ info ] park.cn/api/v1/token/user [运行时间：0.359328s][吞吐率：2.78req/s] [内存消耗：2,256.34kb] [文件加载：47]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000704s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_user` [ RunTime:0.017558s ]
+[ sql ] [ SQL ] SELECT * FROM `m_user` WHERE  `openid` = 'o5dTt0MCMooemqJhjE1SP4QKwsRM' LIMIT 1 [ RunTime:0.000489s ]
+---------------------------------------------------------------
+[ 2017-10-07T16:57:12+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ info ] park.cn/api/v1/token/user [运行时间：0.409858s][吞吐率：2.44req/s] [内存消耗：2,256.34kb] [文件加载：47]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000909s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_user` [ RunTime:0.024269s ]
+[ sql ] [ SQL ] SELECT * FROM `m_user` WHERE  `openid` = 'o5dTt0MCMooemqJhjE1SP4QKwsRM' LIMIT 1 [ RunTime:0.000771s ]
+---------------------------------------------------------------
+[ 2017-10-07T16:59:35+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ info ] park.cn/api/v1/token/user [运行时间：0.491397s][吞吐率：2.04req/s] [内存消耗：2,256.34kb] [文件加载：47]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001061s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_user` [ RunTime:0.023968s ]
+[ sql ] [ SQL ] SELECT * FROM `m_user` WHERE  `openid` = 'o5dTt0MCMooemqJhjE1SP4QKwsRM' LIMIT 1 [ RunTime:0.000795s ]
+---------------------------------------------------------------
+[ 2017-10-07T16:59:36+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ info ] park.cn/api/v1/token/user [运行时间：0.437868s][吞吐率：2.28req/s] [内存消耗：2,256.34kb] [文件加载：47]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010256s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_user` [ RunTime:0.027752s ]
+[ sql ] [ SQL ] SELECT * FROM `m_user` WHERE  `openid` = 'o5dTt0MCMooemqJhjE1SP4QKwsRM' LIMIT 1 [ RunTime:0.000858s ]
+---------------------------------------------------------------
+[ 2017-10-07T17:00:25+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ info ] park.cn/api/v1/token/user [运行时间：0.378061s][吞吐率：2.65req/s] [内存消耗：2,256.34kb] [文件加载：47]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001173s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_user` [ RunTime:0.027029s ]
+[ sql ] [ SQL ] SELECT * FROM `m_user` WHERE  `openid` = 'o5dTt0MCMooemqJhjE1SP4QKwsRM' LIMIT 1 [ RunTime:0.000852s ]
+---------------------------------------------------------------
+[ 2017-10-07T17:00:26+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ info ] park.cn/api/v1/token/user [运行时间：0.442021s][吞吐率：2.26req/s] [内存消耗：2,256.34kb] [文件加载：47]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000780s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_user` [ RunTime:0.019823s ]
+[ sql ] [ SQL ] SELECT * FROM `m_user` WHERE  `openid` = 'o5dTt0MCMooemqJhjE1SP4QKwsRM' LIMIT 1 [ RunTime:0.000626s ]
+---------------------------------------------------------------
+[ 2017-10-07T17:00:43+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ info ] park.cn/api/v1/token/user [运行时间：0.438186s][吞吐率：2.28req/s] [内存消耗：2,256.34kb] [文件加载：47]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001116s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_user` [ RunTime:0.023181s ]
+[ sql ] [ SQL ] SELECT * FROM `m_user` WHERE  `openid` = 'o5dTt0MCMooemqJhjE1SP4QKwsRM' LIMIT 1 [ RunTime:0.000703s ]
+---------------------------------------------------------------
+[ 2017-10-07T17:00:44+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ info ] park.cn/api/v1/token/user [运行时间：0.363243s][吞吐率：2.75req/s] [内存消耗：2,256.34kb] [文件加载：47]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.009788s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_user` [ RunTime:0.017137s ]
+[ sql ] [ SQL ] SELECT * FROM `m_user` WHERE  `openid` = 'o5dTt0MCMooemqJhjE1SP4QKwsRM' LIMIT 1 [ RunTime:0.000556s ]
+---------------------------------------------------------------
+[ 2017-10-07T17:00:44+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ info ] park.cn/api/v1/token/user [运行时间：0.428514s][吞吐率：2.33req/s] [内存消耗：2,256.34kb] [文件加载：47]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.009812s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_user` [ RunTime:0.017310s ]
+[ sql ] [ SQL ] SELECT * FROM `m_user` WHERE  `openid` = 'o5dTt0MCMooemqJhjE1SP4QKwsRM' LIMIT 1 [ RunTime:0.000821s ]
+---------------------------------------------------------------
+[ 2017-10-07T17:00:45+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ info ] park.cn/api/v1/token/user [运行时间：0.428725s][吞吐率：2.33req/s] [内存消耗：2,256.34kb] [文件加载：47]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001009s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_user` [ RunTime:0.025359s ]
+[ sql ] [ SQL ] SELECT * FROM `m_user` WHERE  `openid` = 'o5dTt0MCMooemqJhjE1SP4QKwsRM' LIMIT 1 [ RunTime:0.000451s ]
+---------------------------------------------------------------
+[ 2017-10-07T17:00:58+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ info ] park.cn/api/v1/token/user [运行时间：0.408163s][吞吐率：2.45req/s] [内存消耗：2,256.34kb] [文件加载：47]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010480s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_user` [ RunTime:0.018238s ]
+[ sql ] [ SQL ] SELECT * FROM `m_user` WHERE  `openid` = 'o5dTt0MCMooemqJhjE1SP4QKwsRM' LIMIT 1 [ RunTime:0.000504s ]
+---------------------------------------------------------------
+[ 2017-10-07T17:09:25+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ info ] park.cn/api/v1/token/user [运行时间：0.776267s][吞吐率：1.29req/s] [内存消耗：2,256.25kb] [文件加载：47]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001717s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_user` [ RunTime:0.028185s ]
+[ sql ] [ SQL ] SELECT * FROM `m_user` WHERE  `openid` = 'o5dTt0MCMooemqJhjE1SP4QKwsRM' LIMIT 1 [ RunTime:0.000767s ]
+---------------------------------------------------------------
+[ 2017-10-07T17:09:34+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ info ] park.cn/api/v1/token/user [运行时间：0.374212s][吞吐率：2.67req/s] [内存消耗：2,256.34kb] [文件加载：47]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000782s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_user` [ RunTime:0.024695s ]
+[ sql ] [ SQL ] SELECT * FROM `m_user` WHERE  `openid` = 'o5dTt0MCMooemqJhjE1SP4QKwsRM' LIMIT 1 [ RunTime:0.000471s ]
+---------------------------------------------------------------
+[ 2017-10-07T17:09:37+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ info ] park.cn/api/v1/token/user [运行时间：0.385969s][吞吐率：2.59req/s] [内存消耗：2,256.34kb] [文件加载：47]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000696s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_user` [ RunTime:0.017267s ]
+[ sql ] [ SQL ] SELECT * FROM `m_user` WHERE  `openid` = 'o5dTt0MCMooemqJhjE1SP4QKwsRM' LIMIT 1 [ RunTime:0.000476s ]
+---------------------------------------------------------------
+[ 2017-10-07T17:09:49+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ info ] park.cn/api/v1/token/user [运行时间：0.382132s][吞吐率：2.62req/s] [内存消耗：2,256.34kb] [文件加载：47]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001263s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_user` [ RunTime:0.026131s ]
+[ sql ] [ SQL ] SELECT * FROM `m_user` WHERE  `openid` = 'o5dTt0MCMooemqJhjE1SP4QKwsRM' LIMIT 1 [ RunTime:0.000702s ]
+---------------------------------------------------------------
+[ 2017-10-07T17:09:50+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ info ] park.cn/api/v1/token/user [运行时间：0.426272s][吞吐率：2.35req/s] [内存消耗：2,256.34kb] [文件加载：47]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001188s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_user` [ RunTime:0.024406s ]
+[ sql ] [ SQL ] SELECT * FROM `m_user` WHERE  `openid` = 'o5dTt0MCMooemqJhjE1SP4QKwsRM' LIMIT 1 [ RunTime:0.000482s ]
+---------------------------------------------------------------
+[ 2017-10-07T17:09:52+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ info ] park.cn/api/v1/token/user [运行时间：0.355175s][吞吐率：2.82req/s] [内存消耗：2,256.34kb] [文件加载：47]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000814s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_user` [ RunTime:0.016958s ]
+[ sql ] [ SQL ] SELECT * FROM `m_user` WHERE  `openid` = 'o5dTt0MCMooemqJhjE1SP4QKwsRM' LIMIT 1 [ RunTime:0.000483s ]
+---------------------------------------------------------------
+[ 2017-10-07T17:09:53+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ info ] park.cn/api/v1/token/user [运行时间：0.429242s][吞吐率：2.33req/s] [内存消耗：2,256.34kb] [文件加载：47]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001841s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_user` [ RunTime:0.025075s ]
+[ sql ] [ SQL ] SELECT * FROM `m_user` WHERE  `openid` = 'o5dTt0MCMooemqJhjE1SP4QKwsRM' LIMIT 1 [ RunTime:0.000768s ]
+---------------------------------------------------------------
+[ 2017-10-07T17:12:20+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ info ] park.cn/api/v1/token/user [运行时间：0.702188s][吞吐率：1.42req/s] [内存消耗：2,256.34kb] [文件加载：47]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001729s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_user` [ RunTime:0.023788s ]
+[ sql ] [ SQL ] SELECT * FROM `m_user` WHERE  `openid` = 'o5dTt0MCMooemqJhjE1SP4QKwsRM' LIMIT 1 [ RunTime:0.000510s ]
+---------------------------------------------------------------
+[ 2017-10-07T17:12:22+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ info ] park.cn/api/v1/token/user [运行时间：0.415526s][吞吐率：2.41req/s] [内存消耗：2,256.34kb] [文件加载：47]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011270s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_user` [ RunTime:0.029422s ]
+[ sql ] [ SQL ] SELECT * FROM `m_user` WHERE  `openid` = 'o5dTt0MCMooemqJhjE1SP4QKwsRM' LIMIT 1 [ RunTime:0.000966s ]
+---------------------------------------------------------------
+[ 2017-10-07T17:13:02+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ info ] park.cn/api/v1/token/user [运行时间：0.622208s][吞吐率：1.61req/s] [内存消耗：2,256.34kb] [文件加载：47]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000944s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_user` [ RunTime:0.016752s ]
+[ sql ] [ SQL ] SELECT * FROM `m_user` WHERE  `openid` = 'o5dTt0MCMooemqJhjE1SP4QKwsRM' LIMIT 1 [ RunTime:0.000669s ]
+---------------------------------------------------------------
+[ 2017-10-07T17:13:04+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ info ] park.cn/api/v1/token/user [运行时间：0.379038s][吞吐率：2.64req/s] [内存消耗：2,256.34kb] [文件加载：47]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002004s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_user` [ RunTime:0.021120s ]
+[ sql ] [ SQL ] SELECT * FROM `m_user` WHERE  `openid` = 'o5dTt0MCMooemqJhjE1SP4QKwsRM' LIMIT 1 [ RunTime:0.000611s ]
+---------------------------------------------------------------
+[ 2017-10-07T17:13:06+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ info ] park.cn/api/v1/token/user [运行时间：0.426496s][吞吐率：2.34req/s] [内存消耗：2,256.34kb] [文件加载：47]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002426s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_user` [ RunTime:0.029948s ]
+[ sql ] [ SQL ] SELECT * FROM `m_user` WHERE  `openid` = 'o5dTt0MCMooemqJhjE1SP4QKwsRM' LIMIT 1 [ RunTime:0.000853s ]
+---------------------------------------------------------------
+[ 2017-10-07T17:14:04+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ info ] park.cn/api/v1/token/user [运行时间：0.375990s][吞吐率：2.66req/s] [内存消耗：2,256.34kb] [文件加载：47]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001220s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_user` [ RunTime:0.023787s ]
+[ sql ] [ SQL ] SELECT * FROM `m_user` WHERE  `openid` = 'o5dTt0MCMooemqJhjE1SP4QKwsRM' LIMIT 1 [ RunTime:0.000763s ]
+---------------------------------------------------------------
+[ 2017-10-07T17:14:08+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ info ] park.cn/api/v1/token/user [运行时间：0.430828s][吞吐率：2.32req/s] [内存消耗：2,256.34kb] [文件加载：47]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001358s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_user` [ RunTime:0.026747s ]
+[ sql ] [ SQL ] SELECT * FROM `m_user` WHERE  `openid` = 'o5dTt0MCMooemqJhjE1SP4QKwsRM' LIMIT 1 [ RunTime:0.000677s ]
+---------------------------------------------------------------
+[ 2017-10-07T17:17:07+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ info ] park.cn/api/v1/token/user [运行时间：0.441565s][吞吐率：2.26req/s] [内存消耗：2,256.34kb] [文件加载：47]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002295s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_user` [ RunTime:0.025177s ]
+[ sql ] [ SQL ] SELECT * FROM `m_user` WHERE  `openid` = 'o5dTt0MCMooemqJhjE1SP4QKwsRM' LIMIT 1 [ RunTime:0.000649s ]
+---------------------------------------------------------------
+[ 2017-10-07T17:17:10+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ info ] park.cn/api/v1/token/user [运行时间：0.410924s][吞吐率：2.43req/s] [内存消耗：2,256.34kb] [文件加载：47]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001818s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_user` [ RunTime:0.020142s ]
+[ sql ] [ SQL ] SELECT * FROM `m_user` WHERE  `openid` = 'o5dTt0MCMooemqJhjE1SP4QKwsRM' LIMIT 1 [ RunTime:0.000604s ]
+---------------------------------------------------------------
+[ 2017-10-07T17:18:16+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ info ] park.cn/api/v1/token/user [运行时间：0.690564s][吞吐率：1.45req/s] [内存消耗：2,256.25kb] [文件加载：47]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001732s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_user` [ RunTime:0.025332s ]
+[ sql ] [ SQL ] SELECT * FROM `m_user` WHERE  `openid` = 'o5dTt0MCMooemqJhjE1SP4QKwsRM' LIMIT 1 [ RunTime:0.000491s ]
+---------------------------------------------------------------
+[ 2017-10-07T17:18:31+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ info ] park.cn/api/v1/token/user [运行时间：0.361659s][吞吐率：2.77req/s] [内存消耗：2,256.34kb] [文件加载：47]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001914s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_user` [ RunTime:0.018095s ]
+[ sql ] [ SQL ] SELECT * FROM `m_user` WHERE  `openid` = 'o5dTt0MCMooemqJhjE1SP4QKwsRM' LIMIT 1 [ RunTime:0.000544s ]
+---------------------------------------------------------------
+[ 2017-10-07T17:18:34+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ info ] park.cn/api/v1/token/user [运行时间：0.424733s][吞吐率：2.35req/s] [内存消耗：2,256.34kb] [文件加载：47]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001757s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_user` [ RunTime:0.025348s ]
+[ sql ] [ SQL ] SELECT * FROM `m_user` WHERE  `openid` = 'o5dTt0MCMooemqJhjE1SP4QKwsRM' LIMIT 1 [ RunTime:0.000497s ]
+---------------------------------------------------------------
+[ 2017-10-07T17:19:31+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ info ] park.cn/api/v1/token/user [运行时间：0.400251s][吞吐率：2.50req/s] [内存消耗：2,256.34kb] [文件加载：47]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001902s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_user` [ RunTime:0.028688s ]
+[ sql ] [ SQL ] SELECT * FROM `m_user` WHERE  `openid` = 'o5dTt0MCMooemqJhjE1SP4QKwsRM' LIMIT 1 [ RunTime:0.000770s ]
+---------------------------------------------------------------
+[ 2017-10-07T17:19:33+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ info ] park.cn/api/v1/token/user [运行时间：0.384726s][吞吐率：2.60req/s] [内存消耗：2,256.34kb] [文件加载：47]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001382s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_user` [ RunTime:0.028411s ]
+[ sql ] [ SQL ] SELECT * FROM `m_user` WHERE  `openid` = 'o5dTt0MCMooemqJhjE1SP4QKwsRM' LIMIT 1 [ RunTime:0.000874s ]
+---------------------------------------------------------------
+[ 2017-10-07T17:20:05+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ info ] park.cn/api/v1/token/user [运行时间：0.430113s][吞吐率：2.32req/s] [内存消耗：2,256.34kb] [文件加载：47]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001440s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_user` [ RunTime:0.028854s ]
+[ sql ] [ SQL ] SELECT * FROM `m_user` WHERE  `openid` = 'o5dTt0MCMooemqJhjE1SP4QKwsRM' LIMIT 1 [ RunTime:0.000923s ]
+---------------------------------------------------------------
+[ 2017-10-07T17:20:08+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ info ] park.cn/api/v1/token/user [运行时间：0.361056s][吞吐率：2.77req/s] [内存消耗：2,256.34kb] [文件加载：47]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001071s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_user` [ RunTime:0.020219s ]
+[ sql ] [ SQL ] SELECT * FROM `m_user` WHERE  `openid` = 'o5dTt0MCMooemqJhjE1SP4QKwsRM' LIMIT 1 [ RunTime:0.000518s ]
+---------------------------------------------------------------
+[ 2017-10-07T17:20:16+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ info ] park.cn/api/v1/token/user [运行时间：0.386578s][吞吐率：2.59req/s] [内存消耗：2,256.34kb] [文件加载：47]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001220s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_user` [ RunTime:0.021139s ]
+[ sql ] [ SQL ] SELECT * FROM `m_user` WHERE  `openid` = 'o5dTt0MCMooemqJhjE1SP4QKwsRM' LIMIT 1 [ RunTime:0.000648s ]
+---------------------------------------------------------------
+[ 2017-10-07T17:20:26+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ info ] park.cn/api/v1/token/user [运行时间：0.369705s][吞吐率：2.70req/s] [内存消耗：2,256.34kb] [文件加载：47]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002766s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_user` [ RunTime:0.024167s ]
+[ sql ] [ SQL ] SELECT * FROM `m_user` WHERE  `openid` = 'o5dTt0MCMooemqJhjE1SP4QKwsRM' LIMIT 1 [ RunTime:0.000801s ]
+---------------------------------------------------------------
+[ 2017-10-07T17:20:36+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ info ] park.cn/api/v1/token/user [运行时间：0.421707s][吞吐率：2.37req/s] [内存消耗：2,256.34kb] [文件加载：47]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001263s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_user` [ RunTime:0.023771s ]
+[ sql ] [ SQL ] SELECT * FROM `m_user` WHERE  `openid` = 'o5dTt0MCMooemqJhjE1SP4QKwsRM' LIMIT 1 [ RunTime:0.000788s ]
+---------------------------------------------------------------
+[ 2017-10-07T17:20:38+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ info ] park.cn/api/v1/token/user [运行时间：0.371560s][吞吐率：2.69req/s] [内存消耗：2,256.34kb] [文件加载：47]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000891s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_user` [ RunTime:0.021229s ]
+[ sql ] [ SQL ] SELECT * FROM `m_user` WHERE  `openid` = 'o5dTt0MCMooemqJhjE1SP4QKwsRM' LIMIT 1 [ RunTime:0.001117s ]
+---------------------------------------------------------------
+[ 2017-10-07T17:21:47+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ info ] park.cn/api/v1/token/user [运行时间：0.334827s][吞吐率：2.99req/s] [内存消耗：2,256.34kb] [文件加载：47]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000932s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_user` [ RunTime:0.018434s ]
+[ sql ] [ SQL ] SELECT * FROM `m_user` WHERE  `openid` = 'o5dTt0MCMooemqJhjE1SP4QKwsRM' LIMIT 1 [ RunTime:0.000488s ]
+---------------------------------------------------------------
+[ 2017-10-07T17:21:49+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ info ] park.cn/api/v1/token/user [运行时间：0.356895s][吞吐率：2.80req/s] [内存消耗：2,256.34kb] [文件加载：47]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001024s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_user` [ RunTime:0.020370s ]
+[ sql ] [ SQL ] SELECT * FROM `m_user` WHERE  `openid` = 'o5dTt0MCMooemqJhjE1SP4QKwsRM' LIMIT 1 [ RunTime:0.000646s ]
+---------------------------------------------------------------
+[ 2017-10-07T17:21:58+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ info ] park.cn/api/v1/token/user [运行时间：0.393505s][吞吐率：2.54req/s] [内存消耗：2,256.34kb] [文件加载：47]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002035s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_user` [ RunTime:0.030313s ]
+[ sql ] [ SQL ] SELECT * FROM `m_user` WHERE  `openid` = 'o5dTt0MCMooemqJhjE1SP4QKwsRM' LIMIT 1 [ RunTime:0.000765s ]
+---------------------------------------------------------------
+[ 2017-10-07T17:22:00+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ info ] park.cn/api/v1/token/user [运行时间：0.343738s][吞吐率：2.91req/s] [内存消耗：2,256.34kb] [文件加载：47]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000993s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_user` [ RunTime:0.018054s ]
+[ sql ] [ SQL ] SELECT * FROM `m_user` WHERE  `openid` = 'o5dTt0MCMooemqJhjE1SP4QKwsRM' LIMIT 1 [ RunTime:0.000493s ]
+---------------------------------------------------------------
+[ 2017-10-07T17:22:05+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ info ] park.cn/api/v1/token/user [运行时间：0.384698s][吞吐率：2.60req/s] [内存消耗：2,256.34kb] [文件加载：47]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000910s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_user` [ RunTime:0.019799s ]
+[ sql ] [ SQL ] SELECT * FROM `m_user` WHERE  `openid` = 'o5dTt0MCMooemqJhjE1SP4QKwsRM' LIMIT 1 [ RunTime:0.000532s ]
+---------------------------------------------------------------
+[ 2017-10-07T17:24:00+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ info ] park.cn/api/v1/token/user [运行时间：0.491267s][吞吐率：2.04req/s] [内存消耗：2,256.34kb] [文件加载：47]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001884s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_user` [ RunTime:0.018181s ]
+[ sql ] [ SQL ] SELECT * FROM `m_user` WHERE  `openid` = 'o5dTt0MCMooemqJhjE1SP4QKwsRM' LIMIT 1 [ RunTime:0.000497s ]
+---------------------------------------------------------------
+[ 2017-10-07T17:24:02+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ info ] park.cn/api/v1/token/user [运行时间：0.357123s][吞吐率：2.80req/s] [内存消耗：2,256.34kb] [文件加载：47]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000994s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_user` [ RunTime:0.022670s ]
+[ sql ] [ SQL ] SELECT * FROM `m_user` WHERE  `openid` = 'o5dTt0MCMooemqJhjE1SP4QKwsRM' LIMIT 1 [ RunTime:0.000632s ]
+---------------------------------------------------------------
+[ 2017-10-07T17:24:08+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ info ] park.cn/api/v1/token/user [运行时间：0.408599s][吞吐率：2.45req/s] [内存消耗：2,256.34kb] [文件加载：47]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001345s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_user` [ RunTime:0.020057s ]
+[ sql ] [ SQL ] SELECT * FROM `m_user` WHERE  `openid` = 'o5dTt0MCMooemqJhjE1SP4QKwsRM' LIMIT 1 [ RunTime:0.000509s ]
+---------------------------------------------------------------
+[ 2017-10-07T17:32:52+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ info ] park.cn/api/v1/token/user [运行时间：0.721993s][吞吐率：1.39req/s] [内存消耗：2,256.25kb] [文件加载：47]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001672s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_user` [ RunTime:0.027275s ]
+[ sql ] [ SQL ] SELECT * FROM `m_user` WHERE  `openid` = 'o5dTt0MCMooemqJhjE1SP4QKwsRM' LIMIT 1 [ RunTime:0.000837s ]
+---------------------------------------------------------------
+[ 2017-10-07T17:34:09+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ info ] park.cn/api/v1/token/user [运行时间：0.350812s][吞吐率：2.85req/s] [内存消耗：2,256.34kb] [文件加载：47]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001001s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_user` [ RunTime:0.019126s ]
+[ sql ] [ SQL ] SELECT * FROM `m_user` WHERE  `openid` = 'o5dTt0MCMooemqJhjE1SP4QKwsRM' LIMIT 1 [ RunTime:0.000479s ]
+---------------------------------------------------------------
+[ 2017-10-07T17:34:10+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ info ] park.cn/api/v1/token/user [运行时间：0.396360s][吞吐率：2.52req/s] [内存消耗：2,256.34kb] [文件加载：47]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001070s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_user` [ RunTime:0.020550s ]
+[ sql ] [ SQL ] SELECT * FROM `m_user` WHERE  `openid` = 'o5dTt0MCMooemqJhjE1SP4QKwsRM' LIMIT 1 [ RunTime:0.000604s ]
+---------------------------------------------------------------
+[ 2017-10-07T17:34:26+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ info ] park.cn/api/v1/token/user [运行时间：0.381453s][吞吐率：2.62req/s] [内存消耗：2,256.34kb] [文件加载：47]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002775s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_user` [ RunTime:0.021893s ]
+[ sql ] [ SQL ] SELECT * FROM `m_user` WHERE  `openid` = 'o5dTt0MCMooemqJhjE1SP4QKwsRM' LIMIT 1 [ RunTime:0.000477s ]
+---------------------------------------------------------------
+[ 2017-10-07T17:35:02+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ info ] park.cn/api/v1/token/user [运行时间：0.415743s][吞吐率：2.41req/s] [内存消耗：2,256.34kb] [文件加载：47]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001263s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_user` [ RunTime:0.027356s ]
+[ sql ] [ SQL ] SELECT * FROM `m_user` WHERE  `openid` = 'o5dTt0MCMooemqJhjE1SP4QKwsRM' LIMIT 1 [ RunTime:0.000774s ]
+---------------------------------------------------------------
+[ 2017-10-07T17:35:12+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ info ] park.cn/api/v1/token/user [运行时间：0.366090s][吞吐率：2.73req/s] [内存消耗：2,256.34kb] [文件加载：47]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001627s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_user` [ RunTime:0.022294s ]
+[ sql ] [ SQL ] SELECT * FROM `m_user` WHERE  `openid` = 'o5dTt0MCMooemqJhjE1SP4QKwsRM' LIMIT 1 [ RunTime:0.000457s ]
+---------------------------------------------------------------
+[ 2017-10-07T17:35:27+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ info ] park.cn/api/v1/token/user [运行时间：0.460844s][吞吐率：2.17req/s] [内存消耗：2,256.34kb] [文件加载：47]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001886s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_user` [ RunTime:0.032449s ]
+[ sql ] [ SQL ] SELECT * FROM `m_user` WHERE  `openid` = 'o5dTt0MCMooemqJhjE1SP4QKwsRM' LIMIT 1 [ RunTime:0.000901s ]
+---------------------------------------------------------------
+[ 2017-10-07T17:36:11+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ info ] park.cn/api/v1/token/user [运行时间：0.388306s][吞吐率：2.58req/s] [内存消耗：2,256.34kb] [文件加载：47]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001418s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_user` [ RunTime:0.021500s ]
+[ sql ] [ SQL ] SELECT * FROM `m_user` WHERE  `openid` = 'o5dTt0MCMooemqJhjE1SP4QKwsRM' LIMIT 1 [ RunTime:0.000648s ]
+---------------------------------------------------------------
+[ 2017-10-07T17:36:42+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ info ] park.cn/api/v1/token/user [运行时间：0.355704s][吞吐率：2.81req/s] [内存消耗：2,256.34kb] [文件加载：47]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002741s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_user` [ RunTime:0.026822s ]
+[ sql ] [ SQL ] SELECT * FROM `m_user` WHERE  `openid` = 'o5dTt0MCMooemqJhjE1SP4QKwsRM' LIMIT 1 [ RunTime:0.000770s ]
+---------------------------------------------------------------
+[ 2017-10-07T17:37:07+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ info ] park.cn/api/v1/token/user [运行时间：0.396339s][吞吐率：2.52req/s] [内存消耗：2,256.34kb] [文件加载：47]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000952s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_user` [ RunTime:0.017842s ]
+[ sql ] [ SQL ] SELECT * FROM `m_user` WHERE  `openid` = 'o5dTt0MCMooemqJhjE1SP4QKwsRM' LIMIT 1 [ RunTime:0.000489s ]
+---------------------------------------------------------------
+[ 2017-10-07T17:37:14+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ info ] park.cn/api/v1/token/user [运行时间：0.391063s][吞吐率：2.56req/s] [内存消耗：2,256.34kb] [文件加载：47]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001252s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_user` [ RunTime:0.017307s ]
+[ sql ] [ SQL ] SELECT * FROM `m_user` WHERE  `openid` = 'o5dTt0MCMooemqJhjE1SP4QKwsRM' LIMIT 1 [ RunTime:0.000457s ]
+---------------------------------------------------------------
+[ 2017-10-07T17:53:27+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ info ] park.cn/api/v1/token/user [运行时间：0.740612s][吞吐率：1.35req/s] [内存消耗：2,256.25kb] [文件加载：47]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002665s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_user` [ RunTime:0.024343s ]
+[ sql ] [ SQL ] SELECT * FROM `m_user` WHERE  `openid` = 'o5dTt0MCMooemqJhjE1SP4QKwsRM' LIMIT 1 [ RunTime:0.000783s ]
+---------------------------------------------------------------
+[ 2017-10-07T17:55:13+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ info ] park.cn/api/v1/token/user [运行时间：0.414950s][吞吐率：2.41req/s] [内存消耗：2,256.34kb] [文件加载：47]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012056s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_user` [ RunTime:0.022189s ]
+[ sql ] [ SQL ] SELECT * FROM `m_user` WHERE  `openid` = 'o5dTt0MCMooemqJhjE1SP4QKwsRM' LIMIT 1 [ RunTime:0.001614s ]
+---------------------------------------------------------------
+[ 2017-10-07T17:55:19+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ info ] park.cn/api/v1/token/user [运行时间：0.411136s][吞吐率：2.43req/s] [内存消耗：2,256.34kb] [文件加载：47]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001221s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_user` [ RunTime:0.024408s ]
+[ sql ] [ SQL ] SELECT * FROM `m_user` WHERE  `openid` = 'o5dTt0MCMooemqJhjE1SP4QKwsRM' LIMIT 1 [ RunTime:0.000819s ]
+---------------------------------------------------------------
+[ 2017-10-07T17:56:29+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ info ] park.cn/api/v1/token/user [运行时间：0.431459s][吞吐率：2.32req/s] [内存消耗：2,256.34kb] [文件加载：47]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011571s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_user` [ RunTime:0.028643s ]
+[ sql ] [ SQL ] SELECT * FROM `m_user` WHERE  `openid` = 'o5dTt0MCMooemqJhjE1SP4QKwsRM' LIMIT 1 [ RunTime:0.001004s ]
+---------------------------------------------------------------
+[ 2017-10-07T17:57:19+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ info ] park.cn/api/v1/token/user [运行时间：0.386786s][吞吐率：2.59req/s] [内存消耗：2,256.34kb] [文件加载：47]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001949s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_user` [ RunTime:0.017104s ]
+[ sql ] [ SQL ] SELECT * FROM `m_user` WHERE  `openid` = 'o5dTt0MCMooemqJhjE1SP4QKwsRM' LIMIT 1 [ RunTime:0.000538s ]
+---------------------------------------------------------------
+[ 2017-10-07T17:57:33+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ info ] park.cn/api/v1/token/user [运行时间：0.402176s][吞吐率：2.49req/s] [内存消耗：2,256.34kb] [文件加载：47]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001331s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_user` [ RunTime:0.024245s ]
+[ sql ] [ SQL ] SELECT * FROM `m_user` WHERE  `openid` = 'o5dTt0MCMooemqJhjE1SP4QKwsRM' LIMIT 1 [ RunTime:0.000823s ]
+---------------------------------------------------------------
+[ 2017-10-07T17:58:57+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ info ] park.cn/api/v1/token/user [运行时间：0.386808s][吞吐率：2.59req/s] [内存消耗：2,256.34kb] [文件加载：47]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001331s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_user` [ RunTime:0.026595s ]
+[ sql ] [ SQL ] SELECT * FROM `m_user` WHERE  `openid` = 'o5dTt0MCMooemqJhjE1SP4QKwsRM' LIMIT 1 [ RunTime:0.000898s ]
+---------------------------------------------------------------
+[ 2017-10-07T18:19:19+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ info ] park.cn/api/v1/token/user [运行时间：0.711274s][吞吐率：1.41req/s] [内存消耗：2,256.25kb] [文件加载：47]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001697s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_user` [ RunTime:0.025140s ]
+[ sql ] [ SQL ] SELECT * FROM `m_user` WHERE  `openid` = 'o5dTt0MCMooemqJhjE1SP4QKwsRM' LIMIT 1 [ RunTime:0.000837s ]
+---------------------------------------------------------------
+[ 2017-10-07T18:19:49+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ info ] park.cn/api/v1/token/user [运行时间：0.638258s][吞吐率：1.57req/s] [内存消耗：2,256.34kb] [文件加载：47]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001453s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_user` [ RunTime:0.022782s ]
+[ sql ] [ SQL ] SELECT * FROM `m_user` WHERE  `openid` = 'o5dTt0MCMooemqJhjE1SP4QKwsRM' LIMIT 1 [ RunTime:0.000773s ]
+---------------------------------------------------------------
+[ 2017-10-07T18:51:02+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ info ] park.cn/api/v1/token/user [运行时间：0.737498s][吞吐率：1.36req/s] [内存消耗：2,256.25kb] [文件加载：47]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001118s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_user` [ RunTime:0.024384s ]
+[ sql ] [ SQL ] SELECT * FROM `m_user` WHERE  `openid` = 'o5dTt0MCMooemqJhjE1SP4QKwsRM' LIMIT 1 [ RunTime:0.000666s ]
+---------------------------------------------------------------
+[ 2017-10-07T18:51:27+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002245s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_user` [ RunTime:0.026355s ]
+[ sql ] [ SQL ] SELECT * FROM `m_user` WHERE  `openid` = 'o5dTt0MCMooemqJhjE1SP4QKwsRM' LIMIT 1 [ RunTime:0.000626s ]
+---------------------------------------------------------------
+[ 2017-10-07T18:51:28+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/login
+[ error ] [8]未定义变量: data
+[ error ] Undefined variable: data
+---------------------------------------------------------------
+[ 2017-10-07T18:51:44+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002138s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_user` [ RunTime:0.025730s ]
+[ sql ] [ SQL ] SELECT * FROM `m_user` WHERE  `openid` = 'o5dTt0MCMooemqJhjE1SP4QKwsRM' LIMIT 1 [ RunTime:0.000506s ]
+---------------------------------------------------------------
+[ 2017-10-07T18:51:46+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/login
+[ error ] [8]未定义变量: data
+[ error ] Undefined variable: data
+---------------------------------------------------------------
+[ 2017-10-07T19:11:26+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002225s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_user` [ RunTime:0.023971s ]
+[ sql ] [ SQL ] SELECT * FROM `m_user` WHERE  `openid` = 'o5dTt0MCMooemqJhjE1SP4QKwsRM' LIMIT 1 [ RunTime:0.000711s ]
+---------------------------------------------------------------
+[ 2017-10-07T19:22:50+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001508s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_user` [ RunTime:0.023777s ]
+[ sql ] [ SQL ] SELECT * FROM `m_user` WHERE  `openid` = 'o5dTt0MCMooemqJhjE1SP4QKwsRM' LIMIT 1 [ RunTime:0.001223s ]
+---------------------------------------------------------------
+[ 2017-10-07T19:24:27+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002074s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_user` [ RunTime:0.026355s ]
+[ sql ] [ SQL ] SELECT * FROM `m_user` WHERE  `openid` = 'o5dTt0MCMooemqJhjE1SP4QKwsRM' LIMIT 1 [ RunTime:0.000488s ]
+---------------------------------------------------------------
+[ 2017-10-07T19:26:21+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001640s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_user` [ RunTime:0.017609s ]
+[ sql ] [ SQL ] SELECT * FROM `m_user` WHERE  `openid` = 'o5dTt0MCMooemqJhjE1SP4QKwsRM' LIMIT 1 [ RunTime:0.000463s ]
+---------------------------------------------------------------
+[ 2017-10-07T19:28:22+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002743s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_user` [ RunTime:0.029607s ]
+[ sql ] [ SQL ] SELECT * FROM `m_user` WHERE  `openid` = 'o5dTt0MCMooemqJhjE1SP4QKwsRM' LIMIT 1 [ RunTime:0.000747s ]
+---------------------------------------------------------------
+[ 2017-10-07T19:29:27+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001896s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_user` [ RunTime:0.025775s ]
+[ sql ] [ SQL ] SELECT * FROM `m_user` WHERE  `openid` = 'o5dTt0MCMooemqJhjE1SP4QKwsRM' LIMIT 1 [ RunTime:0.000788s ]
+---------------------------------------------------------------
+[ 2017-10-07T19:29:59+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003944s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_user` [ RunTime:0.038392s ]
+[ sql ] [ SQL ] SELECT * FROM `m_user` WHERE  `openid` = 'o5dTt0MCMooemqJhjE1SP4QKwsRM' LIMIT 1 [ RunTime:0.000955s ]
+---------------------------------------------------------------
+[ 2017-10-07T19:39:57+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003935s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_user` [ RunTime:0.023839s ]
+[ sql ] [ SQL ] SELECT * FROM `m_user` WHERE  `openid` = 'o5dTt0MCMooemqJhjE1SP4QKwsRM' LIMIT 1 [ RunTime:0.000804s ]
+---------------------------------------------------------------
+[ 2017-10-07T19:40:31+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001598s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_user` [ RunTime:0.021176s ]
+[ sql ] [ SQL ] SELECT * FROM `m_user` WHERE  `openid` = 'o5dTt0MCMooemqJhjE1SP4QKwsRM' LIMIT 1 [ RunTime:0.000657s ]
+---------------------------------------------------------------
+[ 2017-10-07T19:41:28+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002185s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_user` [ RunTime:0.028800s ]
+[ sql ] [ SQL ] SELECT * FROM `m_user` WHERE  `openid` = 'o5dTt0MCMooemqJhjE1SP4QKwsRM' LIMIT 1 [ RunTime:0.000883s ]
+---------------------------------------------------------------
+[ 2017-10-07T19:41:29+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/login
+[ error ] [2]Illegal string offset 'openid'
+[ error ] Illegal string offset 'openid'
+---------------------------------------------------------------
+[ 2017-10-07T19:41:52+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ info ] park.cn/api/v1/token/user [运行时间：0.447234s][吞吐率：2.24req/s] [内存消耗：2,256.30kb] [文件加载：47]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001104s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_user` [ RunTime:0.024493s ]
+[ sql ] [ SQL ] SELECT * FROM `m_user` WHERE  `openid` = 'o5dTt0MCMooemqJhjE1SP4QKwsRM' LIMIT 1 [ RunTime:0.000762s ]
+---------------------------------------------------------------
+[ 2017-10-07T19:42:21+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ info ] park.cn/api/v1/token/user [运行时间：0.385763s][吞吐率：2.59req/s] [内存消耗：2,256.30kb] [文件加载：47]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001016s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_user` [ RunTime:0.017768s ]
+[ sql ] [ SQL ] SELECT * FROM `m_user` WHERE  `openid` = 'o5dTt0MCMooemqJhjE1SP4QKwsRM' LIMIT 1 [ RunTime:0.000503s ]
+---------------------------------------------------------------
+[ 2017-10-07T19:43:13+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ info ] park.cn/api/v1/token/user [运行时间：0.366068s][吞吐率：2.73req/s] [内存消耗：2,256.30kb] [文件加载：47]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000942s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_user` [ RunTime:0.024663s ]
+[ sql ] [ SQL ] SELECT * FROM `m_user` WHERE  `openid` = 'o5dTt0MCMooemqJhjE1SP4QKwsRM' LIMIT 1 [ RunTime:0.000488s ]
+---------------------------------------------------------------
+[ 2017-10-07T19:43:42+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ info ] park.cn/api/v1/token/user [运行时间：0.376831s][吞吐率：2.65req/s] [内存消耗：2,256.30kb] [文件加载：47]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001070s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_user` [ RunTime:0.019244s ]
+[ sql ] [ SQL ] SELECT * FROM `m_user` WHERE  `openid` = 'o5dTt0MCMooemqJhjE1SP4QKwsRM' LIMIT 1 [ RunTime:0.000535s ]
+---------------------------------------------------------------
+[ 2017-10-07T19:44:25+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ info ] park.cn/api/v1/token/user [运行时间：0.432424s][吞吐率：2.31req/s] [内存消耗：2,256.30kb] [文件加载：47]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000695s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_user` [ RunTime:0.017288s ]
+[ sql ] [ SQL ] SELECT * FROM `m_user` WHERE  `openid` = 'o5dTt0MCMooemqJhjE1SP4QKwsRM' LIMIT 1 [ RunTime:0.000474s ]
+---------------------------------------------------------------
+[ 2017-10-07T19:46:30+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ info ] park.cn/api/v1/token/user [运行时间：0.395018s][吞吐率：2.53req/s] [内存消耗：2,256.30kb] [文件加载：47]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000865s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_user` [ RunTime:0.020527s ]
+[ sql ] [ SQL ] SELECT * FROM `m_user` WHERE  `openid` = 'o5dTt0MCMooemqJhjE1SP4QKwsRM' LIMIT 1 [ RunTime:0.000591s ]
+---------------------------------------------------------------
+[ 2017-10-07T19:46:51+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ info ] park.cn/api/v1/token/user [运行时间：0.645633s][吞吐率：1.55req/s] [内存消耗：2,256.25kb] [文件加载：47]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000776s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_user` [ RunTime:0.025678s ]
+[ sql ] [ SQL ] SELECT * FROM `m_user` WHERE  `openid` = 'o5dTt0MCMooemqJhjE1SP4QKwsRM' LIMIT 1 [ RunTime:0.000774s ]
+---------------------------------------------------------------
+[ 2017-10-07T19:47:41+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ info ] park.cn/api/v1/token/user [运行时间：0.383253s][吞吐率：2.61req/s] [内存消耗：2,256.30kb] [文件加载：47]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001679s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_user` [ RunTime:0.022373s ]
+[ sql ] [ SQL ] SELECT * FROM `m_user` WHERE  `openid` = 'o5dTt0MCMooemqJhjE1SP4QKwsRM' LIMIT 1 [ RunTime:0.000629s ]
+---------------------------------------------------------------
+[ 2017-10-07T19:47:43+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/login
+[ info ] park.cn/api/v1/login [运行时间：0.086863s][吞吐率：11.51req/s] [内存消耗：2,243.20kb] [文件加载：45]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000851s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_user` [ RunTime:0.019935s ]
+[ sql ] [ SQL ] UPDATE `m_user`  SET `top`='https://wx.qlogo.cn/mmopen/vi_32/kXpV5eSyHLFE3vw5cXuhYcF8hzIsjXtf9LHWcl2WRoXq9TprfEtUpT38wO44dtiasAUjXibyK7Xef2pOyTtNxHcw/0',`nickname`='信磊',`phone`=18269015598,`number`='桂A11001'  WHERE  `openid` = 'o5dTt0MCMooemqJhjE1SP4QKwsRM' [ RunTime:0.002687s ]
+---------------------------------------------------------------
+[ 2017-10-07T19:48:18+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ info ] park.cn/api/v1/token/user [运行时间：0.342493s][吞吐率：2.92req/s] [内存消耗：2,256.59kb] [文件加载：47]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000808s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_user` [ RunTime:0.017791s ]
+[ sql ] [ SQL ] SELECT * FROM `m_user` WHERE  `openid` = 'o5dTt0MCMooemqJhjE1SP4QKwsRM' LIMIT 1 [ RunTime:0.000590s ]
+---------------------------------------------------------------
+[ 2017-10-07T19:48:20+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/login
+[ info ] park.cn/api/v1/login [运行时间：0.070760s][吞吐率：14.13req/s] [内存消耗：2,243.17kb] [文件加载：45]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000876s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_user` [ RunTime:0.018273s ]
+[ sql ] [ SQL ] UPDATE `m_user`  SET `top`='https://wx.qlogo.cn/mmopen/vi_32/kXpV5eSyHLFE3vw5cXuhYcF8hzIsjXtf9LHWcl2WRoXq9TprfEtUpT38wO44dtiasAUjXibyK7Xef2pOyTtNxHcw/0',`nickname`='信磊',`phone`=18269015598,`number`='桂A11001'  WHERE  `openid` = 'o5dTt0MCMooemqJhjE1SP4QKwsRM' [ RunTime:0.000624s ]
+---------------------------------------------------------------
+[ 2017-10-07T19:51:58+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ info ] park.cn/api/v1/token/user [运行时间：0.459808s][吞吐率：2.17req/s] [内存消耗：2,256.59kb] [文件加载：47]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001118s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_user` [ RunTime:0.027355s ]
+[ sql ] [ SQL ] SELECT * FROM `m_user` WHERE  `openid` = 'o5dTt0MCMooemqJhjE1SP4QKwsRM' LIMIT 1 [ RunTime:0.000800s ]
+---------------------------------------------------------------
+[ 2017-10-07T19:52:30+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ info ] park.cn/api/v1/token/user [运行时间：0.431667s][吞吐率：2.32req/s] [内存消耗：2,256.59kb] [文件加载：47]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011412s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_user` [ RunTime:0.036683s ]
+[ sql ] [ SQL ] SELECT * FROM `m_user` WHERE  `openid` = 'o5dTt0MCMooemqJhjE1SP4QKwsRM' LIMIT 1 [ RunTime:0.001434s ]
+---------------------------------------------------------------
+[ 2017-10-07T19:53:10+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ info ] park.cn/api/v1/token/user [运行时间：0.717139s][吞吐率：1.39req/s] [内存消耗：2,256.55kb] [文件加载：47]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002049s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_user` [ RunTime:0.031537s ]
+[ sql ] [ SQL ] SELECT * FROM `m_user` WHERE  `openid` = 'o5dTt0MCMooemqJhjE1SP4QKwsRM' LIMIT 1 [ RunTime:0.000517s ]
+---------------------------------------------------------------
+[ 2017-10-07T19:54:00+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ info ] park.cn/api/v1/token/user [运行时间：0.341274s][吞吐率：2.93req/s] [内存消耗：2,256.59kb] [文件加载：47]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001228s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_user` [ RunTime:0.017546s ]
+[ sql ] [ SQL ] SELECT * FROM `m_user` WHERE  `openid` = 'o5dTt0MCMooemqJhjE1SP4QKwsRM' LIMIT 1 [ RunTime:0.000478s ]
+---------------------------------------------------------------
+[ 2017-10-07T19:54:26+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ info ] park.cn/api/v1/token/user [运行时间：0.370912s][吞吐率：2.70req/s] [内存消耗：2,256.59kb] [文件加载：47]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001049s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_user` [ RunTime:0.019966s ]
+[ sql ] [ SQL ] SELECT * FROM `m_user` WHERE  `openid` = 'o5dTt0MCMooemqJhjE1SP4QKwsRM' LIMIT 1 [ RunTime:0.000604s ]
+---------------------------------------------------------------
+[ 2017-10-07T19:55:08+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ info ] park.cn/api/v1/token/user [运行时间：0.394681s][吞吐率：2.53req/s] [内存消耗：2,256.59kb] [文件加载：47]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002824s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_user` [ RunTime:0.024102s ]
+[ sql ] [ SQL ] SELECT * FROM `m_user` WHERE  `openid` = 'o5dTt0MCMooemqJhjE1SP4QKwsRM' LIMIT 1 [ RunTime:0.000766s ]
+---------------------------------------------------------------
+[ 2017-10-07T19:55:32+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ info ] park.cn/api/v1/token/user [运行时间：0.475630s][吞吐率：2.10req/s] [内存消耗：2,256.59kb] [文件加载：47]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001197s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_user` [ RunTime:0.023998s ]
+[ sql ] [ SQL ] SELECT * FROM `m_user` WHERE  `openid` = 'o5dTt0MCMooemqJhjE1SP4QKwsRM' LIMIT 1 [ RunTime:0.000553s ]
+---------------------------------------------------------------
+[ 2017-10-07T19:55:34+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/login
+[ info ] park.cn/api/v1/login [运行时间：0.064640s][吞吐率：15.47req/s] [内存消耗：2,244.29kb] [文件加载：45]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000870s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_user` [ RunTime:0.017644s ]
+[ sql ] [ SQL ] UPDATE `m_user`  SET `top`='https://wx.qlogo.cn/mmopen/vi_32/kXpV5eSyHLFE3vw5cXuhYcF8hzIsjXtf9LHWcl2WRoXq9TprfEtUpT38wO44dtiasAUjXibyK7Xef2pOyTtNxHcw/0',`nickname`='信磊',`phone`=18269015598,`number`='桂A11001'  WHERE  `openid` = 'o5dTt0MCMooemqJhjE1SP4QKwsRM' [ RunTime:0.000614s ]
+---------------------------------------------------------------
+[ 2017-10-07T19:56:15+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ info ] park.cn/api/v1/token/user [运行时间：0.403584s][吞吐率：2.48req/s] [内存消耗：2,256.59kb] [文件加载：47]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001162s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_user` [ RunTime:0.021273s ]
+[ sql ] [ SQL ] SELECT * FROM `m_user` WHERE  `openid` = 'o5dTt0MCMooemqJhjE1SP4QKwsRM' LIMIT 1 [ RunTime:0.000461s ]
+---------------------------------------------------------------
+[ 2017-10-07T19:56:17+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/login
+[ info ] park.cn/api/v1/login [运行时间：0.084370s][吞吐率：11.85req/s] [内存消耗：2,244.20kb] [文件加载：45]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000919s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_user` [ RunTime:0.017474s ]
+[ sql ] [ SQL ] UPDATE `m_user`  SET `top`='https://wx.qlogo.cn/mmopen/vi_32/kXpV5eSyHLFE3vw5cXuhYcF8hzIsjXtf9LHWcl2WRoXq9TprfEtUpT38wO44dtiasAUjXibyK7Xef2pOyTtNxHcw/0',`nickname`='信磊',`phone`=18269015598,`number`='桂A11001'  WHERE  `openid` = 'o5dTt0MCMooemqJhjE1SP4QKwsRM' [ RunTime:0.000613s ]
+---------------------------------------------------------------
+[ 2017-10-07T19:59:11+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ info ] park.cn/api/v1/token/user [运行时间：0.422649s][吞吐率：2.37req/s] [内存消耗：2,256.59kb] [文件加载：47]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001378s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_user` [ RunTime:0.025213s ]
+[ sql ] [ SQL ] SELECT * FROM `m_user` WHERE  `openid` = 'o5dTt0MCMooemqJhjE1SP4QKwsRM' LIMIT 1 [ RunTime:0.000897s ]
+---------------------------------------------------------------
+[ 2017-10-07T19:59:33+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ info ] park.cn/api/v1/token/user [运行时间：0.399958s][吞吐率：2.50req/s] [内存消耗：2,256.59kb] [文件加载：47]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001983s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_user` [ RunTime:0.025947s ]
+[ sql ] [ SQL ] SELECT * FROM `m_user` WHERE  `openid` = 'o5dTt0MCMooemqJhjE1SP4QKwsRM' LIMIT 1 [ RunTime:0.000610s ]
+---------------------------------------------------------------
+[ 2017-10-07T20:00:18+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ info ] park.cn/api/v1/token/user [运行时间：0.422898s][吞吐率：2.36req/s] [内存消耗：2,256.62kb] [文件加载：47]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001644s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_user` [ RunTime:0.026258s ]
+[ sql ] [ SQL ] SELECT * FROM `m_user` WHERE  `openid` = 'o5dTt0MCMooemqJhjE1SP4QKwsRM' LIMIT 1 [ RunTime:0.000661s ]
+---------------------------------------------------------------
+[ 2017-10-07T20:00:20+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/login
+[ info ] park.cn/api/v1/login [运行时间：0.078621s][吞吐率：12.72req/s] [内存消耗：2,244.23kb] [文件加载：45]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001037s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_user` [ RunTime:0.019886s ]
+[ sql ] [ SQL ] UPDATE `m_user`  SET `top`='https://wx.qlogo.cn/mmopen/vi_32/kXpV5eSyHLFE3vw5cXuhYcF8hzIsjXtf9LHWcl2WRoXq9TprfEtUpT38wO44dtiasAUjXibyK7Xef2pOyTtNxHcw/0',`nickname`='信磊',`phone`=18269015598,`number`='桂A11001'  WHERE  `openid` = 'o5dTt0MCMooemqJhjE1SP4QKwsRM' [ RunTime:0.000627s ]
+---------------------------------------------------------------
+[ 2017-10-07T20:01:00+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ info ] park.cn/api/v1/token/user [运行时间：0.426935s][吞吐率：2.34req/s] [内存消耗：2,256.70kb] [文件加载：47]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001843s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_user` [ RunTime:0.044828s ]
+[ sql ] [ SQL ] SELECT * FROM `m_user` WHERE  `openid` = 'o5dTt0MCMooemqJhjE1SP4QKwsRM' LIMIT 1 [ RunTime:0.001256s ]
+---------------------------------------------------------------
+[ 2017-10-07T20:01:01+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/login
+[ info ] park.cn/api/v1/login [运行时间：0.075506s][吞吐率：13.24req/s] [内存消耗：2,244.28kb] [文件加载：45]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000869s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_user` [ RunTime:0.018059s ]
+[ sql ] [ SQL ] UPDATE `m_user`  SET `top`='https://wx.qlogo.cn/mmopen/vi_32/kXpV5eSyHLFE3vw5cXuhYcF8hzIsjXtf9LHWcl2WRoXq9TprfEtUpT38wO44dtiasAUjXibyK7Xef2pOyTtNxHcw/0',`nickname`='信磊',`phone`='18269015598',`number`='桂A11001'  WHERE  `openid` = 'o5dTt0MCMooemqJhjE1SP4QKwsRM' [ RunTime:0.000610s ]
+---------------------------------------------------------------
+[ 2017-10-07T20:03:07+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ info ] park.cn/api/v1/token/user [运行时间：0.650714s][吞吐率：1.54req/s] [内存消耗：2,256.60kb] [文件加载：47]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001791s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_user` [ RunTime:0.017397s ]
+[ sql ] [ SQL ] SELECT * FROM `m_user` WHERE  `openid` = 'o5dTt0MCMooemqJhjE1SP4QKwsRM' LIMIT 1 [ RunTime:0.000515s ]
+---------------------------------------------------------------
+[ 2017-10-07T20:03:08+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/login
+[ info ] park.cn/api/v1/login [运行时间：0.090217s][吞吐率：11.08req/s] [内存消耗：2,244.25kb] [文件加载：45]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000944s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_user` [ RunTime:0.017990s ]
+[ sql ] [ SQL ] UPDATE `m_user`  SET `top`='https://wx.qlogo.cn/mmopen/vi_32/kXpV5eSyHLFE3vw5cXuhYcF8hzIsjXtf9LHWcl2WRoXq9TprfEtUpT38wO44dtiasAUjXibyK7Xef2pOyTtNxHcw/0',`nickname`='信磊',`phone`='18269015598',`number`='桂A11001'  WHERE  `openid` = 'o5dTt0MCMooemqJhjE1SP4QKwsRM' [ RunTime:0.000647s ]
+---------------------------------------------------------------
+[ 2017-10-07T20:03:27+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ info ] park.cn/api/v1/token/user [运行时间：0.428714s][吞吐率：2.33req/s] [内存消耗：2,256.70kb] [文件加载：47]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002017s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_user` [ RunTime:0.028255s ]
+[ sql ] [ SQL ] SELECT * FROM `m_user` WHERE  `openid` = 'o5dTt0MCMooemqJhjE1SP4QKwsRM' LIMIT 1 [ RunTime:0.000760s ]
+---------------------------------------------------------------
+[ 2017-10-07T20:03:28+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/login
+[ info ] park.cn/api/v1/login [运行时间：0.069936s][吞吐率：14.30req/s] [内存消耗：2,244.25kb] [文件加载：45]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000942s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_user` [ RunTime:0.018979s ]
+[ sql ] [ SQL ] UPDATE `m_user`  SET `top`='https://wx.qlogo.cn/mmopen/vi_32/kXpV5eSyHLFE3vw5cXuhYcF8hzIsjXtf9LHWcl2WRoXq9TprfEtUpT38wO44dtiasAUjXibyK7Xef2pOyTtNxHcw/0',`nickname`='信磊',`phone`='18269015598',`number`='桂A11001'  WHERE  `openid` = 'o5dTt0MCMooemqJhjE1SP4QKwsRM' [ RunTime:0.000627s ]
+---------------------------------------------------------------
+[ 2017-10-07T20:03:41+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ info ] park.cn/api/v1/token/user [运行时间：0.375229s][吞吐率：2.67req/s] [内存消耗：2,256.70kb] [文件加载：47]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001439s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_user` [ RunTime:0.021243s ]
+[ sql ] [ SQL ] SELECT * FROM `m_user` WHERE  `openid` = 'o5dTt0MCMooemqJhjE1SP4QKwsRM' LIMIT 1 [ RunTime:0.000463s ]
+---------------------------------------------------------------
+[ 2017-10-07T20:03:42+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/login
+[ info ] park.cn/api/v1/login [运行时间：0.075125s][吞吐率：13.31req/s] [内存消耗：2,244.25kb] [文件加载：45]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000708s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_user` [ RunTime:0.017361s ]
+[ sql ] [ SQL ] UPDATE `m_user`  SET `top`='https://wx.qlogo.cn/mmopen/vi_32/kXpV5eSyHLFE3vw5cXuhYcF8hzIsjXtf9LHWcl2WRoXq9TprfEtUpT38wO44dtiasAUjXibyK7Xef2pOyTtNxHcw/0',`nickname`='信磊',`phone`='18269015598',`number`='桂A11001'  WHERE  `openid` = 'o5dTt0MCMooemqJhjE1SP4QKwsRM' [ RunTime:0.000711s ]
+---------------------------------------------------------------
+[ 2017-10-07T20:04:59+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ info ] park.cn/api/v1/token/user [运行时间：0.407198s][吞吐率：2.46req/s] [内存消耗：2,256.70kb] [文件加载：47]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001241s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_user` [ RunTime:0.021065s ]
+[ sql ] [ SQL ] SELECT * FROM `m_user` WHERE  `openid` = 'o5dTt0MCMooemqJhjE1SP4QKwsRM' LIMIT 1 [ RunTime:0.000638s ]
+---------------------------------------------------------------
+[ 2017-10-07T20:05:00+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/login
+[ info ] park.cn/api/v1/login [运行时间：0.079852s][吞吐率：12.52req/s] [内存消耗：2,244.25kb] [文件加载：45]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000940s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_user` [ RunTime:0.017182s ]
+[ sql ] [ SQL ] UPDATE `m_user`  SET `top`='https://wx.qlogo.cn/mmopen/vi_32/kXpV5eSyHLFE3vw5cXuhYcF8hzIsjXtf9LHWcl2WRoXq9TprfEtUpT38wO44dtiasAUjXibyK7Xef2pOyTtNxHcw/0',`nickname`='信磊',`phone`='18269015598',`number`='桂A11001'  WHERE  `openid` = 'o5dTt0MCMooemqJhjE1SP4QKwsRM' [ RunTime:0.000588s ]
+---------------------------------------------------------------
+[ 2017-10-07T20:05:37+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ info ] park.cn/api/v1/token/user [运行时间：0.508287s][吞吐率：1.97req/s] [内存消耗：2,256.70kb] [文件加载：47]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002011s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_user` [ RunTime:0.026089s ]
+[ sql ] [ SQL ] SELECT * FROM `m_user` WHERE  `openid` = 'o5dTt0MCMooemqJhjE1SP4QKwsRM' LIMIT 1 [ RunTime:0.000722s ]
+---------------------------------------------------------------
+[ 2017-10-07T20:05:38+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/login
+[ info ] park.cn/api/v1/login [运行时间：0.078436s][吞吐率：12.75req/s] [内存消耗：2,244.25kb] [文件加载：45]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000887s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_user` [ RunTime:0.016854s ]
+[ sql ] [ SQL ] UPDATE `m_user`  SET `top`='https://wx.qlogo.cn/mmopen/vi_32/kXpV5eSyHLFE3vw5cXuhYcF8hzIsjXtf9LHWcl2WRoXq9TprfEtUpT38wO44dtiasAUjXibyK7Xef2pOyTtNxHcw/0',`nickname`='信磊',`phone`='18269015598',`number`='桂A11001'  WHERE  `openid` = 'o5dTt0MCMooemqJhjE1SP4QKwsRM' [ RunTime:0.000612s ]
+---------------------------------------------------------------
+[ 2017-10-07T21:02:32+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ info ] park.cn/api/v1/token/user [运行时间：0.686005s][吞吐率：1.46req/s] [内存消耗：2,258.36kb] [文件加载：47]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002705s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_user` [ RunTime:0.021192s ]
+[ sql ] [ SQL ] SELECT * FROM `m_user` WHERE  `openid` = 'o5dTt0MCMooemqJhjE1SP4QKwsRM' LIMIT 1 [ RunTime:0.000516s ]
+---------------------------------------------------------------
+[ 2017-10-07T21:04:19+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ info ] park.cn/api/v1/token/user [运行时间：0.363584s][吞吐率：2.75req/s] [内存消耗：2,258.35kb] [文件加载：47]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001529s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_user` [ RunTime:0.030772s ]
+[ sql ] [ SQL ] SELECT * FROM `m_user` WHERE  `openid` = 'o5dTt0MCMooemqJhjE1SP4QKwsRM' LIMIT 1 [ RunTime:0.000508s ]
+---------------------------------------------------------------
+[ 2017-10-07T21:04:20+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ info ] park.cn/api/v1/token/user [运行时间：0.407171s][吞吐率：2.46req/s] [内存消耗：2,258.35kb] [文件加载：47]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001227s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_user` [ RunTime:0.021693s ]
+[ sql ] [ SQL ] SELECT * FROM `m_user` WHERE  `openid` = 'o5dTt0MCMooemqJhjE1SP4QKwsRM' LIMIT 1 [ RunTime:0.000527s ]
+---------------------------------------------------------------
+[ 2017-10-07T21:04:20+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ info ] park.cn/api/v1/token/user [运行时间：0.722536s][吞吐率：1.38req/s] [内存消耗：2,258.36kb] [文件加载：47]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001681s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_user` [ RunTime:0.022129s ]
+[ sql ] [ SQL ] SELECT * FROM `m_user` WHERE  `openid` = 'o5dTt0MCMooemqJhjE1SP4QKwsRM' LIMIT 1 [ RunTime:0.000967s ]
+---------------------------------------------------------------
+[ 2017-10-07T21:05:19+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ info ] park.cn/api/v1/token/user [运行时间：0.419371s][吞吐率：2.38req/s] [内存消耗：2,258.35kb] [文件加载：47]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001860s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_user` [ RunTime:0.028024s ]
+[ sql ] [ SQL ] SELECT * FROM `m_user` WHERE  `openid` = 'o5dTt0MCMooemqJhjE1SP4QKwsRM' LIMIT 1 [ RunTime:0.000725s ]

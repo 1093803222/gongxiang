@@ -1,0 +1,1135 @@
+---------------------------------------------------------------
+[ 2017-10-09T09:38:31+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ info ] park.cn/api/v1/token/user [运行时间：1.129176s][吞吐率：0.89req/s] [内存消耗：1,804.29kb] [文件加载：47]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.008452s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_user` [ RunTime:0.038532s ]
+[ sql ] [ SQL ] SELECT * FROM `m_user` WHERE  `openid` = 'o5dTt0MCMooemqJhjE1SP4QKwsRM' LIMIT 1 [ RunTime:0.001699s ]
+---------------------------------------------------------------
+[ 2017-10-09T09:39:21+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/user
+[ info ] park.cn/api/v1/user [运行时间：0.178995s][吞吐率：5.59req/s] [内存消耗：1,725.36kb] [文件加载：46]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001105s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_user` [ RunTime:0.025352s ]
+[ sql ] [ SQL ] SELECT * FROM `m_user` WHERE  `openid` = 'o5dTt0MCMooemqJhjE1SP4QKwsRM' LIMIT 1 [ RunTime:0.000320s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_order` [ RunTime:0.036618s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `m_order` `Order` INNER JOIN `m_user` `User` ON `Order`.`user_id`=`User`.`id` WHERE  `User`.`openid` = 'o5dTt0MCMooemqJhjE1SP4QKwsRM' LIMIT 1 [ RunTime:0.001407s ]
+---------------------------------------------------------------
+[ 2017-10-09T09:39:49+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ info ] park.cn/api/v1/token/user [运行时间：0.381600s][吞吐率：2.62req/s] [内存消耗：1,804.30kb] [文件加载：47]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001686s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_user` [ RunTime:0.034158s ]
+[ sql ] [ SQL ] SELECT * FROM `m_user` WHERE  `openid` = 'o5dTt0MCMooemqJhjE1SP4QKwsRM' LIMIT 1 [ RunTime:0.000519s ]
+---------------------------------------------------------------
+[ 2017-10-09T09:39:50+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/login/check
+[ info ] park.cn/api/v1/login/check [运行时间：0.072084s][吞吐率：13.87req/s] [内存消耗：1,670.46kb] [文件加载：42]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001303s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_user` [ RunTime:0.023458s ]
+[ sql ] [ SQL ] SELECT * FROM `m_user` WHERE  `openid` = 'o5dTt0MCMooemqJhjE1SP4QKwsRM' LIMIT 1 [ RunTime:0.000385s ]
+---------------------------------------------------------------
+[ 2017-10-09T09:40:05+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ info ] park.cn/api/v1/token/user [运行时间：0.449854s][吞吐率：2.22req/s] [内存消耗：1,804.30kb] [文件加载：47]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003434s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_user` [ RunTime:0.035756s ]
+[ sql ] [ SQL ] SELECT * FROM `m_user` WHERE  `openid` = 'o5dTt0MCMooemqJhjE1SP4QKwsRM' LIMIT 1 [ RunTime:0.000315s ]
+---------------------------------------------------------------
+[ 2017-10-09T09:40:07+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ info ] park.cn/api/v1/token/user [运行时间：0.443420s][吞吐率：2.26req/s] [内存消耗：1,804.30kb] [文件加载：47]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002931s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_user` [ RunTime:0.038547s ]
+[ sql ] [ SQL ] SELECT * FROM `m_user` WHERE  `openid` = 'o5dTt0MCMooemqJhjE1SP4QKwsRM' LIMIT 1 [ RunTime:0.000955s ]
+---------------------------------------------------------------
+[ 2017-10-09T09:41:34+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/login/check
+[ info ] park.cn/api/v1/login/check [运行时间：0.052304s][吞吐率：19.12req/s] [内存消耗：1,670.46kb] [文件加载：42]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001205s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_user` [ RunTime:0.022721s ]
+[ sql ] [ SQL ] SELECT * FROM `m_user` WHERE  `openid` = 'o5dTt0MCMooemqJhjE1SP4QKwsRM' LIMIT 1 [ RunTime:0.000286s ]
+---------------------------------------------------------------
+[ 2017-10-09T09:41:45+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ info ] park.cn/api/v1/token/user [运行时间：0.458262s][吞吐率：2.18req/s] [内存消耗：1,804.30kb] [文件加载：47]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002288s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_user` [ RunTime:0.026810s ]
+[ sql ] [ SQL ] SELECT * FROM `m_user` WHERE  `openid` = 'o5dTt0MCMooemqJhjE1SP4QKwsRM' LIMIT 1 [ RunTime:0.000435s ]
+---------------------------------------------------------------
+[ 2017-10-09T09:42:43+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ info ] park.cn/api/v1/token/user [运行时间：0.651669s][吞吐率：1.53req/s] [内存消耗：1,804.30kb] [文件加载：47]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003602s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_user` [ RunTime:0.036725s ]
+[ sql ] [ SQL ] SELECT * FROM `m_user` WHERE  `openid` = 'o5dTt0MCMooemqJhjE1SP4QKwsRM' LIMIT 1 [ RunTime:0.000518s ]
+---------------------------------------------------------------
+[ 2017-10-09T09:42:48+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/login/check
+[ info ] park.cn/api/v1/login/check [运行时间：0.049839s][吞吐率：20.06req/s] [内存消耗：1,670.46kb] [文件加载：42]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001104s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_user` [ RunTime:0.024738s ]
+[ sql ] [ SQL ] SELECT * FROM `m_user` WHERE  `openid` = 'o5dTt0MCMooemqJhjE1SP4QKwsRM' LIMIT 1 [ RunTime:0.000333s ]
+---------------------------------------------------------------
+[ 2017-10-09T09:43:09+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ info ] park.cn/api/v1/token/user [运行时间：0.383357s][吞吐率：2.61req/s] [内存消耗：1,804.30kb] [文件加载：47]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001646s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_user` [ RunTime:0.031170s ]
+[ sql ] [ SQL ] SELECT * FROM `m_user` WHERE  `openid` = 'o5dTt0MCMooemqJhjE1SP4QKwsRM' LIMIT 1 [ RunTime:0.000546s ]
+---------------------------------------------------------------
+[ 2017-10-09T09:43:10+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/login/check
+[ info ] park.cn/api/v1/login/check [运行时间：0.041293s][吞吐率：24.22req/s] [内存消耗：1,670.46kb] [文件加载：42]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000973s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_user` [ RunTime:0.022000s ]
+[ sql ] [ SQL ] SELECT * FROM `m_user` WHERE  `openid` = 'o5dTt0MCMooemqJhjE1SP4QKwsRM' LIMIT 1 [ RunTime:0.000308s ]
+---------------------------------------------------------------
+[ 2017-10-09T09:43:19+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/login/check
+[ info ] park.cn/api/v1/login/check [运行时间：0.072833s][吞吐率：13.73req/s] [内存消耗：1,670.46kb] [文件加载：42]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001490s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_user` [ RunTime:0.024439s ]
+[ sql ] [ SQL ] SELECT * FROM `m_user` WHERE  `openid` = 'o5dTt0MCMooemqJhjE1SP4QKwsRM' LIMIT 1 [ RunTime:0.000377s ]
+---------------------------------------------------------------
+[ 2017-10-09T09:43:31+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/login/check
+[ info ] park.cn/api/v1/login/check [运行时间：0.069433s][吞吐率：14.40req/s] [内存消耗：1,670.46kb] [文件加载：42]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001737s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_user` [ RunTime:0.020901s ]
+[ sql ] [ SQL ] SELECT * FROM `m_user` WHERE  `openid` = 'o5dTt0MCMooemqJhjE1SP4QKwsRM' LIMIT 1 [ RunTime:0.000294s ]
+---------------------------------------------------------------
+[ 2017-10-09T09:43:42+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ info ] park.cn/api/v1/token/user [运行时间：0.362602s][吞吐率：2.76req/s] [内存消耗：1,804.30kb] [文件加载：47]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003502s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_user` [ RunTime:0.030594s ]
+[ sql ] [ SQL ] SELECT * FROM `m_user` WHERE  `openid` = 'o5dTt0MCMooemqJhjE1SP4QKwsRM' LIMIT 1 [ RunTime:0.000482s ]
+---------------------------------------------------------------
+[ 2017-10-09T09:43:45+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/login/check
+[ info ] park.cn/api/v1/login/check [运行时间：0.070615s][吞吐率：14.16req/s] [内存消耗：1,670.46kb] [文件加载：42]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001315s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_user` [ RunTime:0.025544s ]
+[ sql ] [ SQL ] SELECT * FROM `m_user` WHERE  `openid` = 'o5dTt0MCMooemqJhjE1SP4QKwsRM' LIMIT 1 [ RunTime:0.000383s ]
+---------------------------------------------------------------
+[ 2017-10-09T09:44:06+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ info ] park.cn/api/v1/token/user [运行时间：0.399252s][吞吐率：2.50req/s] [内存消耗：1,804.30kb] [文件加载：47]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002268s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_user` [ RunTime:0.027304s ]
+[ sql ] [ SQL ] SELECT * FROM `m_user` WHERE  `openid` = 'o5dTt0MCMooemqJhjE1SP4QKwsRM' LIMIT 1 [ RunTime:0.000413s ]
+---------------------------------------------------------------
+[ 2017-10-09T09:44:13+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/login/check
+[ info ] park.cn/api/v1/login/check [运行时间：0.062419s][吞吐率：16.02req/s] [内存消耗：1,670.46kb] [文件加载：42]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001949s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_user` [ RunTime:0.019217s ]
+[ sql ] [ SQL ] SELECT * FROM `m_user` WHERE  `openid` = 'o5dTt0MCMooemqJhjE1SP4QKwsRM' LIMIT 1 [ RunTime:0.000363s ]
+---------------------------------------------------------------
+[ 2017-10-09T09:44:30+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/login/check
+[ info ] park.cn/api/v1/login/check [运行时间：0.066944s][吞吐率：14.94req/s] [内存消耗：1,670.46kb] [文件加载：42]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001719s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_user` [ RunTime:0.021722s ]
+[ sql ] [ SQL ] SELECT * FROM `m_user` WHERE  `openid` = 'o5dTt0MCMooemqJhjE1SP4QKwsRM' LIMIT 1 [ RunTime:0.000292s ]
+---------------------------------------------------------------
+[ 2017-10-09T09:45:14+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/history/2c11c6fa4199bcf03cca8028e7e456f1
+[ info ] park.cn/api/v1/history/2c11c6fa4199bcf03cca8028e7e456f1 [运行时间：0.073373s][吞吐率：13.63req/s] [内存消耗：1,770.61kb] [文件加载：48]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000960s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_order` [ RunTime:0.018052s ]
+[ sql ] [ SQL ] SELECT * FROM `m_order` [ RunTime:0.000293s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_user` [ RunTime:0.016267s ]
+[ sql ] [ SQL ] SELECT `number` FROM `m_user` WHERE  `openid` = 'o5dTt0MCMooemqJhjE1SP4QKwsRM' [ RunTime:0.000249s ]
+[ sql ] [ SQL ] SELECT * FROM `m_user` WHERE  `id` IN (4,5,6,1,7) [ RunTime:0.000306s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_parking_lot` [ RunTime:0.017838s ]
+[ sql ] [ SQL ] SELECT * FROM `m_parking_lot` WHERE  `id` IN (1,2,3,6,5) [ RunTime:0.000287s ]
+---------------------------------------------------------------
+[ 2017-10-09T09:45:27+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/history/2c11c6fa4199bcf03cca8028e7e456f1
+[ info ] park.cn/api/v1/history/2c11c6fa4199bcf03cca8028e7e456f1 [运行时间：0.069951s][吞吐率：14.30req/s] [内存消耗：1,773.80kb] [文件加载：49]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000911s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_order` [ RunTime:0.017659s ]
+[ sql ] [ SQL ] SELECT * FROM `m_order` [ RunTime:0.000290s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_user` [ RunTime:0.015547s ]
+[ sql ] [ SQL ] SELECT `number` FROM `m_user` WHERE  `openid` = 'o5dTt0MCMooemqJhjE1SP4QKwsRM' [ RunTime:0.000247s ]
+[ sql ] [ SQL ] SELECT * FROM `m_user` WHERE  `id` IN (4,5,6,1,7) [ RunTime:0.000253s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_parking_lot` [ RunTime:0.015728s ]
+[ sql ] [ SQL ] SELECT * FROM `m_parking_lot` WHERE  `id` IN (1,2,3,6,5) [ RunTime:0.000281s ]
+---------------------------------------------------------------
+[ 2017-10-09T09:47:52+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/history/2c11c6fa4199bcf03cca8028e7e456f1
+[ info ] park.cn/api/v1/history/2c11c6fa4199bcf03cca8028e7e456f1 [运行时间：0.036854s][吞吐率：27.13req/s] [内存消耗：1,756.07kb] [文件加载：48]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000940s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_order` [ RunTime:0.017248s ]
+[ sql ] [ SQL ] SELECT `Order`.* FROM `m_order` `Order` INNER JOIN `m_user` `User` ON `Order`.`user_id`=`User`.`id` WHERE  `User`.`openid` = 'o5dTt0MCMooemqJhjE1SP4QKwsRM' [ RunTime:0.000344s ]
+---------------------------------------------------------------
+[ 2017-10-09T09:49:39+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/history/2c11c6fa4199bcf03cca8028e7e456f1
+[ info ] park.cn/api/v1/history/2c11c6fa4199bcf03cca8028e7e456f1 [运行时间：0.056602s][吞吐率：17.67req/s] [内存消耗：1,768.32kb] [文件加载：49]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000957s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_order` [ RunTime:0.017127s ]
+[ sql ] [ SQL ] SELECT `Order`.* FROM `m_order` `Order` INNER JOIN `m_user` `User` ON `Order`.`user_id`=`User`.`id` WHERE  `User`.`openid` = 'o5dTt0MCMooemqJhjE1SP4QKwsRM' [ RunTime:0.000382s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_parking_lot` [ RunTime:0.017158s ]
+[ sql ] [ SQL ] SELECT * FROM `m_parking_lot` WHERE  `id` IN (5,1) [ RunTime:0.000361s ]
+---------------------------------------------------------------
+[ 2017-10-09T09:51:54+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/history/2c11c6fa4199bcf03cca8028e7e456f1
+[ info ] park.cn/api/v1/history/2c11c6fa4199bcf03cca8028e7e456f1 [运行时间：0.074619s][吞吐率：13.40req/s] [内存消耗：1,773.34kb] [文件加载：49]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001540s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_order` [ RunTime:0.018486s ]
+[ sql ] [ SQL ] SELECT * FROM `m_order` [ RunTime:0.000274s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_user` [ RunTime:0.015473s ]
+[ sql ] [ SQL ] SELECT `id`,`number` FROM `m_user` WHERE  `openid` = 'o5dTt0MCMooemqJhjE1SP4QKwsRM'  AND `id` IN (4,5,6,1,7) [ RunTime:0.000303s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_parking_lot` [ RunTime:0.015480s ]
+[ sql ] [ SQL ] SELECT * FROM `m_parking_lot` WHERE  `id` IN (1,2,3,6,5) [ RunTime:0.000343s ]
+---------------------------------------------------------------
+[ 2017-10-09T09:53:57+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/history/2c11c6fa4199bcf03cca8028e7e456f1
+[ info ] park.cn/api/v1/history/2c11c6fa4199bcf03cca8028e7e456f1 [运行时间：0.138016s][吞吐率：7.25req/s] [内存消耗：1,861.84kb] [文件加载：50]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001995s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_order` [ RunTime:0.022111s ]
+[ sql ] [ SQL ] SELECT * FROM `m_order` [ RunTime:0.000359s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_user` [ RunTime:0.016912s ]
+[ sql ] [ SQL ] SELECT `id`,`number` FROM `m_user` WHERE  `openid` = 'o5dTt0MCMooemqJhjE1SP4QKwsRM'  AND `id` IN (4,5,6,1,7) [ RunTime:0.000302s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_parking_lot` [ RunTime:0.014997s ]
+[ sql ] [ SQL ] SELECT * FROM `m_parking_lot` WHERE  `id` IN (1,2,3,6,5) [ RunTime:0.000309s ]
+---------------------------------------------------------------
+[ 2017-10-09T09:54:38+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/history/2c11c6fa4199bcf03cca8028e7e456f1
+[ info ] park.cn/api/v1/history/2c11c6fa4199bcf03cca8028e7e456f1 [运行时间：0.072373s][吞吐率：13.82req/s] [内存消耗：1,862.38kb] [文件加载：50]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000956s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_order` [ RunTime:0.018043s ]
+[ sql ] [ SQL ] SELECT * FROM `m_order` [ RunTime:0.000257s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_user` [ RunTime:0.015519s ]
+[ sql ] [ SQL ] SELECT `id`,`number` FROM `m_user` WHERE  `openid` = 'o5dTt0MCMooemqJhjE1SP4QKwsRM' LIMIT 1 [ RunTime:0.000287s ]
+[ sql ] [ SQL ] SELECT * FROM `m_user` WHERE  `id` IN (4,5,6,1,7) [ RunTime:0.000247s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_parking_lot` [ RunTime:0.015004s ]
+[ sql ] [ SQL ] SELECT * FROM `m_parking_lot` WHERE  `id` IN (1,2,3,6,5) [ RunTime:0.000299s ]
+---------------------------------------------------------------
+[ 2017-10-09T09:55:29+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/history/2c11c6fa4199bcf03cca8028e7e456f1
+[ info ] park.cn/api/v1/history/2c11c6fa4199bcf03cca8028e7e456f1 [运行时间：0.074755s][吞吐率：13.38req/s] [内存消耗：1,860.88kb] [文件加载：50]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001056s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_order` [ RunTime:0.020282s ]
+[ sql ] [ SQL ] SELECT * FROM `m_order` [ RunTime:0.000274s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_user` [ RunTime:0.015726s ]
+[ sql ] [ SQL ] SELECT `id`,`number` FROM `m_user` WHERE  `id` IN (4,5,6,1,7) [ RunTime:0.000296s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_parking_lot` [ RunTime:0.016176s ]
+[ sql ] [ SQL ] SELECT * FROM `m_parking_lot` WHERE  `id` IN (1,2,3,6,5) [ RunTime:0.000328s ]
+---------------------------------------------------------------
+[ 2017-10-09T09:56:17+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/history/2c11c6fa4199bcf03cca8028e7e456f1
+[ info ] park.cn/api/v1/history/2c11c6fa4199bcf03cca8028e7e456f1 [运行时间：0.042214s][吞吐率：23.69req/s] [内存消耗：1,756.02kb] [文件加载：48]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000966s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_order` [ RunTime:0.018684s ]
+[ sql ] [ SQL ] SELECT `Order`.* FROM `m_order` `Order` INNER JOIN `m_user` `User` ON `Order`.`user_id`=`User`.`id` WHERE  `User`.`openid` = 'o5dTt0MCMooemqJhjE1SP4QKwsRM' [ RunTime:0.000366s ]
+---------------------------------------------------------------
+[ 2017-10-09T09:57:41+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/history/2c11c6fa4199bcf03cca8028e7e456f1
+[ info ] park.cn/api/v1/history/2c11c6fa4199bcf03cca8028e7e456f1 [运行时间：0.047311s][吞吐率：21.14req/s] [内存消耗：1,755.26kb] [文件加载：48]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010510s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_order` [ RunTime:0.018063s ]
+[ sql ] [ SQL ] SELECT `Order`.* FROM `m_order` `Order` INNER JOIN `m_user` `User` ON `Order`.`user_id`=`User`.`id` WHERE  `User`.`openid` = 'o5dTt0MCMooemqJhjE1SP4QKwsRM' [ RunTime:0.000332s ]
+---------------------------------------------------------------
+[ 2017-10-09T09:59:48+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/history/2c11c6fa4199bcf03cca8028e7e456f1
+[ info ] park.cn/api/v1/history/2c11c6fa4199bcf03cca8028e7e456f1 [运行时间：0.050859s][吞吐率：19.66req/s] [内存消耗：1,755.23kb] [文件加载：48]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.008633s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_order` [ RunTime:0.019287s ]
+[ sql ] [ SQL ] SELECT `Order`.* FROM `m_order` `Order` INNER JOIN `m_user` `User` ON `Order`.`user_id`=`User`.`id` WHERE  `User`.`openid` = 'o5dTt0MCMooemqJhjE1SP4QKwsRM' [ RunTime:0.000671s ]
+---------------------------------------------------------------
+[ 2017-10-09T10:02:31+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/history/2c11c6fa4199bcf03cca8028e7e456f1
+[ info ] park.cn/api/v1/history/2c11c6fa4199bcf03cca8028e7e456f1 [运行时间：0.058117s][吞吐率：17.21req/s] [内存消耗：1,760.21kb] [文件加载：48]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001043s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_order` [ RunTime:0.020546s ]
+[ sql ] [ SQL ] SELECT `Order`.* FROM `m_order` `Order` INNER JOIN `m_user` `User` ON `Order`.`user_id`=`User`.`id` WHERE  `User`.`openid` = 'o5dTt0MCMooemqJhjE1SP4QKwsRM' [ RunTime:0.000327s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_user` [ RunTime:0.015057s ]
+[ sql ] [ SQL ] SELECT * FROM `m_user` WHERE  `id` IN (7) [ RunTime:0.000266s ]
+---------------------------------------------------------------
+[ 2017-10-09T10:02:50+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/history/2c11c6fa4199bcf03cca8028e7e456f1
+[ info ] park.cn/api/v1/history/2c11c6fa4199bcf03cca8028e7e456f1 [运行时间：0.077707s][吞吐率：12.87req/s] [内存消耗：1,770.74kb] [文件加载：49]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001011s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_order` [ RunTime:0.018864s ]
+[ sql ] [ SQL ] SELECT `Order`.* FROM `m_order` `Order` INNER JOIN `m_user` `User` ON `Order`.`user_id`=`User`.`id` WHERE  `User`.`openid` = 'o5dTt0MCMooemqJhjE1SP4QKwsRM' [ RunTime:0.000345s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_user` [ RunTime:0.018427s ]
+[ sql ] [ SQL ] SELECT * FROM `m_user` WHERE  `id` IN (7) [ RunTime:0.000390s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_parking_lot` [ RunTime:0.016650s ]
+[ sql ] [ SQL ] SELECT * FROM `m_parking_lot` WHERE  `id` IN (5,1) [ RunTime:0.000342s ]
+---------------------------------------------------------------
+[ 2017-10-09T10:03:38+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/history/2c11c6fa4199bcf03cca8028e7e456f1
+[ info ] park.cn/api/v1/history/2c11c6fa4199bcf03cca8028e7e456f1 [运行时间：0.072047s][吞吐率：13.88req/s] [内存消耗：1,771.87kb] [文件加载：49]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000972s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_order` [ RunTime:0.018354s ]
+[ sql ] [ SQL ] SELECT `Order`.* FROM `m_order` `Order` INNER JOIN `m_user` `User` ON `Order`.`user_id`=`User`.`id` WHERE  `User`.`openid` = 'o5dTt0MCMooemqJhjE1SP4QKwsRM' [ RunTime:0.000354s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_user` [ RunTime:0.015662s ]
+[ sql ] [ SQL ] SELECT `id`,`number` FROM `m_user` WHERE  `id` IN (7) [ RunTime:0.000268s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_parking_lot` [ RunTime:0.014781s ]
+[ sql ] [ SQL ] SELECT * FROM `m_parking_lot` WHERE  `id` IN (5,1) [ RunTime:0.000334s ]
+---------------------------------------------------------------
+[ 2017-10-09T10:04:57+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/history/2c11c6fa4199bcf03cca8028e7e456f1
+[ info ] park.cn/api/v1/history/2c11c6fa4199bcf03cca8028e7e456f1 [运行时间：0.072005s][吞吐率：13.89req/s] [内存消耗：1,769.80kb] [文件加载：49]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000994s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_order` [ RunTime:0.017929s ]
+[ sql ] [ SQL ] SELECT `Order`.* FROM `m_order` `Order` INNER JOIN `m_user` `User` ON `Order`.`user_id`=`User`.`id` WHERE  `User`.`openid` = 'o5dTt0MCMooemqJhjE1SP4QKwsRM' [ RunTime:0.000335s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_user` [ RunTime:0.015476s ]
+[ sql ] [ SQL ] SELECT `id`,`number` FROM `m_user` WHERE  `id` IN (7) [ RunTime:0.000262s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_parking_lot` [ RunTime:0.016264s ]
+[ sql ] [ SQL ] SELECT `id` FROM `m_parking_lot` WHERE  `id` IN (5,1) [ RunTime:0.000233s ]
+---------------------------------------------------------------
+[ 2017-10-09T10:05:04+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/history/2c11c6fa4199bcf03cca8028e7e456f1
+[ info ] park.cn/api/v1/history/2c11c6fa4199bcf03cca8028e7e456f1 [运行时间：0.072001s][吞吐率：13.89req/s] [内存消耗：1,772.02kb] [文件加载：49]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001075s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_order` [ RunTime:0.018287s ]
+[ sql ] [ SQL ] SELECT `Order`.* FROM `m_order` `Order` INNER JOIN `m_user` `User` ON `Order`.`user_id`=`User`.`id` WHERE  `User`.`openid` = 'o5dTt0MCMooemqJhjE1SP4QKwsRM' [ RunTime:0.000321s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_user` [ RunTime:0.015940s ]
+[ sql ] [ SQL ] SELECT `id`,`number` FROM `m_user` WHERE  `id` IN (7) [ RunTime:0.000270s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_parking_lot` [ RunTime:0.015308s ]
+[ sql ] [ SQL ] SELECT * FROM `m_parking_lot` WHERE  `id` IN (5,1) [ RunTime:0.000306s ]
+---------------------------------------------------------------
+[ 2017-10-09T10:12:17+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/history/2c11c6fa4199bcf03cca8028e7e456f1
+[ info ] park.cn/api/v1/history/2c11c6fa4199bcf03cca8028e7e456f1 [运行时间：0.071040s][吞吐率：14.08req/s] [内存消耗：1,771.66kb] [文件加载：49]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000958s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_order` [ RunTime:0.017436s ]
+[ sql ] [ SQL ] SELECT `Order`.* FROM `m_order` `Order` INNER JOIN `m_user` `User` ON `Order`.`user_id`=`User`.`id` WHERE  `User`.`openid` = 'o5dTt0MCMooemqJhjE1SP4QKwsRM' [ RunTime:0.000334s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_user` [ RunTime:0.015136s ]
+[ sql ] [ SQL ] SELECT `id`,`number` FROM `m_user` WHERE  `id` IN (7) [ RunTime:0.000275s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_parking_lot` [ RunTime:0.014926s ]
+[ sql ] [ SQL ] SELECT `id`,`longitude`,`latitude`,`state` FROM `m_parking_lot` WHERE  `id` IN (5,1) [ RunTime:0.000298s ]
+---------------------------------------------------------------
+[ 2017-10-09T10:13:59+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/history/2c11c6fa4199bcf03cca8028e7e456f1
+[ info ] park.cn/api/v1/history/2c11c6fa4199bcf03cca8028e7e456f1 [运行时间：0.039488s][吞吐率：25.32req/s] [内存消耗：1,767.77kb] [文件加载：49]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000995s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_order` [ RunTime:0.018853s ]
+[ sql ] [ SQL ] SELECT `Order`.* FROM `m_order` `Order` INNER JOIN `m_user` `User` ON `Order`.`user_id`=`User`.`id` WHERE  `User`.`openid` = 'o5dTt0MCMooemqJhjE1SP4QKwsRM'  AND ( `end_time` IS NULL AND `end_time` = 0 ) [ RunTime:0.000269s ]
+---------------------------------------------------------------
+[ 2017-10-09T10:14:28+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/history/2c11c6fa4199bcf03cca8028e7e456f1
+[ info ] park.cn/api/v1/history/2c11c6fa4199bcf03cca8028e7e456f1 [运行时间：0.040277s][吞吐率：24.83req/s] [内存消耗：1,767.77kb] [文件加载：49]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001100s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_order` [ RunTime:0.017183s ]
+[ sql ] [ SQL ] SELECT `Order`.* FROM `m_order` `Order` INNER JOIN `m_user` `User` ON `Order`.`user_id`=`User`.`id` WHERE  `User`.`openid` = 'o5dTt0MCMooemqJhjE1SP4QKwsRM'  AND ( `end_time` IS NULL AND `end_time` = 0 ) [ RunTime:0.000291s ]
+---------------------------------------------------------------
+[ 2017-10-09T10:14:29+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/history/2c11c6fa4199bcf03cca8028e7e456f1
+[ info ] park.cn/api/v1/history/2c11c6fa4199bcf03cca8028e7e456f1 [运行时间：0.037496s][吞吐率：26.67req/s] [内存消耗：1,767.77kb] [文件加载：49]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000992s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_order` [ RunTime:0.017115s ]
+[ sql ] [ SQL ] SELECT `Order`.* FROM `m_order` `Order` INNER JOIN `m_user` `User` ON `Order`.`user_id`=`User`.`id` WHERE  `User`.`openid` = 'o5dTt0MCMooemqJhjE1SP4QKwsRM'  AND ( `end_time` IS NULL AND `end_time` = 0 ) [ RunTime:0.000282s ]
+---------------------------------------------------------------
+[ 2017-10-09T10:14:29+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/history/2c11c6fa4199bcf03cca8028e7e456f1
+[ info ] park.cn/api/v1/history/2c11c6fa4199bcf03cca8028e7e456f1 [运行时间：0.032858s][吞吐率：30.43req/s] [内存消耗：1,767.77kb] [文件加载：49]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000941s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_order` [ RunTime:0.013366s ]
+[ sql ] [ SQL ] SELECT `Order`.* FROM `m_order` `Order` INNER JOIN `m_user` `User` ON `Order`.`user_id`=`User`.`id` WHERE  `User`.`openid` = 'o5dTt0MCMooemqJhjE1SP4QKwsRM'  AND ( `end_time` IS NULL AND `end_time` = 0 ) [ RunTime:0.000276s ]
+---------------------------------------------------------------
+[ 2017-10-09T10:15:17+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/history/2c11c6fa4199bcf03cca8028e7e456f1
+[ info ] park.cn/api/v1/history/2c11c6fa4199bcf03cca8028e7e456f1 [运行时间：0.036724s][吞吐率：27.23req/s] [内存消耗：1,768.34kb] [文件加载：49]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001021s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_order` [ RunTime:0.017136s ]
+[ sql ] [ SQL ] SELECT `Order`.* FROM `m_order` `Order` INNER JOIN `m_user` `User` ON `Order`.`user_id`=`User`.`id` WHERE  `User`.`openid` = 'o5dTt0MCMooemqJhjE1SP4QKwsRM'  AND ( `end_time` = 0 AND `end_time` <> 0 ) [ RunTime:0.000320s ]
+---------------------------------------------------------------
+[ 2017-10-09T10:15:18+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/history/2c11c6fa4199bcf03cca8028e7e456f1
+[ info ] park.cn/api/v1/history/2c11c6fa4199bcf03cca8028e7e456f1 [运行时间：0.036835s][吞吐率：27.15req/s] [内存消耗：1,768.34kb] [文件加载：49]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000967s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_order` [ RunTime:0.017695s ]
+[ sql ] [ SQL ] SELECT `Order`.* FROM `m_order` `Order` INNER JOIN `m_user` `User` ON `Order`.`user_id`=`User`.`id` WHERE  `User`.`openid` = 'o5dTt0MCMooemqJhjE1SP4QKwsRM'  AND ( `end_time` = 0 AND `end_time` <> 0 ) [ RunTime:0.000348s ]
+---------------------------------------------------------------
+[ 2017-10-09T10:15:34+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/history/2c11c6fa4199bcf03cca8028e7e456f1
+[ info ] park.cn/api/v1/history/2c11c6fa4199bcf03cca8028e7e456f1 [运行时间：0.037730s][吞吐率：26.50req/s] [内存消耗：1,768.34kb] [文件加载：49]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000944s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_order` [ RunTime:0.017080s ]
+[ sql ] [ SQL ] SELECT `Order`.* FROM `m_order` `Order` INNER JOIN `m_user` `User` ON `Order`.`user_id`=`User`.`id` WHERE  `User`.`openid` = 'o5dTt0MCMooemqJhjE1SP4QKwsRM'  AND ( `end_time` = 0 AND `end_time` <> 0 ) [ RunTime:0.000350s ]
+---------------------------------------------------------------
+[ 2017-10-09T10:15:40+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/history/2c11c6fa4199bcf03cca8028e7e456f1
+[ info ] park.cn/api/v1/history/2c11c6fa4199bcf03cca8028e7e456f1 [运行时间：0.037698s][吞吐率：26.53req/s] [内存消耗：1,767.52kb] [文件加载：49]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000984s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_order` [ RunTime:0.017291s ]
+[ sql ] [ SQL ] SELECT `Order`.* FROM `m_order` `Order` INNER JOIN `m_user` `User` ON `Order`.`user_id`=`User`.`id` WHERE  `User`.`openid` = 'o5dTt0MCMooemqJhjE1SP4QKwsRM'  AND `end_time` = 0 [ RunTime:0.000339s ]
+---------------------------------------------------------------
+[ 2017-10-09T10:15:41+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/history/2c11c6fa4199bcf03cca8028e7e456f1
+[ info ] park.cn/api/v1/history/2c11c6fa4199bcf03cca8028e7e456f1 [运行时间：0.037600s][吞吐率：26.60req/s] [内存消耗：1,767.52kb] [文件加载：49]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000949s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_order` [ RunTime:0.017731s ]
+[ sql ] [ SQL ] SELECT `Order`.* FROM `m_order` `Order` INNER JOIN `m_user` `User` ON `Order`.`user_id`=`User`.`id` WHERE  `User`.`openid` = 'o5dTt0MCMooemqJhjE1SP4QKwsRM'  AND `end_time` = 0 [ RunTime:0.000358s ]
+---------------------------------------------------------------
+[ 2017-10-09T10:15:56+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/history/2c11c6fa4199bcf03cca8028e7e456f1
+[ info ] park.cn/api/v1/history/2c11c6fa4199bcf03cca8028e7e456f1 [运行时间：0.087172s][吞吐率：11.47req/s] [内存消耗：1,771.95kb] [文件加载：49]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000958s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_order` [ RunTime:0.016889s ]
+[ sql ] [ SQL ] SELECT `Order`.* FROM `m_order` `Order` INNER JOIN `m_user` `User` ON `Order`.`user_id`=`User`.`id` WHERE  `User`.`openid` = 'o5dTt0MCMooemqJhjE1SP4QKwsRM'  AND `end_time` IS NOT NULL [ RunTime:0.000338s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_user` [ RunTime:0.021066s ]
+[ sql ] [ SQL ] SELECT `id`,`number` FROM `m_user` WHERE  `id` IN (7) [ RunTime:0.000484s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_parking_lot` [ RunTime:0.024175s ]
+[ sql ] [ SQL ] SELECT `id`,`longitude`,`latitude`,`state` FROM `m_parking_lot` WHERE  `id` IN (5,1) [ RunTime:0.000378s ]
+---------------------------------------------------------------
+[ 2017-10-09T10:16:09+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/history/2c11c6fa4199bcf03cca8028e7e456f1
+[ info ] park.cn/api/v1/history/2c11c6fa4199bcf03cca8028e7e456f1 [运行时间：0.095114s][吞吐率：10.51req/s] [内存消耗：1,771.34kb] [文件加载：49]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000944s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_order` [ RunTime:0.017536s ]
+[ sql ] [ SQL ] SELECT `Order`.* FROM `m_order` `Order` INNER JOIN `m_user` `User` ON `Order`.`user_id`=`User`.`id` WHERE  `User`.`openid` = 'o5dTt0MCMooemqJhjE1SP4QKwsRM'  AND `end_time` IS NOT NULL [ RunTime:0.000362s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_user` [ RunTime:0.022730s ]
+[ sql ] [ SQL ] SELECT `id`,`number` FROM `m_user` WHERE  `id` IN (7) [ RunTime:0.000526s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_parking_lot` [ RunTime:0.029667s ]
+[ sql ] [ SQL ] SELECT `id`,`longitude`,`latitude`,`state` FROM `m_parking_lot` WHERE  `id` IN (1) [ RunTime:0.000546s ]
+---------------------------------------------------------------
+[ 2017-10-09T10:16:42+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/history/2c11c6fa4199bcf03cca8028e7e456f1
+[ info ] park.cn/api/v1/history/2c11c6fa4199bcf03cca8028e7e456f1 [运行时间：0.039974s][吞吐率：25.02req/s] [内存消耗：1,767.80kb] [文件加载：49]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000993s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_order` [ RunTime:0.017706s ]
+[ sql ] [ SQL ] SELECT `Order`.* FROM `m_order` `Order` INNER JOIN `m_user` `User` ON `Order`.`user_id`=`User`.`id` WHERE  `User`.`openid` = 'o5dTt0MCMooemqJhjE1SP4QKwsRM'  AND ( `end_time` IS NOT NULL AND `end_time` = 0 ) [ RunTime:0.000325s ]
+---------------------------------------------------------------
+[ 2017-10-09T10:17:15+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/history/2c11c6fa4199bcf03cca8028e7e456f1
+[ info ] park.cn/api/v1/history/2c11c6fa4199bcf03cca8028e7e456f1 [运行时间：0.068358s][吞吐率：14.63req/s] [内存消耗：1,771.87kb] [文件加载：49]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000996s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_order` [ RunTime:0.017016s ]
+[ sql ] [ SQL ] SELECT `Order`.* FROM `m_order` `Order` INNER JOIN `m_user` `User` ON `Order`.`user_id`=`User`.`id` WHERE  `User`.`openid` = 'o5dTt0MCMooemqJhjE1SP4QKwsRM'  AND ( `end_time` IS NOT NULL AND `end_time` <> 0 ) [ RunTime:0.000356s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_user` [ RunTime:0.015296s ]
+[ sql ] [ SQL ] SELECT `id`,`number` FROM `m_user` WHERE  `id` IN (7) [ RunTime:0.000225s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_parking_lot` [ RunTime:0.015216s ]
+[ sql ] [ SQL ] SELECT `id`,`longitude`,`latitude`,`state` FROM `m_parking_lot` WHERE  `id` IN (1) [ RunTime:0.000276s ]
+---------------------------------------------------------------
+[ 2017-10-09T10:17:17+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/history/2c11c6fa4199bcf03cca8028e7e456f1
+[ info ] park.cn/api/v1/history/2c11c6fa4199bcf03cca8028e7e456f1 [运行时间：0.071055s][吞吐率：14.07req/s] [内存消耗：1,771.87kb] [文件加载：49]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001029s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_order` [ RunTime:0.018784s ]
+[ sql ] [ SQL ] SELECT `Order`.* FROM `m_order` `Order` INNER JOIN `m_user` `User` ON `Order`.`user_id`=`User`.`id` WHERE  `User`.`openid` = 'o5dTt0MCMooemqJhjE1SP4QKwsRM'  AND ( `end_time` IS NOT NULL AND `end_time` <> 0 ) [ RunTime:0.000369s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_user` [ RunTime:0.015589s ]
+[ sql ] [ SQL ] SELECT `id`,`number` FROM `m_user` WHERE  `id` IN (7) [ RunTime:0.000295s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_parking_lot` [ RunTime:0.014976s ]
+[ sql ] [ SQL ] SELECT `id`,`longitude`,`latitude`,`state` FROM `m_parking_lot` WHERE  `id` IN (1) [ RunTime:0.000268s ]
+---------------------------------------------------------------
+[ 2017-10-09T10:18:03+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/history/2c11c6fa4199bcf03cca8028e7e456f1
+[ info ] park.cn/api/v1/history/2c11c6fa4199bcf03cca8028e7e456f1 [运行时间：0.068373s][吞吐率：14.63req/s] [内存消耗：1,771.34kb] [文件加载：49]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000959s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_order` [ RunTime:0.017932s ]
+[ sql ] [ SQL ] SELECT `Order`.* FROM `m_order` `Order` INNER JOIN `m_user` `User` ON `Order`.`user_id`=`User`.`id` WHERE  `User`.`openid` = 'o5dTt0MCMooemqJhjE1SP4QKwsRM'  AND `end_time` IS NOT NULL [ RunTime:0.000312s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_user` [ RunTime:0.014888s ]
+[ sql ] [ SQL ] SELECT `id`,`number` FROM `m_user` WHERE  `id` IN (7) [ RunTime:0.000263s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_parking_lot` [ RunTime:0.014573s ]
+[ sql ] [ SQL ] SELECT `id`,`longitude`,`latitude`,`state` FROM `m_parking_lot` WHERE  `id` IN (1) [ RunTime:0.000260s ]
+---------------------------------------------------------------
+[ 2017-10-09T10:18:45+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/history/2c11c6fa4199bcf03cca8028e7e456f1
+[ info ] park.cn/api/v1/history/2c11c6fa4199bcf03cca8028e7e456f1 [运行时间：0.078425s][吞吐率：12.75req/s] [内存消耗：1,771.42kb] [文件加载：49]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.007921s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_order` [ RunTime:0.016578s ]
+[ sql ] [ SQL ] SELECT `Order`.* FROM `m_order` `Order` INNER JOIN `m_user` `User` ON `Order`.`user_id`=`User`.`id` WHERE  `User`.`openid` = 'o5dTt0MCMooemqJhjE1SP4QKwsRM'  AND `end_time` IS NOT NULL [ RunTime:0.000309s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_user` [ RunTime:0.015202s ]
+[ sql ] [ SQL ] SELECT `id`,`number` FROM `m_user` WHERE  `id` IN (7) [ RunTime:0.000247s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_parking_lot` [ RunTime:0.014819s ]
+[ sql ] [ SQL ] SELECT * FROM `m_parking_lot` WHERE  `id` IN (1) [ RunTime:0.000248s ]
+---------------------------------------------------------------
+[ 2017-10-09T10:20:14+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/history/2c11c6fa4199bcf03cca8028e7e456f1
+[ info ] park.cn/api/v1/history/2c11c6fa4199bcf03cca8028e7e456f1 [运行时间：0.069668s][吞吐率：14.35req/s] [内存消耗：1,772.16kb] [文件加载：49]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001017s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_order` [ RunTime:0.018205s ]
+[ sql ] [ SQL ] SELECT `Order`.* FROM `m_order` `Order` INNER JOIN `m_user` `User` ON `Order`.`user_id`=`User`.`id` WHERE  `User`.`openid` = 'o5dTt0MCMooemqJhjE1SP4QKwsRM'  AND `end_time` IS NOT NULL [ RunTime:0.000293s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_user` [ RunTime:0.015122s ]
+[ sql ] [ SQL ] SELECT `id`,`number` FROM `m_user` WHERE  `id` IN (7) [ RunTime:0.000220s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_parking_lot` [ RunTime:0.014781s ]
+[ sql ] [ SQL ] SELECT * FROM `m_parking_lot` WHERE  `id` IN (1,6) [ RunTime:0.000271s ]
+---------------------------------------------------------------
+[ 2017-10-09T10:20:25+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/history/2c11c6fa4199bcf03cca8028e7e456f1
+[ info ] park.cn/api/v1/history/2c11c6fa4199bcf03cca8028e7e456f1 [运行时间：0.071187s][吞吐率：14.05req/s] [内存消耗：1,772.86kb] [文件加载：49]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001007s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_order` [ RunTime:0.017610s ]
+[ sql ] [ SQL ] SELECT `Order`.* FROM `m_order` `Order` INNER JOIN `m_user` `User` ON `Order`.`user_id`=`User`.`id` WHERE  `User`.`openid` = 'o5dTt0MCMooemqJhjE1SP4QKwsRM'  AND `end_time` IS NOT NULL [ RunTime:0.000325s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_user` [ RunTime:0.015493s ]
+[ sql ] [ SQL ] SELECT `id`,`number` FROM `m_user` WHERE  `id` IN (7) [ RunTime:0.000263s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_parking_lot` [ RunTime:0.014896s ]
+[ sql ] [ SQL ] SELECT * FROM `m_parking_lot` WHERE  `id` IN (1,2,6) [ RunTime:0.000359s ]
+---------------------------------------------------------------
+[ 2017-10-09T10:21:21+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/history/2c11c6fa4199bcf03cca8028e7e456f1
+[ info ] park.cn/api/v1/history/2c11c6fa4199bcf03cca8028e7e456f1 [运行时间：0.076231s][吞吐率：13.12req/s] [内存消耗：1,773.57kb] [文件加载：49]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001022s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_order` [ RunTime:0.019843s ]
+[ sql ] [ SQL ] SELECT `Order`.* FROM `m_order` `Order` INNER JOIN `m_user` `User` ON `Order`.`user_id`=`User`.`id` WHERE  `User`.`openid` = 'o5dTt0MCMooemqJhjE1SP4QKwsRM'  AND `end_time` IS NOT NULL [ RunTime:0.000372s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_user` [ RunTime:0.015688s ]
+[ sql ] [ SQL ] SELECT `id`,`number` FROM `m_user` WHERE  `id` IN (7) [ RunTime:0.000249s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_parking_lot` [ RunTime:0.015638s ]
+[ sql ] [ SQL ] SELECT * FROM `m_parking_lot` WHERE  `id` IN (2,3,6,1) [ RunTime:0.000311s ]
+---------------------------------------------------------------
+[ 2017-10-09T10:23:41+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/history/2c11c6fa4199bcf03cca8028e7e456f1
+[ info ] park.cn/api/v1/history/2c11c6fa4199bcf03cca8028e7e456f1 [运行时间：0.073389s][吞吐率：13.63req/s] [内存消耗：1,771.97kb] [文件加载：49]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001058s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_order` [ RunTime:0.017653s ]
+[ sql ] [ SQL ] SELECT `Order`.* FROM `m_order` `Order` INNER JOIN `m_user` `User` ON `Order`.`user_id`=`User`.`id` WHERE  `User`.`openid` = 'o5dTt0MCMooemqJhjE1SP4QKwsRM'  AND `end_time` IS NOT NULL [ RunTime:0.000331s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_user` [ RunTime:0.015595s ]
+[ sql ] [ SQL ] SELECT `id`,`number` FROM `m_user` WHERE  `id` IN (7) [ RunTime:0.000255s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_parking_lot` [ RunTime:0.015546s ]
+[ sql ] [ SQL ] SELECT `id`,`address` FROM `m_parking_lot` WHERE  `id` IN (2,3,6,1) [ RunTime:0.000332s ]
+---------------------------------------------------------------
+[ 2017-10-09T10:29:37+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/history/2c11c6fa4199bcf03cca8028e7e456f1
+[ info ] park.cn/api/v1/history/2c11c6fa4199bcf03cca8028e7e456f1 [运行时间：0.141478s][吞吐率：7.07req/s] [内存消耗：1,772.05kb] [文件加载：49]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015478s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_order` [ RunTime:0.030883s ]
+[ sql ] [ SQL ] SELECT `Order`.* FROM `m_order` `Order` INNER JOIN `m_user` `User` ON `Order`.`user_id`=`User`.`id` WHERE  `User`.`openid` = 'o5dTt0MCMooemqJhjE1SP4QKwsRM'  AND `end_time` IS NOT NULL [ RunTime:0.000793s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_user` [ RunTime:0.028712s ]
+[ sql ] [ SQL ] SELECT `id`,`number` FROM `m_user` WHERE  `id` IN (7) [ RunTime:0.000452s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_parking_lot` [ RunTime:0.033631s ]
+[ sql ] [ SQL ] SELECT `id`,`address` FROM `m_parking_lot` WHERE  `id` IN (2,3,6,1) [ RunTime:0.000332s ]
+---------------------------------------------------------------
+[ 2017-10-09T10:30:48+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/history/2c11c6fa4199bcf03cca8028e7e456f1
+[ info ] park.cn/api/v1/history/2c11c6fa4199bcf03cca8028e7e456f1 [运行时间：0.100163s][吞吐率：9.98req/s] [内存消耗：1,772.05kb] [文件加载：49]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002096s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_order` [ RunTime:0.022706s ]
+[ sql ] [ SQL ] SELECT `Order`.* FROM `m_order` `Order` INNER JOIN `m_user` `User` ON `Order`.`user_id`=`User`.`id` WHERE  `User`.`openid` = 'o5dTt0MCMooemqJhjE1SP4QKwsRM'  AND `end_time` IS NOT NULL [ RunTime:0.000324s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_user` [ RunTime:0.019988s ]
+[ sql ] [ SQL ] SELECT `id`,`number` FROM `m_user` WHERE  `id` IN (7) [ RunTime:0.000248s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_parking_lot` [ RunTime:0.024911s ]
+[ sql ] [ SQL ] SELECT `id`,`address` FROM `m_parking_lot` WHERE  `id` IN (2,3,6,1) [ RunTime:0.000341s ]
+---------------------------------------------------------------
+[ 2017-10-09T10:31:28+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/history/2c11c6fa4199bcf03cca8028e7e456f1
+[ info ] park.cn/api/v1/history/2c11c6fa4199bcf03cca8028e7e456f1 [运行时间：0.108295s][吞吐率：9.23req/s] [内存消耗：1,772.05kb] [文件加载：49]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001406s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_order` [ RunTime:0.025127s ]
+[ sql ] [ SQL ] SELECT `Order`.* FROM `m_order` `Order` INNER JOIN `m_user` `User` ON `Order`.`user_id`=`User`.`id` WHERE  `User`.`openid` = 'o5dTt0MCMooemqJhjE1SP4QKwsRM'  AND `end_time` IS NOT NULL [ RunTime:0.000316s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_user` [ RunTime:0.026645s ]
+[ sql ] [ SQL ] SELECT `id`,`number` FROM `m_user` WHERE  `id` IN (7) [ RunTime:0.000341s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_parking_lot` [ RunTime:0.026732s ]
+[ sql ] [ SQL ] SELECT `id`,`address` FROM `m_parking_lot` WHERE  `id` IN (2,3,6,1) [ RunTime:0.000421s ]
+---------------------------------------------------------------
+[ 2017-10-09T10:31:46+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/history/2c11c6fa4199bcf03cca8028e7e456f1
+[ info ] park.cn/api/v1/history/2c11c6fa4199bcf03cca8028e7e456f1 [运行时间：0.103048s][吞吐率：9.70req/s] [内存消耗：1,772.05kb] [文件加载：49]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001549s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_order` [ RunTime:0.028972s ]
+[ sql ] [ SQL ] SELECT `Order`.* FROM `m_order` `Order` INNER JOIN `m_user` `User` ON `Order`.`user_id`=`User`.`id` WHERE  `User`.`openid` = 'o5dTt0MCMooemqJhjE1SP4QKwsRM'  AND `end_time` IS NOT NULL [ RunTime:0.000341s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_user` [ RunTime:0.017864s ]
+[ sql ] [ SQL ] SELECT `id`,`number` FROM `m_user` WHERE  `id` IN (7) [ RunTime:0.000258s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_parking_lot` [ RunTime:0.015923s ]
+[ sql ] [ SQL ] SELECT `id`,`address` FROM `m_parking_lot` WHERE  `id` IN (2,3,6,1) [ RunTime:0.000298s ]
+---------------------------------------------------------------
+[ 2017-10-09T10:32:36+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/history/2c11c6fa4199bcf03cca8028e7e456f1
+[ info ] park.cn/api/v1/history/2c11c6fa4199bcf03cca8028e7e456f1 [运行时间：0.117600s][吞吐率：8.50req/s] [内存消耗：1,772.05kb] [文件加载：49]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001412s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_order` [ RunTime:0.033205s ]
+[ sql ] [ SQL ] SELECT `Order`.* FROM `m_order` `Order` INNER JOIN `m_user` `User` ON `Order`.`user_id`=`User`.`id` WHERE  `User`.`openid` = 'o5dTt0MCMooemqJhjE1SP4QKwsRM'  AND `end_time` IS NOT NULL [ RunTime:0.000517s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_user` [ RunTime:0.021783s ]
+[ sql ] [ SQL ] SELECT `id`,`number` FROM `m_user` WHERE  `id` IN (7) [ RunTime:0.000241s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_parking_lot` [ RunTime:0.021695s ]
+[ sql ] [ SQL ] SELECT `id`,`address` FROM `m_parking_lot` WHERE  `id` IN (2,3,6,1) [ RunTime:0.000282s ]
+---------------------------------------------------------------
+[ 2017-10-09T10:32:44+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/history/2c11c6fa4199bcf03cca8028e7e456f1
+[ info ] park.cn/api/v1/history/2c11c6fa4199bcf03cca8028e7e456f1 [运行时间：0.101748s][吞吐率：9.83req/s] [内存消耗：1,772.05kb] [文件加载：49]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001043s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_order` [ RunTime:0.032926s ]
+[ sql ] [ SQL ] SELECT `Order`.* FROM `m_order` `Order` INNER JOIN `m_user` `User` ON `Order`.`user_id`=`User`.`id` WHERE  `User`.`openid` = 'o5dTt0MCMooemqJhjE1SP4QKwsRM'  AND `end_time` IS NOT NULL [ RunTime:0.000360s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_user` [ RunTime:0.020652s ]
+[ sql ] [ SQL ] SELECT `id`,`number` FROM `m_user` WHERE  `id` IN (7) [ RunTime:0.000269s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_parking_lot` [ RunTime:0.017626s ]
+[ sql ] [ SQL ] SELECT `id`,`address` FROM `m_parking_lot` WHERE  `id` IN (2,3,6,1) [ RunTime:0.000267s ]
+---------------------------------------------------------------
+[ 2017-10-09T10:33:13+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/history/2c11c6fa4199bcf03cca8028e7e456f1
+[ info ] park.cn/api/v1/history/2c11c6fa4199bcf03cca8028e7e456f1 [运行时间：0.132964s][吞吐率：7.52req/s] [内存消耗：1,772.05kb] [文件加载：49]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001630s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_order` [ RunTime:0.046660s ]
+[ sql ] [ SQL ] SELECT `Order`.* FROM `m_order` `Order` INNER JOIN `m_user` `User` ON `Order`.`user_id`=`User`.`id` WHERE  `User`.`openid` = 'o5dTt0MCMooemqJhjE1SP4QKwsRM'  AND `end_time` IS NOT NULL [ RunTime:0.000464s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_user` [ RunTime:0.028787s ]
+[ sql ] [ SQL ] SELECT `id`,`number` FROM `m_user` WHERE  `id` IN (7) [ RunTime:0.000246s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_parking_lot` [ RunTime:0.022298s ]
+[ sql ] [ SQL ] SELECT `id`,`address` FROM `m_parking_lot` WHERE  `id` IN (2,3,6,1) [ RunTime:0.001341s ]
+---------------------------------------------------------------
+[ 2017-10-09T10:37:04+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/history/2c11c6fa4199bcf03cca8028e7e456f1
+[ info ] park.cn/api/v1/history/2c11c6fa4199bcf03cca8028e7e456f1 [运行时间：0.081691s][吞吐率：12.24req/s] [内存消耗：1,772.47kb] [文件加载：49]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.008156s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_order` [ RunTime:0.017278s ]
+[ sql ] [ SQL ] SELECT `Order`.* FROM `m_order` `Order` INNER JOIN `m_user` `User` ON `Order`.`user_id`=`User`.`id` WHERE  `User`.`openid` = 'o5dTt0MCMooemqJhjE1SP4QKwsRM'  AND `end_time` IS NOT NULL [ RunTime:0.000366s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_user` [ RunTime:0.015439s ]
+[ sql ] [ SQL ] SELECT `id`,`number` FROM `m_user` WHERE  `id` IN (7) [ RunTime:0.000246s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_parking_lot` [ RunTime:0.015855s ]
+[ sql ] [ SQL ] SELECT `id`,`address` FROM `m_parking_lot` WHERE  `id` IN (2,3,6,1) [ RunTime:0.000280s ]
+---------------------------------------------------------------
+[ 2017-10-09T10:37:09+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/history/2c11c6fa4199bcf03cca8028e7e456f1
+[ info ] park.cn/api/v1/history/2c11c6fa4199bcf03cca8028e7e456f1 [运行时间：0.108523s][吞吐率：9.21req/s] [内存消耗：1,772.55kb] [文件加载：49]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001488s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_order` [ RunTime:0.032802s ]
+[ sql ] [ SQL ] SELECT `Order`.* FROM `m_order` `Order` INNER JOIN `m_user` `User` ON `Order`.`user_id`=`User`.`id` WHERE  `User`.`openid` = 'o5dTt0MCMooemqJhjE1SP4QKwsRM'  AND `end_time` IS NOT NULL [ RunTime:0.000307s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_user` [ RunTime:0.023076s ]
+[ sql ] [ SQL ] SELECT `id`,`number` FROM `m_user` WHERE  `id` IN (7) [ RunTime:0.000332s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_parking_lot` [ RunTime:0.019510s ]
+[ sql ] [ SQL ] SELECT `id`,`address` FROM `m_parking_lot` WHERE  `id` IN (2,3,6,1) [ RunTime:0.000260s ]
+---------------------------------------------------------------
+[ 2017-10-09T10:37:24+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/history/2c11c6fa4199bcf03cca8028e7e456f1
+[ info ] park.cn/api/v1/history/2c11c6fa4199bcf03cca8028e7e456f1 [运行时间：0.127791s][吞吐率：7.83req/s] [内存消耗：1,772.55kb] [文件加载：49]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001128s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_order` [ RunTime:0.038386s ]
+[ sql ] [ SQL ] SELECT `Order`.* FROM `m_order` `Order` INNER JOIN `m_user` `User` ON `Order`.`user_id`=`User`.`id` WHERE  `User`.`openid` = 'o5dTt0MCMooemqJhjE1SP4QKwsRM'  AND `end_time` IS NOT NULL [ RunTime:0.000342s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_user` [ RunTime:0.029711s ]
+[ sql ] [ SQL ] SELECT `id`,`number` FROM `m_user` WHERE  `id` IN (7) [ RunTime:0.000255s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_parking_lot` [ RunTime:0.021411s ]
+[ sql ] [ SQL ] SELECT `id`,`address` FROM `m_parking_lot` WHERE  `id` IN (2,3,6,1) [ RunTime:0.000263s ]
+---------------------------------------------------------------
+[ 2017-10-09T10:38:55+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/history/2c11c6fa4199bcf03cca8028e7e456f1
+[ info ] park.cn/api/v1/history/2c11c6fa4199bcf03cca8028e7e456f1 [运行时间：0.096374s][吞吐率：10.38req/s] [内存消耗：1,772.55kb] [文件加载：49]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001168s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_order` [ RunTime:0.019340s ]
+[ sql ] [ SQL ] SELECT `Order`.* FROM `m_order` `Order` INNER JOIN `m_user` `User` ON `Order`.`user_id`=`User`.`id` WHERE  `User`.`openid` = 'o5dTt0MCMooemqJhjE1SP4QKwsRM'  AND `end_time` IS NOT NULL [ RunTime:0.000441s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_user` [ RunTime:0.019912s ]
+[ sql ] [ SQL ] SELECT `id`,`number` FROM `m_user` WHERE  `id` IN (7) [ RunTime:0.000367s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_parking_lot` [ RunTime:0.025701s ]
+[ sql ] [ SQL ] SELECT `id`,`address` FROM `m_parking_lot` WHERE  `id` IN (2,3,6,1) [ RunTime:0.000317s ]
+---------------------------------------------------------------
+[ 2017-10-09T10:39:02+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/history/2c11c6fa4199bcf03cca8028e7e456f1
+[ info ] park.cn/api/v1/history/2c11c6fa4199bcf03cca8028e7e456f1 [运行时间：0.118309s][吞吐率：8.45req/s] [内存消耗：1,772.55kb] [文件加载：49]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001605s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_order` [ RunTime:0.032997s ]
+[ sql ] [ SQL ] SELECT `Order`.* FROM `m_order` `Order` INNER JOIN `m_user` `User` ON `Order`.`user_id`=`User`.`id` WHERE  `User`.`openid` = 'o5dTt0MCMooemqJhjE1SP4QKwsRM'  AND `end_time` IS NOT NULL [ RunTime:0.001839s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_user` [ RunTime:0.019912s ]
+[ sql ] [ SQL ] SELECT `id`,`number` FROM `m_user` WHERE  `id` IN (7) [ RunTime:0.000241s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_parking_lot` [ RunTime:0.026539s ]
+[ sql ] [ SQL ] SELECT `id`,`address` FROM `m_parking_lot` WHERE  `id` IN (2,3,6,1) [ RunTime:0.001179s ]
+---------------------------------------------------------------
+[ 2017-10-09T10:41:01+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/history/2c11c6fa4199bcf03cca8028e7e456f1
+[ info ] park.cn/api/v1/history/2c11c6fa4199bcf03cca8028e7e456f1 [运行时间：0.125256s][吞吐率：7.98req/s] [内存消耗：1,772.55kb] [文件加载：49]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001399s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_order` [ RunTime:0.033246s ]
+[ sql ] [ SQL ] SELECT `Order`.* FROM `m_order` `Order` INNER JOIN `m_user` `User` ON `Order`.`user_id`=`User`.`id` WHERE  `User`.`openid` = 'o5dTt0MCMooemqJhjE1SP4QKwsRM'  AND `end_time` IS NOT NULL [ RunTime:0.000333s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_user` [ RunTime:0.027012s ]
+[ sql ] [ SQL ] SELECT `id`,`number` FROM `m_user` WHERE  `id` IN (7) [ RunTime:0.000843s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_parking_lot` [ RunTime:0.023477s ]
+[ sql ] [ SQL ] SELECT `id`,`address` FROM `m_parking_lot` WHERE  `id` IN (2,3,6,1) [ RunTime:0.000251s ]
+---------------------------------------------------------------
+[ 2017-10-09T10:41:08+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/history/2c11c6fa4199bcf03cca8028e7e456f1
+[ info ] park.cn/api/v1/history/2c11c6fa4199bcf03cca8028e7e456f1 [运行时间：0.133461s][吞吐率：7.49req/s] [内存消耗：1,772.55kb] [文件加载：49]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001334s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_order` [ RunTime:0.050360s ]
+[ sql ] [ SQL ] SELECT `Order`.* FROM `m_order` `Order` INNER JOIN `m_user` `User` ON `Order`.`user_id`=`User`.`id` WHERE  `User`.`openid` = 'o5dTt0MCMooemqJhjE1SP4QKwsRM'  AND `end_time` IS NOT NULL [ RunTime:0.000331s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_user` [ RunTime:0.034357s ]
+[ sql ] [ SQL ] SELECT `id`,`number` FROM `m_user` WHERE  `id` IN (7) [ RunTime:0.000217s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_parking_lot` [ RunTime:0.019379s ]
+[ sql ] [ SQL ] SELECT `id`,`address` FROM `m_parking_lot` WHERE  `id` IN (2,3,6,1) [ RunTime:0.000523s ]
+---------------------------------------------------------------
+[ 2017-10-09T11:03:43+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/history/2c11c6fa4199bcf03cca8028e7e456f1
+[ info ] park.cn/api/v1/history/2c11c6fa4199bcf03cca8028e7e456f1 [运行时间：0.082738s][吞吐率：12.09req/s] [内存消耗：1,772.85kb] [文件加载：49]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.008787s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_order` [ RunTime:0.017762s ]
+[ sql ] [ SQL ] SELECT `Order`.* FROM `m_order` `Order` INNER JOIN `m_user` `User` ON `Order`.`user_id`=`User`.`id` WHERE  `User`.`openid` = 'o5dTt0MCMooemqJhjE1SP4QKwsRM'  AND `end_time` IS NOT NULL [ RunTime:0.000590s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_user` [ RunTime:0.015731s ]
+[ sql ] [ SQL ] SELECT `id`,`number` FROM `m_user` WHERE  `id` IN (7) [ RunTime:0.000245s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_parking_lot` [ RunTime:0.015730s ]
+[ sql ] [ SQL ] SELECT `id`,`address` FROM `m_parking_lot` WHERE  `id` IN (2,3,6,1) [ RunTime:0.000302s ]
+---------------------------------------------------------------
+[ 2017-10-09T11:06:12+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/history/2c11c6fa4199bcf03cca8028e7e456f1
+[ info ] park.cn/api/v1/history/2c11c6fa4199bcf03cca8028e7e456f1 [运行时间：0.071717s][吞吐率：13.94req/s] [内存消耗：1,772.81kb] [文件加载：49]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001165s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_order` [ RunTime:0.017023s ]
+[ sql ] [ SQL ] SELECT `Order`.* FROM `m_order` `Order` INNER JOIN `m_user` `User` ON `Order`.`user_id`=`User`.`id` WHERE  `User`.`openid` = 'o5dTt0MCMooemqJhjE1SP4QKwsRM'  AND `end_time` IS NOT NULL [ RunTime:0.000315s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_user` [ RunTime:0.015219s ]
+[ sql ] [ SQL ] SELECT `id`,`number` FROM `m_user` WHERE  `id` IN (7) [ RunTime:0.000228s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_parking_lot` [ RunTime:0.014827s ]
+[ sql ] [ SQL ] SELECT `id`,`address` FROM `m_parking_lot` WHERE  `id` IN (2,3,6,1) [ RunTime:0.000280s ]
+---------------------------------------------------------------
+[ 2017-10-09T11:06:51+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/history/2c11c6fa4199bcf03cca8028e7e456f1
+[ info ] park.cn/api/v1/history/2c11c6fa4199bcf03cca8028e7e456f1 [运行时间：0.075362s][吞吐率：13.27req/s] [内存消耗：1,772.81kb] [文件加载：49]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001053s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_order` [ RunTime:0.019581s ]
+[ sql ] [ SQL ] SELECT `Order`.* FROM `m_order` `Order` INNER JOIN `m_user` `User` ON `Order`.`user_id`=`User`.`id` WHERE  `User`.`openid` = 'o5dTt0MCMooemqJhjE1SP4QKwsRM'  AND `end_time` IS NOT NULL [ RunTime:0.000332s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_user` [ RunTime:0.015432s ]
+[ sql ] [ SQL ] SELECT `id`,`number` FROM `m_user` WHERE  `id` IN (7) [ RunTime:0.000258s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_parking_lot` [ RunTime:0.015850s ]
+[ sql ] [ SQL ] SELECT `id`,`address` FROM `m_parking_lot` WHERE  `id` IN (2,3,6,1) [ RunTime:0.000345s ]
+---------------------------------------------------------------
+[ 2017-10-09T11:07:17+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/history/2c11c6fa4199bcf03cca8028e7e456f1
+[ info ] park.cn/api/v1/history/2c11c6fa4199bcf03cca8028e7e456f1 [运行时间：0.093985s][吞吐率：10.64req/s] [内存消耗：1,773.16kb] [文件加载：49]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000977s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_order` [ RunTime:0.026869s ]
+[ sql ] [ SQL ] SELECT `Order`.* FROM `m_order` `Order` INNER JOIN `m_user` `User` ON `Order`.`user_id`=`User`.`id` WHERE  `User`.`openid` = 'o5dTt0MCMooemqJhjE1SP4QKwsRM'  AND `end_time` IS NOT NULL [ RunTime:0.000294s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_user` [ RunTime:0.019525s ]
+[ sql ] [ SQL ] SELECT `id`,`number` FROM `m_user` WHERE  `id` IN (7) [ RunTime:0.000243s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_parking_lot` [ RunTime:0.020875s ]
+[ sql ] [ SQL ] SELECT `id`,`address` FROM `m_parking_lot` WHERE  `id` IN (2,3,6,1) [ RunTime:0.000618s ]
+---------------------------------------------------------------
+[ 2017-10-09T11:08:00+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/history/2c11c6fa4199bcf03cca8028e7e456f1
+[ info ] park.cn/api/v1/history/2c11c6fa4199bcf03cca8028e7e456f1 [运行时间：0.068764s][吞吐率：14.54req/s] [内存消耗：1,773.31kb] [文件加载：49]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000979s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_order` [ RunTime:0.017532s ]
+[ sql ] [ SQL ] SELECT `Order`.* FROM `m_order` `Order` INNER JOIN `m_user` `User` ON `Order`.`user_id`=`User`.`id` WHERE  `User`.`openid` = 'o5dTt0MCMooemqJhjE1SP4QKwsRM'  AND `end_time` IS NOT NULL [ RunTime:0.000334s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_user` [ RunTime:0.014815s ]
+[ sql ] [ SQL ] SELECT `id`,`number` FROM `m_user` WHERE  `id` IN (7) [ RunTime:0.000247s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_parking_lot` [ RunTime:0.015016s ]
+[ sql ] [ SQL ] SELECT `id`,`address` FROM `m_parking_lot` WHERE  `id` IN (2,3,6,1) [ RunTime:0.000293s ]
+---------------------------------------------------------------
+[ 2017-10-09T11:08:44+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/history/2c11c6fa4199bcf03cca8028e7e456f1
+[ info ] park.cn/api/v1/history/2c11c6fa4199bcf03cca8028e7e456f1 [运行时间：0.070447s][吞吐率：14.20req/s] [内存消耗：1,773.29kb] [文件加载：49]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001027s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_order` [ RunTime:0.016905s ]
+[ sql ] [ SQL ] SELECT `Order`.* FROM `m_order` `Order` INNER JOIN `m_user` `User` ON `Order`.`user_id`=`User`.`id` WHERE  `User`.`openid` = 'o5dTt0MCMooemqJhjE1SP4QKwsRM'  AND `end_time` IS NOT NULL [ RunTime:0.000313s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_user` [ RunTime:0.014864s ]
+[ sql ] [ SQL ] SELECT `id`,`number` FROM `m_user` WHERE  `id` IN (7) [ RunTime:0.000237s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_parking_lot` [ RunTime:0.014817s ]
+[ sql ] [ SQL ] SELECT `id`,`address` FROM `m_parking_lot` WHERE  `id` IN (2,3,6,1) [ RunTime:0.000267s ]
+---------------------------------------------------------------
+[ 2017-10-09T11:09:12+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/history/2c11c6fa4199bcf03cca8028e7e456f1
+[ info ] park.cn/api/v1/history/2c11c6fa4199bcf03cca8028e7e456f1 [运行时间：0.082659s][吞吐率：12.10req/s] [内存消耗：1,773.16kb] [文件加载：49]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001255s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_order` [ RunTime:0.019454s ]
+[ sql ] [ SQL ] SELECT `Order`.* FROM `m_order` `Order` INNER JOIN `m_user` `User` ON `Order`.`user_id`=`User`.`id` WHERE  `User`.`openid` = 'o5dTt0MCMooemqJhjE1SP4QKwsRM'  AND `end_time` IS NOT NULL [ RunTime:0.000415s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_user` [ RunTime:0.021414s ]
+[ sql ] [ SQL ] SELECT `id`,`number` FROM `m_user` WHERE  `id` IN (7) [ RunTime:0.000235s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_parking_lot` [ RunTime:0.016254s ]
+[ sql ] [ SQL ] SELECT `id`,`address` FROM `m_parking_lot` WHERE  `id` IN (2,3,6,1) [ RunTime:0.000266s ]
+---------------------------------------------------------------
+[ 2017-10-09T11:09:25+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/history/2c11c6fa4199bcf03cca8028e7e456f1
+[ info ] park.cn/api/v1/history/2c11c6fa4199bcf03cca8028e7e456f1 [运行时间：0.072317s][吞吐率：13.83req/s] [内存消耗：1,773.16kb] [文件加载：49]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001020s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_order` [ RunTime:0.017573s ]
+[ sql ] [ SQL ] SELECT `Order`.* FROM `m_order` `Order` INNER JOIN `m_user` `User` ON `Order`.`user_id`=`User`.`id` WHERE  `User`.`openid` = 'o5dTt0MCMooemqJhjE1SP4QKwsRM'  AND `end_time` IS NOT NULL [ RunTime:0.000333s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_user` [ RunTime:0.015871s ]
+[ sql ] [ SQL ] SELECT `id`,`number` FROM `m_user` WHERE  `id` IN (7) [ RunTime:0.000272s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_parking_lot` [ RunTime:0.015753s ]
+[ sql ] [ SQL ] SELECT `id`,`address` FROM `m_parking_lot` WHERE  `id` IN (2,3,6,1) [ RunTime:0.000263s ]
+---------------------------------------------------------------
+[ 2017-10-09T11:14:54+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/history/2c11c6fa4199bcf03cca8028e7e456f1
+[ info ] park.cn/api/v1/history/2c11c6fa4199bcf03cca8028e7e456f1 [运行时间：0.091827s][吞吐率：10.89req/s] [内存消耗：1,773.31kb] [文件加载：49]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.009320s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_order` [ RunTime:0.020157s ]
+[ sql ] [ SQL ] SELECT `Order`.* FROM `m_order` `Order` INNER JOIN `m_user` `User` ON `Order`.`user_id`=`User`.`id` WHERE  `User`.`openid` = 'o5dTt0MCMooemqJhjE1SP4QKwsRM'  AND `end_time` IS NOT NULL [ RunTime:0.000397s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_user` [ RunTime:0.018317s ]
+[ sql ] [ SQL ] SELECT `id`,`number` FROM `m_user` WHERE  `id` IN (7) [ RunTime:0.000255s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_parking_lot` [ RunTime:0.017504s ]
+[ sql ] [ SQL ] SELECT `id`,`address` FROM `m_parking_lot` WHERE  `id` IN (2,3,6,1) [ RunTime:0.000301s ]
+---------------------------------------------------------------
+[ 2017-10-09T11:16:24+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/history/2c11c6fa4199bcf03cca8028e7e456f1
+[ info ] park.cn/api/v1/history/2c11c6fa4199bcf03cca8028e7e456f1 [运行时间：0.079800s][吞吐率：12.53req/s] [内存消耗：1,773.31kb] [文件加载：49]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001190s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_order` [ RunTime:0.018978s ]
+[ sql ] [ SQL ] SELECT `Order`.* FROM `m_order` `Order` INNER JOIN `m_user` `User` ON `Order`.`user_id`=`User`.`id` WHERE  `User`.`openid` = 'o5dTt0MCMooemqJhjE1SP4QKwsRM'  AND `end_time` IS NOT NULL [ RunTime:0.000339s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_user` [ RunTime:0.019483s ]
+[ sql ] [ SQL ] SELECT `id`,`number` FROM `m_user` WHERE  `id` IN (7) [ RunTime:0.000405s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_parking_lot` [ RunTime:0.017376s ]
+[ sql ] [ SQL ] SELECT `id`,`address` FROM `m_parking_lot` WHERE  `id` IN (2,3,6,1) [ RunTime:0.000271s ]
+---------------------------------------------------------------
+[ 2017-10-09T11:17:04+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/history/2c11c6fa4199bcf03cca8028e7e456f1
+[ info ] park.cn/api/v1/history/2c11c6fa4199bcf03cca8028e7e456f1 [运行时间：0.071135s][吞吐率：14.06req/s] [内存消耗：1,773.31kb] [文件加载：49]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000943s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_order` [ RunTime:0.016916s ]
+[ sql ] [ SQL ] SELECT `Order`.* FROM `m_order` `Order` INNER JOIN `m_user` `User` ON `Order`.`user_id`=`User`.`id` WHERE  `User`.`openid` = 'o5dTt0MCMooemqJhjE1SP4QKwsRM'  AND `end_time` IS NOT NULL [ RunTime:0.000342s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_user` [ RunTime:0.015225s ]
+[ sql ] [ SQL ] SELECT `id`,`number` FROM `m_user` WHERE  `id` IN (7) [ RunTime:0.000245s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_parking_lot` [ RunTime:0.014903s ]
+[ sql ] [ SQL ] SELECT `id`,`address` FROM `m_parking_lot` WHERE  `id` IN (2,3,6,1) [ RunTime:0.000275s ]
+---------------------------------------------------------------
+[ 2017-10-09T11:17:15+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/history/2c11c6fa4199bcf03cca8028e7e456f1
+[ info ] park.cn/api/v1/history/2c11c6fa4199bcf03cca8028e7e456f1 [运行时间：0.070321s][吞吐率：14.22req/s] [内存消耗：1,773.59kb] [文件加载：49]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_order` [ RunTime:0.017654s ]
+[ sql ] [ SQL ] SELECT `Order`.* FROM `m_order` `Order` INNER JOIN `m_user` `User` ON `Order`.`user_id`=`User`.`id` WHERE  `User`.`openid` = 'o5dTt0MCMooemqJhjE1SP4QKwsRM'  AND `end_time` IS NOT NULL [ RunTime:0.000326s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_user` [ RunTime:0.015202s ]
+[ sql ] [ SQL ] SELECT `id`,`number` FROM `m_user` WHERE  `id` IN (7) [ RunTime:0.000237s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_parking_lot` [ RunTime:0.015945s ]
+[ sql ] [ SQL ] SELECT `id`,`address` FROM `m_parking_lot` WHERE  `id` IN (2,3,6,1) [ RunTime:0.000267s ]
+---------------------------------------------------------------
+[ 2017-10-09T11:17:31+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/history/2c11c6fa4199bcf03cca8028e7e456f1
+[ info ] park.cn/api/v1/history/2c11c6fa4199bcf03cca8028e7e456f1 [运行时间：0.074186s][吞吐率：13.48req/s] [内存消耗：1,773.59kb] [文件加载：49]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000945s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_order` [ RunTime:0.018437s ]
+[ sql ] [ SQL ] SELECT `Order`.* FROM `m_order` `Order` INNER JOIN `m_user` `User` ON `Order`.`user_id`=`User`.`id` WHERE  `User`.`openid` = 'o5dTt0MCMooemqJhjE1SP4QKwsRM'  AND `end_time` IS NOT NULL [ RunTime:0.000329s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_user` [ RunTime:0.014770s ]
+[ sql ] [ SQL ] SELECT `id`,`number` FROM `m_user` WHERE  `id` IN (7) [ RunTime:0.000255s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_parking_lot` [ RunTime:0.015744s ]
+[ sql ] [ SQL ] SELECT `id`,`address` FROM `m_parking_lot` WHERE  `id` IN (2,3,6,1) [ RunTime:0.000276s ]
+---------------------------------------------------------------
+[ 2017-10-09T11:18:48+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/history/2c11c6fa4199bcf03cca8028e7e456f1
+[ info ] park.cn/api/v1/history/2c11c6fa4199bcf03cca8028e7e456f1 [运行时间：0.093689s][吞吐率：10.67req/s] [内存消耗：1,773.68kb] [文件加载：49]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001131s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_order` [ RunTime:0.027235s ]
+[ sql ] [ SQL ] SELECT `Order`.* FROM `m_order` `Order` INNER JOIN `m_user` `User` ON `Order`.`user_id`=`User`.`id` WHERE  `User`.`openid` = 'o5dTt0MCMooemqJhjE1SP4QKwsRM'  AND `end_time` IS NOT NULL [ RunTime:0.000332s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_user` [ RunTime:0.021346s ]
+[ sql ] [ SQL ] SELECT `id`,`number` FROM `m_user` WHERE  `id` IN (7) [ RunTime:0.000258s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_parking_lot` [ RunTime:0.017374s ]
+[ sql ] [ SQL ] SELECT `id`,`address` FROM `m_parking_lot` WHERE  `id` IN (2,3,6,1) [ RunTime:0.000277s ]
+---------------------------------------------------------------
+[ 2017-10-09T11:18:55+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/history/2c11c6fa4199bcf03cca8028e7e456f1
+[ info ] park.cn/api/v1/history/2c11c6fa4199bcf03cca8028e7e456f1 [运行时间：0.095896s][吞吐率：10.43req/s] [内存消耗：1,773.68kb] [文件加载：49]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001116s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_order` [ RunTime:0.027875s ]
+[ sql ] [ SQL ] SELECT `Order`.* FROM `m_order` `Order` INNER JOIN `m_user` `User` ON `Order`.`user_id`=`User`.`id` WHERE  `User`.`openid` = 'o5dTt0MCMooemqJhjE1SP4QKwsRM'  AND `end_time` IS NOT NULL [ RunTime:0.000355s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_user` [ RunTime:0.019084s ]
+[ sql ] [ SQL ] SELECT `id`,`number` FROM `m_user` WHERE  `id` IN (7) [ RunTime:0.000213s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_parking_lot` [ RunTime:0.015724s ]
+[ sql ] [ SQL ] SELECT `id`,`address` FROM `m_parking_lot` WHERE  `id` IN (2,3,6,1) [ RunTime:0.000240s ]
+---------------------------------------------------------------
+[ 2017-10-09T11:19:04+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/history/2c11c6fa4199bcf03cca8028e7e456f1
+[ info ] park.cn/api/v1/history/2c11c6fa4199bcf03cca8028e7e456f1 [运行时间：0.098513s][吞吐率：10.15req/s] [内存消耗：1,773.68kb] [文件加载：49]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001208s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_order` [ RunTime:0.027307s ]
+[ sql ] [ SQL ] SELECT `Order`.* FROM `m_order` `Order` INNER JOIN `m_user` `User` ON `Order`.`user_id`=`User`.`id` WHERE  `User`.`openid` = 'o5dTt0MCMooemqJhjE1SP4QKwsRM'  AND `end_time` IS NOT NULL [ RunTime:0.000311s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_user` [ RunTime:0.021979s ]
+[ sql ] [ SQL ] SELECT `id`,`number` FROM `m_user` WHERE  `id` IN (7) [ RunTime:0.000292s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_parking_lot` [ RunTime:0.018705s ]
+[ sql ] [ SQL ] SELECT `id`,`address` FROM `m_parking_lot` WHERE  `id` IN (2,3,6,1) [ RunTime:0.000268s ]
+---------------------------------------------------------------
+[ 2017-10-09T11:19:28+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/history/2c11c6fa4199bcf03cca8028e7e456f1
+[ info ] park.cn/api/v1/history/2c11c6fa4199bcf03cca8028e7e456f1 [运行时间：0.116497s][吞吐率：8.58req/s] [内存消耗：1,773.68kb] [文件加载：49]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001244s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_order` [ RunTime:0.037554s ]
+[ sql ] [ SQL ] SELECT `Order`.* FROM `m_order` `Order` INNER JOIN `m_user` `User` ON `Order`.`user_id`=`User`.`id` WHERE  `User`.`openid` = 'o5dTt0MCMooemqJhjE1SP4QKwsRM'  AND `end_time` IS NOT NULL [ RunTime:0.000371s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_user` [ RunTime:0.024574s ]
+[ sql ] [ SQL ] SELECT `id`,`number` FROM `m_user` WHERE  `id` IN (7) [ RunTime:0.000797s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_parking_lot` [ RunTime:0.021568s ]
+[ sql ] [ SQL ] SELECT `id`,`address` FROM `m_parking_lot` WHERE  `id` IN (2,3,6,1) [ RunTime:0.000260s ]
+---------------------------------------------------------------
+[ 2017-10-09T11:20:49+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/history/2c11c6fa4199bcf03cca8028e7e456f1
+[ info ] park.cn/api/v1/history/2c11c6fa4199bcf03cca8028e7e456f1 [运行时间：0.072776s][吞吐率：13.74req/s] [内存消耗：1,773.59kb] [文件加载：49]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000915s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_order` [ RunTime:0.019365s ]
+[ sql ] [ SQL ] SELECT `Order`.* FROM `m_order` `Order` INNER JOIN `m_user` `User` ON `Order`.`user_id`=`User`.`id` WHERE  `User`.`openid` = 'o5dTt0MCMooemqJhjE1SP4QKwsRM'  AND `end_time` IS NOT NULL [ RunTime:0.000327s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_user` [ RunTime:0.016151s ]
+[ sql ] [ SQL ] SELECT `id`,`number` FROM `m_user` WHERE  `id` IN (7) [ RunTime:0.000238s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_parking_lot` [ RunTime:0.015768s ]
+[ sql ] [ SQL ] SELECT `id`,`address` FROM `m_parking_lot` WHERE  `id` IN (2,3,6,1) [ RunTime:0.000294s ]
+---------------------------------------------------------------
+[ 2017-10-09T11:21:14+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/history/2c11c6fa4199bcf03cca8028e7e456f1
+[ info ] park.cn/api/v1/history/2c11c6fa4199bcf03cca8028e7e456f1 [运行时间：0.070396s][吞吐率：14.21req/s] [内存消耗：1,773.59kb] [文件加载：49]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000966s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_order` [ RunTime:0.017292s ]
+[ sql ] [ SQL ] SELECT `Order`.* FROM `m_order` `Order` INNER JOIN `m_user` `User` ON `Order`.`user_id`=`User`.`id` WHERE  `User`.`openid` = 'o5dTt0MCMooemqJhjE1SP4QKwsRM'  AND `end_time` IS NOT NULL [ RunTime:0.000312s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_user` [ RunTime:0.015031s ]
+[ sql ] [ SQL ] SELECT `id`,`number` FROM `m_user` WHERE  `id` IN (7) [ RunTime:0.000230s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_parking_lot` [ RunTime:0.016061s ]
+[ sql ] [ SQL ] SELECT `id`,`address` FROM `m_parking_lot` WHERE  `id` IN (2,3,6,1) [ RunTime:0.000263s ]
+---------------------------------------------------------------
+[ 2017-10-09T11:21:53+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/history/2c11c6fa4199bcf03cca8028e7e456f1
+[ info ] park.cn/api/v1/history/2c11c6fa4199bcf03cca8028e7e456f1 [运行时间：0.077063s][吞吐率：12.98req/s] [内存消耗：1,773.59kb] [文件加载：49]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001051s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_order` [ RunTime:0.018830s ]
+[ sql ] [ SQL ] SELECT `Order`.* FROM `m_order` `Order` INNER JOIN `m_user` `User` ON `Order`.`user_id`=`User`.`id` WHERE  `User`.`openid` = 'o5dTt0MCMooemqJhjE1SP4QKwsRM'  AND `end_time` IS NOT NULL [ RunTime:0.000327s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_user` [ RunTime:0.015812s ]
+[ sql ] [ SQL ] SELECT `id`,`number` FROM `m_user` WHERE  `id` IN (7) [ RunTime:0.000254s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_parking_lot` [ RunTime:0.015417s ]
+[ sql ] [ SQL ] SELECT `id`,`address` FROM `m_parking_lot` WHERE  `id` IN (2,3,6,1) [ RunTime:0.000266s ]
+---------------------------------------------------------------
+[ 2017-10-09T11:22:31+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/history/2c11c6fa4199bcf03cca8028e7e456f1
+[ info ] park.cn/api/v1/history/2c11c6fa4199bcf03cca8028e7e456f1 [运行时间：0.084826s][吞吐率：11.79req/s] [内存消耗：1,773.59kb] [文件加载：49]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.008582s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_order` [ RunTime:0.020035s ]
+[ sql ] [ SQL ] SELECT `Order`.* FROM `m_order` `Order` INNER JOIN `m_user` `User` ON `Order`.`user_id`=`User`.`id` WHERE  `User`.`openid` = 'o5dTt0MCMooemqJhjE1SP4QKwsRM'  AND `end_time` IS NOT NULL [ RunTime:0.000347s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_user` [ RunTime:0.015522s ]
+[ sql ] [ SQL ] SELECT `id`,`number` FROM `m_user` WHERE  `id` IN (7) [ RunTime:0.000267s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_parking_lot` [ RunTime:0.016314s ]
+[ sql ] [ SQL ] SELECT `id`,`address` FROM `m_parking_lot` WHERE  `id` IN (2,3,6,1) [ RunTime:0.000281s ]
+---------------------------------------------------------------
+[ 2017-10-09T12:57:40+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/history/2c11c6fa4199bcf03cca8028e7e456f1
+[ info ] park.cn/api/v1/history/2c11c6fa4199bcf03cca8028e7e456f1 [运行时间：0.050909s][吞吐率：19.64req/s] [内存消耗：1,640.96kb] [文件加载：40]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.009250s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_parking_lot` [ RunTime:0.023325s ]
+[ sql ] [ SQL ] SELECT * FROM `m_parking_lot` WHERE  `state` = 1 [ RunTime:0.000356s ]
+---------------------------------------------------------------
+[ 2017-10-09T13:01:18+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ info ] park.cn/api/v1/token/user [运行时间：0.721932s][吞吐率：1.39req/s] [内存消耗：1,805.88kb] [文件加载：47]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003997s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_user` [ RunTime:0.029793s ]
+[ sql ] [ SQL ] SELECT * FROM `m_user` WHERE  `openid` = 'o5dTt0MCMooemqJhjE1SP4QKwsRM' LIMIT 1 [ RunTime:0.000485s ]
+---------------------------------------------------------------
+[ 2017-10-09T13:01:19+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/login/check
+[ info ] park.cn/api/v1/login/check [运行时间：0.071227s][吞吐率：14.04req/s] [内存消耗：1,672.04kb] [文件加载：42]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001729s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_user` [ RunTime:0.026080s ]
+[ sql ] [ SQL ] SELECT * FROM `m_user` WHERE  `openid` = 'o5dTt0MCMooemqJhjE1SP4QKwsRM' LIMIT 1 [ RunTime:0.000321s ]
+---------------------------------------------------------------
+[ 2017-10-09T13:01:31+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/history/f7f6ed6f13c3e0f14f13e3e48b39c76f
+[ info ] park.cn/api/v1/history/f7f6ed6f13c3e0f14f13e3e48b39c76f [运行时间：0.079805s][吞吐率：12.53req/s] [内存消耗：1,775.26kb] [文件加载：49]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001185s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_order` [ RunTime:0.022981s ]
+[ sql ] [ SQL ] SELECT `Order`.* FROM `m_order` `Order` INNER JOIN `m_user` `User` ON `Order`.`user_id`=`User`.`id` WHERE  `User`.`openid` = 'o5dTt0MCMooemqJhjE1SP4QKwsRM'  AND `end_time` IS NOT NULL [ RunTime:0.000446s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_user` [ RunTime:0.015507s ]
+[ sql ] [ SQL ] SELECT `id`,`number` FROM `m_user` WHERE  `id` IN (7) [ RunTime:0.000315s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_parking_lot` [ RunTime:0.016789s ]
+[ sql ] [ SQL ] SELECT `id`,`address` FROM `m_parking_lot` WHERE  `id` IN (2,3,6,1) [ RunTime:0.000376s ]
+---------------------------------------------------------------
+[ 2017-10-09T13:03:17+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/history/f7f6ed6f13c3e0f14f13e3e48b39c76f
+[ info ] park.cn/api/v1/history/f7f6ed6f13c3e0f14f13e3e48b39c76f [运行时间：0.079569s][吞吐率：12.57req/s] [内存消耗：1,775.17kb] [文件加载：49]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.008929s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_order` [ RunTime:0.017474s ]
+[ sql ] [ SQL ] SELECT `Order`.* FROM `m_order` `Order` INNER JOIN `m_user` `User` ON `Order`.`user_id`=`User`.`id` WHERE  `User`.`openid` = 'o5dTt0MCMooemqJhjE1SP4QKwsRM'  AND `end_time` IS NOT NULL [ RunTime:0.000392s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_user` [ RunTime:0.015072s ]
+[ sql ] [ SQL ] SELECT `id`,`number` FROM `m_user` WHERE  `id` IN (7) [ RunTime:0.000284s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_parking_lot` [ RunTime:0.014671s ]
+[ sql ] [ SQL ] SELECT `id`,`address` FROM `m_parking_lot` WHERE  `id` IN (2,3,6,1) [ RunTime:0.000328s ]
+---------------------------------------------------------------
+[ 2017-10-09T13:03:44+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/park/f7f6ed6f13c3e0f14f13e3e48b39c76f
+[ info ] park.cn/api/v1/park/f7f6ed6f13c3e0f14f13e3e48b39c76f [运行时间：0.037366s][吞吐率：26.76req/s] [内存消耗：1,641.59kb] [文件加载：40]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001310s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_parking_lot` [ RunTime:0.017062s ]
+[ sql ] [ SQL ] SELECT * FROM `m_parking_lot` WHERE  `state` = 1 [ RunTime:0.000315s ]
+---------------------------------------------------------------
+[ 2017-10-09T13:04:06+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/park/f7f6ed6f13c3e0f14f13e3e48b39c76f
+[ info ] park.cn/api/v1/park/f7f6ed6f13c3e0f14f13e3e48b39c76f [运行时间：0.035352s][吞吐率：28.29req/s] [内存消耗：1,641.18kb] [文件加载：40]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001247s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_parking_lot` [ RunTime:0.016925s ]
+[ sql ] [ SQL ] SELECT * FROM `m_parking_lot` [ RunTime:0.000325s ]
+---------------------------------------------------------------
+[ 2017-10-09T13:05:52+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/park/f7f6ed6f13c3e0f14f13e3e48b39c76f
+[ info ] park.cn/api/v1/park/f7f6ed6f13c3e0f14f13e3e48b39c76f [运行时间：0.038768s][吞吐率：25.79req/s] [内存消耗：1,644.93kb] [文件加载：41]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001348s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_parking_lot` [ RunTime:0.017217s ]
+[ sql ] [ SQL ] SELECT * FROM `m_parking_lot` WHERE  `state` = 1 [ RunTime:0.000363s ]
+---------------------------------------------------------------
+[ 2017-10-09T13:12:07+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/park/f7f6ed6f13c3e0f14f13e3e48b39c76f
+[ info ] park.cn/api/v1/park/f7f6ed6f13c3e0f14f13e3e48b39c76f [运行时间：0.050134s][吞吐率：19.95req/s] [内存消耗：1,700.03kb] [文件加载：44]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.008769s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_parking_lot` [ RunTime:0.019472s ]
+[ sql ] [ SQL ] SELECT * FROM `m_parking_lot` WHERE  `state` = 1 [ RunTime:0.000335s ]
+---------------------------------------------------------------
+[ 2017-10-09T13:12:20+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/park/f7f6ed6f13c3e0f14f13e3e48b39c76f
+[ info ] park.cn/api/v1/park/f7f6ed6f13c3e0f14f13e3e48b39c76f [运行时间：0.037973s][吞吐率：26.33req/s] [内存消耗：1,700.03kb] [文件加载：44]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001227s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_parking_lot` [ RunTime:0.018475s ]
+[ sql ] [ SQL ] SELECT * FROM `m_parking_lot` WHERE  `state` = 1 [ RunTime:0.000313s ]
+---------------------------------------------------------------
+[ 2017-10-09T13:17:55+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/park/f7f6ed6f13c3e0f14f13e3e48b39c76f
+[ info ] park.cn/api/v1/park/f7f6ed6f13c3e0f14f13e3e48b39c76f [运行时间：0.042210s][吞吐率：23.69req/s] [内存消耗：1,702.22kb] [文件加载：44]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001271s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_parking_lot` [ RunTime:0.019482s ]
+[ sql ] [ SQL ] SELECT * FROM `m_parking_lot` WHERE  `num` = 1 [ RunTime:0.000340s ]
+---------------------------------------------------------------
+[ 2017-10-09T13:18:00+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/park/f7f6ed6f13c3e0f14f13e3e48b39c76f
+[ info ] park.cn/api/v1/park/f7f6ed6f13c3e0f14f13e3e48b39c76f [运行时间：0.037425s][吞吐率：26.72req/s] [内存消耗：1,700.33kb] [文件加载：44]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001189s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_parking_lot` [ RunTime:0.017011s ]
+[ sql ] [ SQL ] SELECT * FROM `m_parking_lot` WHERE  `state` = 1 [ RunTime:0.000322s ]
+---------------------------------------------------------------
+[ 2017-10-09T13:29:09+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/park/f7f6ed6f13c3e0f14f13e3e48b39c76f
+[ info ] park.cn/api/v1/park/f7f6ed6f13c3e0f14f13e3e48b39c76f [运行时间：0.083084s][吞吐率：12.04req/s] [内存消耗：1,700.41kb] [文件加载：44]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.020678s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_parking_lot` [ RunTime:0.030925s ]
+[ sql ] [ SQL ] SELECT * FROM `m_parking_lot` WHERE  `state` = 1 [ RunTime:0.000488s ]
+---------------------------------------------------------------
+[ 2017-10-09T13:29:46+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/park/f7f6ed6f13c3e0f14f13e3e48b39c76f
+[ info ] park.cn/api/v1/park/f7f6ed6f13c3e0f14f13e3e48b39c76f [运行时间：0.074161s][吞吐率：13.48req/s] [内存消耗：1,700.41kb] [文件加载：44]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001781s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_parking_lot` [ RunTime:0.046607s ]
+[ sql ] [ SQL ] SELECT * FROM `m_parking_lot` WHERE  `state` = 1 [ RunTime:0.000505s ]
+---------------------------------------------------------------
+[ 2017-10-09T13:33:32+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/park/f7f6ed6f13c3e0f14f13e3e48b39c76f
+[ info ] park.cn/api/v1/park/f7f6ed6f13c3e0f14f13e3e48b39c76f [运行时间：0.062387s][吞吐率：16.03req/s] [内存消耗：1,700.41kb] [文件加载：44]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001262s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_parking_lot` [ RunTime:0.032843s ]
+[ sql ] [ SQL ] SELECT * FROM `m_parking_lot` WHERE  `state` = 1 [ RunTime:0.000397s ]
+---------------------------------------------------------------
+[ 2017-10-09T13:34:07+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/park/f7f6ed6f13c3e0f14f13e3e48b39c76f
+[ info ] park.cn/api/v1/park/f7f6ed6f13c3e0f14f13e3e48b39c76f [运行时间：0.051712s][吞吐率：19.34req/s] [内存消耗：1,700.41kb] [文件加载：44]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001803s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_parking_lot` [ RunTime:0.026562s ]
+[ sql ] [ SQL ] SELECT * FROM `m_parking_lot` WHERE  `state` = 1 [ RunTime:0.000582s ]
+---------------------------------------------------------------
+[ 2017-10-09T13:35:17+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/park/f7f6ed6f13c3e0f14f13e3e48b39c76f
+[ info ] park.cn/api/v1/park/f7f6ed6f13c3e0f14f13e3e48b39c76f [运行时间：0.092334s][吞吐率：10.83req/s] [内存消耗：1,700.41kb] [文件加载：44]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.016171s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_parking_lot` [ RunTime:0.025510s ]
+[ sql ] [ SQL ] SELECT * FROM `m_parking_lot` WHERE  `state` = 1 [ RunTime:0.000427s ]
+---------------------------------------------------------------
+[ 2017-10-09T13:59:32+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/park/f7f6ed6f13c3e0f14f13e3e48b39c76f
+[ info ] park.cn/api/v1/park/f7f6ed6f13c3e0f14f13e3e48b39c76f [运行时间：0.048722s][吞吐率：20.52req/s] [内存消耗：1,700.85kb] [文件加载：44]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.009347s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_parking_lot` [ RunTime:0.017634s ]
+[ sql ] [ SQL ] SELECT * FROM `m_parking_lot` WHERE  `state` = 1 [ RunTime:0.000358s ]
+---------------------------------------------------------------
+[ 2017-10-09T14:16:52+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/park/f7f6ed6f13c3e0f14f13e3e48b39c76f
+[ info ] park.cn/api/v1/park/f7f6ed6f13c3e0f14f13e3e48b39c76f [运行时间：0.037297s][吞吐率：26.81req/s] [内存消耗：1,701.16kb] [文件加载：44]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001179s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_parking_lot` [ RunTime:0.018120s ]
+[ sql ] [ SQL ] SELECT * FROM `m_parking_lot` WHERE  `state` = 1 [ RunTime:0.000375s ]
+---------------------------------------------------------------
+[ 2017-10-09T14:17:04+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/park/f7f6ed6f13c3e0f14f13e3e48b39c76f
+[ info ] park.cn/api/v1/park/f7f6ed6f13c3e0f14f13e3e48b39c76f [运行时间：0.037489s][吞吐率：26.67req/s] [内存消耗：1,701.09kb] [文件加载：44]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001159s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_parking_lot` [ RunTime:0.017851s ]
+[ sql ] [ SQL ] SELECT * FROM `m_parking_lot` WHERE  `state` = 1 [ RunTime:0.000319s ]
+---------------------------------------------------------------
+[ 2017-10-09T14:17:54+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/park/f7f6ed6f13c3e0f14f13e3e48b39c76f
+[ info ] park.cn/api/v1/park/f7f6ed6f13c3e0f14f13e3e48b39c76f [运行时间：0.035461s][吞吐率：28.20req/s] [内存消耗：1,701.28kb] [文件加载：44]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001169s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_parking_lot` [ RunTime:0.016959s ]
+[ sql ] [ SQL ] SELECT * FROM `m_parking_lot` WHERE  `state` = 1 [ RunTime:0.000313s ]
+---------------------------------------------------------------
+[ 2017-10-09T14:26:36+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/park/f7f6ed6f13c3e0f14f13e3e48b39c76f
+[ info ] park.cn/api/v1/park/f7f6ed6f13c3e0f14f13e3e48b39c76f [运行时间：0.068379s][吞吐率：14.62req/s] [内存消耗：1,701.02kb] [文件加载：44]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011678s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_parking_lot` [ RunTime:0.022377s ]
+[ sql ] [ SQL ] SELECT * FROM `m_parking_lot` WHERE  `state` = 1 [ RunTime:0.000289s ]
+---------------------------------------------------------------
+[ 2017-10-09T14:28:32+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/park/f7f6ed6f13c3e0f14f13e3e48b39c76f
+[ info ] park.cn/api/v1/park/f7f6ed6f13c3e0f14f13e3e48b39c76f [运行时间：0.086856s][吞吐率：11.51req/s] [内存消耗：1,701.02kb] [文件加载：44]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.006872s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_parking_lot` [ RunTime:0.046880s ]
+[ sql ] [ SQL ] SELECT * FROM `m_parking_lot` WHERE  `state` = 1 [ RunTime:0.000968s ]
+---------------------------------------------------------------
+[ 2017-10-09T14:28:44+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/park/f7f6ed6f13c3e0f14f13e3e48b39c76f
+[ info ] park.cn/api/v1/park/f7f6ed6f13c3e0f14f13e3e48b39c76f [运行时间：0.067992s][吞吐率：14.71req/s] [内存消耗：1,701.02kb] [文件加载：44]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001473s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_parking_lot` [ RunTime:0.032800s ]
+[ sql ] [ SQL ] SELECT * FROM `m_parking_lot` WHERE  `state` = 1 [ RunTime:0.000299s ]
+---------------------------------------------------------------
+[ 2017-10-09T14:29:46+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/park/f7f6ed6f13c3e0f14f13e3e48b39c76f
+[ info ] park.cn/api/v1/park/f7f6ed6f13c3e0f14f13e3e48b39c76f [运行时间：0.087055s][吞吐率：11.49req/s] [内存消耗：1,701.02kb] [文件加载：44]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005445s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_parking_lot` [ RunTime:0.043815s ]
+[ sql ] [ SQL ] SELECT * FROM `m_parking_lot` WHERE  `state` = 1 [ RunTime:0.001734s ]
+---------------------------------------------------------------
+[ 2017-10-09T14:29:51+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/park/f7f6ed6f13c3e0f14f13e3e48b39c76f
+[ info ] park.cn/api/v1/park/f7f6ed6f13c3e0f14f13e3e48b39c76f [运行时间：0.060416s][吞吐率：16.55req/s] [内存消耗：1,701.02kb] [文件加载：44]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001373s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_parking_lot` [ RunTime:0.031246s ]
+[ sql ] [ SQL ] SELECT * FROM `m_parking_lot` WHERE  `state` = 1 [ RunTime:0.000302s ]
+---------------------------------------------------------------
+[ 2017-10-09T14:30:58+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/park/f7f6ed6f13c3e0f14f13e3e48b39c76f
+[ info ] park.cn/api/v1/park/f7f6ed6f13c3e0f14f13e3e48b39c76f [运行时间：0.066558s][吞吐率：15.02req/s] [内存消耗：1,701.02kb] [文件加载：44]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001936s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_parking_lot` [ RunTime:0.031850s ]
+[ sql ] [ SQL ] SELECT * FROM `m_parking_lot` WHERE  `state` = 1 [ RunTime:0.000428s ]
+---------------------------------------------------------------
+[ 2017-10-09T14:33:56+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/park/f7f6ed6f13c3e0f14f13e3e48b39c76f
+[ info ] park.cn/api/v1/park/f7f6ed6f13c3e0f14f13e3e48b39c76f [运行时间：0.076322s][吞吐率：13.10req/s] [内存消耗：1,701.02kb] [文件加载：44]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002059s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_parking_lot` [ RunTime:0.036448s ]
+[ sql ] [ SQL ] SELECT * FROM `m_parking_lot` WHERE  `state` = 1 [ RunTime:0.000416s ]
+---------------------------------------------------------------
+[ 2017-10-09T14:34:40+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/park/f7f6ed6f13c3e0f14f13e3e48b39c76f
+[ info ] park.cn/api/v1/park/f7f6ed6f13c3e0f14f13e3e48b39c76f [运行时间：0.102753s][吞吐率：9.73req/s] [内存消耗：1,701.02kb] [文件加载：44]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015992s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_parking_lot` [ RunTime:0.033148s ]
+[ sql ] [ SQL ] SELECT * FROM `m_parking_lot` WHERE  `state` = 1 [ RunTime:0.000275s ]
+---------------------------------------------------------------
+[ 2017-10-09T14:45:46+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/park/f7f6ed6f13c3e0f14f13e3e48b39c76f
+[ info ] park.cn/api/v1/park/f7f6ed6f13c3e0f14f13e3e48b39c76f [运行时间：0.076929s][吞吐率：13.00req/s] [内存消耗：1,701.02kb] [文件加载：44]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.014589s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_parking_lot` [ RunTime:0.022627s ]
+[ sql ] [ SQL ] SELECT * FROM `m_parking_lot` WHERE  `state` = 1 [ RunTime:0.000298s ]
+---------------------------------------------------------------
+[ 2017-10-09T14:45:59+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/park/f7f6ed6f13c3e0f14f13e3e48b39c76f
+[ info ] park.cn/api/v1/park/f7f6ed6f13c3e0f14f13e3e48b39c76f [运行时间：0.075820s][吞吐率：13.19req/s] [内存消耗：1,701.02kb] [文件加载：44]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001589s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_parking_lot` [ RunTime:0.040937s ]
+[ sql ] [ SQL ] SELECT * FROM `m_parking_lot` WHERE  `state` = 1 [ RunTime:0.000321s ]
+---------------------------------------------------------------
+[ 2017-10-09T15:00:13+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/park/f7f6ed6f13c3e0f14f13e3e48b39c76f
+[ info ] park.cn/api/v1/park/f7f6ed6f13c3e0f14f13e3e48b39c76f [运行时间：0.096946s][吞吐率：10.32req/s] [内存消耗：1,701.02kb] [文件加载：44]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012907s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_parking_lot` [ RunTime:0.032360s ]
+[ sql ] [ SQL ] SELECT * FROM `m_parking_lot` WHERE  `state` = 1 [ RunTime:0.000309s ]
+---------------------------------------------------------------
+[ 2017-10-09T15:00:29+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/park/f7f6ed6f13c3e0f14f13e3e48b39c76f
+[ info ] park.cn/api/v1/park/f7f6ed6f13c3e0f14f13e3e48b39c76f [运行时间：0.070465s][吞吐率：14.19req/s] [内存消耗：1,701.02kb] [文件加载：44]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003475s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_parking_lot` [ RunTime:0.034335s ]
+[ sql ] [ SQL ] SELECT * FROM `m_parking_lot` WHERE  `state` = 1 [ RunTime:0.000301s ]
+---------------------------------------------------------------
+[ 2017-10-09T15:06:10+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ info ] park.cn/api/v1/token/user [运行时间：0.673750s][吞吐率：1.48req/s] [内存消耗：1,805.95kb] [文件加载：47]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002606s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_user` [ RunTime:0.039476s ]
+[ sql ] [ SQL ] SELECT * FROM `m_user` WHERE  `openid` = 'o5dTt0MCMooemqJhjE1SP4QKwsRM' LIMIT 1 [ RunTime:0.000805s ]
+---------------------------------------------------------------
+[ 2017-10-09T15:06:11+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/login/check
+[ info ] park.cn/api/v1/login/check [运行时间：0.045760s][吞吐率：21.85req/s] [内存消耗：1,672.12kb] [文件加载：42]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002107s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_user` [ RunTime:0.020423s ]
+[ sql ] [ SQL ] SELECT * FROM `m_user` WHERE  `openid` = 'o5dTt0MCMooemqJhjE1SP4QKwsRM' LIMIT 1 [ RunTime:0.000315s ]
+---------------------------------------------------------------
+[ 2017-10-09T15:06:15+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/park/fee1dd0046bff4b81a2adfcd5bb9b095
+[ info ] park.cn/api/v1/park/fee1dd0046bff4b81a2adfcd5bb9b095 [运行时间：0.067375s][吞吐率：14.84req/s] [内存消耗：1,701.02kb] [文件加载：44]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001320s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_parking_lot` [ RunTime:0.034598s ]
+[ sql ] [ SQL ] SELECT * FROM `m_parking_lot` WHERE  `state` = 1 [ RunTime:0.000485s ]
+---------------------------------------------------------------
+[ 2017-10-09T15:08:08+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/park/fee1dd0046bff4b81a2adfcd5bb9b095
+[ info ] park.cn/api/v1/park/fee1dd0046bff4b81a2adfcd5bb9b095 [运行时间：0.102054s][吞吐率：9.80req/s] [内存消耗：1,701.02kb] [文件加载：44]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.024230s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_parking_lot` [ RunTime:0.034282s ]
+[ sql ] [ SQL ] SELECT * FROM `m_parking_lot` WHERE  `state` = 1 [ RunTime:0.000299s ]
+---------------------------------------------------------------
+[ 2017-10-09T15:14:41+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/park/fee1dd0046bff4b81a2adfcd5bb9b095
+[ info ] park.cn/api/v1/park/fee1dd0046bff4b81a2adfcd5bb9b095 [运行时间：0.092390s][吞吐率：10.82req/s] [内存消耗：1,701.02kb] [文件加载：44]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015581s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_parking_lot` [ RunTime:0.034937s ]
+[ sql ] [ SQL ] SELECT * FROM `m_parking_lot` WHERE  `state` = 1 [ RunTime:0.000296s ]
+---------------------------------------------------------------
+[ 2017-10-09T15:16:16+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/park/fee1dd0046bff4b81a2adfcd5bb9b095
+[ info ] park.cn/api/v1/park/fee1dd0046bff4b81a2adfcd5bb9b095 [运行时间：0.064522s][吞吐率：15.50req/s] [内存消耗：1,701.02kb] [文件加载：44]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002340s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_parking_lot` [ RunTime:0.034839s ]
+[ sql ] [ SQL ] SELECT * FROM `m_parking_lot` WHERE  `state` = 1 [ RunTime:0.000330s ]
+---------------------------------------------------------------
+[ 2017-10-09T15:19:44+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/park/fee1dd0046bff4b81a2adfcd5bb9b095
+[ info ] park.cn/api/v1/park/fee1dd0046bff4b81a2adfcd5bb9b095 [运行时间：0.070247s][吞吐率：14.24req/s] [内存消耗：1,701.02kb] [文件加载：44]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002420s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_parking_lot` [ RunTime:0.032387s ]
+[ sql ] [ SQL ] SELECT * FROM `m_parking_lot` WHERE  `state` = 1 [ RunTime:0.000362s ]
+---------------------------------------------------------------
+[ 2017-10-09T15:19:46+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/park/fee1dd0046bff4b81a2adfcd5bb9b095
+[ info ] park.cn/api/v1/park/fee1dd0046bff4b81a2adfcd5bb9b095 [运行时间：0.077460s][吞吐率：12.91req/s] [内存消耗：1,701.02kb] [文件加载：44]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003703s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_parking_lot` [ RunTime:0.040488s ]
+[ sql ] [ SQL ] SELECT * FROM `m_parking_lot` WHERE  `state` = 1 [ RunTime:0.000330s ]
+---------------------------------------------------------------
+[ 2017-10-09T15:20:36+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/park/fee1dd0046bff4b81a2adfcd5bb9b095
+[ info ] park.cn/api/v1/park/fee1dd0046bff4b81a2adfcd5bb9b095 [运行时间：0.062979s][吞吐率：15.88req/s] [内存消耗：1,701.02kb] [文件加载：44]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001863s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_parking_lot` [ RunTime:0.030301s ]
+[ sql ] [ SQL ] SELECT * FROM `m_parking_lot` WHERE  `state` = 1 [ RunTime:0.000592s ]
+---------------------------------------------------------------
+[ 2017-10-09T15:20:41+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/park/fee1dd0046bff4b81a2adfcd5bb9b095
+[ info ] park.cn/api/v1/park/fee1dd0046bff4b81a2adfcd5bb9b095 [运行时间：0.066148s][吞吐率：15.12req/s] [内存消耗：1,701.02kb] [文件加载：44]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001736s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_parking_lot` [ RunTime:0.040123s ]
+[ sql ] [ SQL ] SELECT * FROM `m_parking_lot` WHERE  `state` = 1 [ RunTime:0.000612s ]
+---------------------------------------------------------------
+[ 2017-10-09T15:20:55+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/park/fee1dd0046bff4b81a2adfcd5bb9b095
+[ info ] park.cn/api/v1/park/fee1dd0046bff4b81a2adfcd5bb9b095 [运行时间：0.070756s][吞吐率：14.13req/s] [内存消耗：1,701.02kb] [文件加载：44]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002097s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_parking_lot` [ RunTime:0.035317s ]
+[ sql ] [ SQL ] SELECT * FROM `m_parking_lot` WHERE  `state` = 1 [ RunTime:0.000660s ]
+---------------------------------------------------------------
+[ 2017-10-09T15:21:02+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/park/fee1dd0046bff4b81a2adfcd5bb9b095
+[ info ] park.cn/api/v1/park/fee1dd0046bff4b81a2adfcd5bb9b095 [运行时间：0.065231s][吞吐率：15.33req/s] [内存消耗：1,701.02kb] [文件加载：44]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001802s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_parking_lot` [ RunTime:0.037448s ]
+[ sql ] [ SQL ] SELECT * FROM `m_parking_lot` WHERE  `state` = 1 [ RunTime:0.000448s ]
+---------------------------------------------------------------
+[ 2017-10-09T15:43:51+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ info ] park.cn/api/v1/token/user [运行时间：0.902319s][吞吐率：1.11req/s] [内存消耗：1,805.95kb] [文件加载：47]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004463s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_user` [ RunTime:0.051070s ]
+[ sql ] [ SQL ] SELECT * FROM `m_user` WHERE  `openid` = 'o5dTt0MCMooemqJhjE1SP4QKwsRM' LIMIT 1 [ RunTime:0.000678s ]
+---------------------------------------------------------------
+[ 2017-10-09T15:43:53+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/login/check
+[ info ] park.cn/api/v1/login/check [运行时间：0.064668s][吞吐率：15.46req/s] [内存消耗：1,672.12kb] [文件加载：42]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001733s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_user` [ RunTime:0.022508s ]
+[ sql ] [ SQL ] SELECT * FROM `m_user` WHERE  `openid` = 'o5dTt0MCMooemqJhjE1SP4QKwsRM' LIMIT 1 [ RunTime:0.000349s ]
+---------------------------------------------------------------
+[ 2017-10-09T15:43:58+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/park/9da5a1f77276a53ed4c54c5615fa93c6
+[ info ] park.cn/api/v1/park/9da5a1f77276a53ed4c54c5615fa93c6 [运行时间：0.101166s][吞吐率：9.88req/s] [内存消耗：1,701.02kb] [文件加载：44]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003067s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_parking_lot` [ RunTime:0.051634s ]
+[ sql ] [ SQL ] SELECT * FROM `m_parking_lot` WHERE  `state` = 1 [ RunTime:0.002175s ]
+---------------------------------------------------------------
+[ 2017-10-09T15:44:24+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/park/9da5a1f77276a53ed4c54c5615fa93c6
+[ info ] park.cn/api/v1/park/9da5a1f77276a53ed4c54c5615fa93c6 [运行时间：0.054483s][吞吐率：18.35req/s] [内存消耗：1,701.02kb] [文件加载：44]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004836s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_parking_lot` [ RunTime:0.028460s ]
+[ sql ] [ SQL ] SELECT * FROM `m_parking_lot` WHERE  `state` = 1 [ RunTime:0.000382s ]
+---------------------------------------------------------------
+[ 2017-10-09T15:44:35+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/park/9da5a1f77276a53ed4c54c5615fa93c6
+[ info ] park.cn/api/v1/park/9da5a1f77276a53ed4c54c5615fa93c6 [运行时间：0.084778s][吞吐率：11.80req/s] [内存消耗：1,701.02kb] [文件加载：44]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001872s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_parking_lot` [ RunTime:0.041333s ]
+[ sql ] [ SQL ] SELECT * FROM `m_parking_lot` WHERE  `state` = 1 [ RunTime:0.000328s ]
+---------------------------------------------------------------
+[ 2017-10-09T15:45:11+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/park/9da5a1f77276a53ed4c54c5615fa93c6
+[ info ] park.cn/api/v1/park/9da5a1f77276a53ed4c54c5615fa93c6 [运行时间：0.070079s][吞吐率：14.27req/s] [内存消耗：1,701.02kb] [文件加载：44]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002925s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_parking_lot` [ RunTime:0.035442s ]
+[ sql ] [ SQL ] SELECT * FROM `m_parking_lot` WHERE  `state` = 1 [ RunTime:0.000637s ]
+---------------------------------------------------------------
+[ 2017-10-09T15:46:11+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/park/9da5a1f77276a53ed4c54c5615fa93c6
+[ info ] park.cn/api/v1/park/9da5a1f77276a53ed4c54c5615fa93c6 [运行时间：0.075448s][吞吐率：13.25req/s] [内存消耗：1,701.02kb] [文件加载：44]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002682s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_parking_lot` [ RunTime:0.033862s ]
+[ sql ] [ SQL ] SELECT * FROM `m_parking_lot` WHERE  `state` = 1 [ RunTime:0.000340s ]
+---------------------------------------------------------------
+[ 2017-10-09T15:46:17+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/park/9da5a1f77276a53ed4c54c5615fa93c6
+[ info ] park.cn/api/v1/park/9da5a1f77276a53ed4c54c5615fa93c6 [运行时间：0.088816s][吞吐率：11.26req/s] [内存消耗：1,701.02kb] [文件加载：44]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002797s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_parking_lot` [ RunTime:0.046063s ]
+[ sql ] [ SQL ] SELECT * FROM `m_parking_lot` WHERE  `state` = 1 [ RunTime:0.000422s ]
+---------------------------------------------------------------
+[ 2017-10-09T15:46:47+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/park/9da5a1f77276a53ed4c54c5615fa93c6
+[ info ] park.cn/api/v1/park/9da5a1f77276a53ed4c54c5615fa93c6 [运行时间：0.071787s][吞吐率：13.93req/s] [内存消耗：1,701.02kb] [文件加载：44]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001908s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_parking_lot` [ RunTime:0.036625s ]
+[ sql ] [ SQL ] SELECT * FROM `m_parking_lot` WHERE  `state` = 1 [ RunTime:0.000856s ]
+---------------------------------------------------------------
+[ 2017-10-09T15:52:14+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/park/9da5a1f77276a53ed4c54c5615fa93c6
+[ info ] park.cn/api/v1/park/9da5a1f77276a53ed4c54c5615fa93c6 [运行时间：0.090893s][吞吐率：11.00req/s] [内存消耗：1,701.02kb] [文件加载：44]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.017183s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_parking_lot` [ RunTime:0.034519s ]
+[ sql ] [ SQL ] SELECT * FROM `m_parking_lot` WHERE  `state` = 1 [ RunTime:0.000307s ]
+---------------------------------------------------------------
+[ 2017-10-09T15:52:16+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/park/9da5a1f77276a53ed4c54c5615fa93c6
+[ info ] park.cn/api/v1/park/9da5a1f77276a53ed4c54c5615fa93c6 [运行时间：0.054461s][吞吐率：18.36req/s] [内存消耗：1,701.02kb] [文件加载：44]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001266s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_parking_lot` [ RunTime:0.033243s ]
+[ sql ] [ SQL ] SELECT * FROM `m_parking_lot` WHERE  `state` = 1 [ RunTime:0.000308s ]
+---------------------------------------------------------------
+[ 2017-10-09T18:45:23+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ info ] park.cn/api/v1/token/user [运行时间：0.896577s][吞吐率：1.12req/s] [内存消耗：1,805.95kb] [文件加载：47]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004139s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_user` [ RunTime:0.037883s ]
+[ sql ] [ SQL ] SELECT * FROM `m_user` WHERE  `openid` = 'o5dTt0MCMooemqJhjE1SP4QKwsRM' LIMIT 1 [ RunTime:0.000693s ]
+---------------------------------------------------------------
+[ 2017-10-09T18:45:25+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/login/check
+[ info ] park.cn/api/v1/login/check [运行时间：0.056578s][吞吐率：17.67req/s] [内存消耗：1,672.12kb] [文件加载：42]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001070s ] mysql:host=127.0.0.1;dbname=match;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m_user` [ RunTime:0.018154s ]
+[ sql ] [ SQL ] SELECT * FROM `m_user` WHERE  `openid` = 'o5dTt0MCMooemqJhjE1SP4QKwsRM' LIMIT 1 [ RunTime:0.000340s ]
